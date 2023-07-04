@@ -1,0 +1,10 @@
+{
+    "python.formatting.blackPath": "/Users/wray/miniforge3/bin/black",
+    "python.formatting.blackArgs": [
+        "-l 120"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none",
+}

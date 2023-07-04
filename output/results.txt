@@ -1,0 +1,124 @@
+1: ChIJGxi_E1kRdkgRlH2-H5nV5pQ, ChIJra2jTs4EdkgRshPsDJz8OM0, ChIJs4GOh8sEdkgRRiBFZKMP8ZE
+original_wk_time = 0:05:14 alt_wk_time = 0:06:47
+original_tp_time = 0:34:44 alt_tp_time = 0:34:57
+wk_weight = 1
+2: ChIJN0MeSHwRdkgRHgFzVWFU2ks, ChIJra2jTs4EdkgRshPsDJz8OM0, ChIJs4GOh8sEdkgRRiBFZKMP8ZE
+original_wk_time = 0:05:50 alt_wk_time = 0:07:56
+original_tp_time = 0:29:40 alt_tp_time = 0:24:20
+wk_weight = 2.54
+3: ChIJdcGKWXoRdkgRmihreYIEvZk, ChIJra2jTs4EdkgRshPsDJz8OM0, ChIJs4GOh8sEdkgRRiBFZKMP8ZE
+original_wk_time = 0:05:13 alt_wk_time = 0:06:46
+original_tp_time = 0:26:42 alt_tp_time = 0:26:55
+wk_weight = 1
+4: ChIJSzaZ2oQadkgRLB9nZn-jKMY, ChIJra2jTs4EdkgRshPsDJz8OM0, ChIJs4GOh8sEdkgRRiBFZKMP8ZE
+original_wk_time = 0:05:12 alt_wk_time = 0:06:45
+original_tp_time = 0:19:10 alt_tp_time = 0:18:23
+wk_weight = 1
+6: ChIJ14InibkDdkgRf6Dyu_gQeB4, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJ__8_fLUEdkgRXd3d1TaO8nw
+original_wk_time = 0:11:55 alt_wk_time = 0:13:58
+original_tp_time = 0:18:45 alt_tp_time = 0:13:39
+wk_weight = 2.49
+7: ChIJ5zC0bnGo2EcR7hZ2UK4c0Co, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJ__8_fLUEdkgRXd3d1TaO8nw
+original_wk_time = 0:10:05 alt_wk_time = 0:14:16
+original_tp_time = 0:31:31 alt_tp_time = 0:24:19
+wk_weight = 1.73
+8: ChIJM3GQFOqo2EcRc5q6Eqbsm2c, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJ__8_fLUEdkgRXd3d1TaO8nw
+original_wk_time = 0:03:56 alt_wk_time = 0:08:59
+original_tp_time = 0:30:43 alt_tp_time = 0:21:38
+wk_weight = 1.8
+9: ChIJ4UeWPxSv2EcRhh1m1aYLLlA, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJ__8_fLUEdkgRXd3d1TaO8nw
+original_wk_time = 0:03:21 alt_wk_time = 0:08:24
+original_tp_time = 0:33:43 alt_tp_time = 0:24:38
+wk_weight = 1.8
+10: ChIJR3R1t1IFdkgRBBCQVT8sJQo, ChIJn8Ps1ywFdkgRJcpkcuK0o0c, ChIJ__8_fLUEdkgRXd3d1TaO8nw
+original_wk_time = 0:08:01 alt_wk_time = 0:11:45
+original_tp_time = 0:21:13 alt_tp_time = 0:07:27
+wk_weight = 3.69
+11: ChIJo2Zc3agadkgR-lohPCxKY-o, ChIJn8Ps1ywFdkgRJcpkcuK0o0c, ChIJ__8_fLUEdkgRXd3d1TaO8nw
+original_wk_time = 0:02:36 alt_wk_time = 0:14:42
+original_tp_time = 0:28:09 alt_tp_time = 0:14:57
+wk_weight = 1.1
+12: ChIJu_fDqrYadkgRQTGNzSlKfuk, ChIJn8Ps1ywFdkgRJcpkcuK0o0c, ChIJ__8_fLUEdkgRXd3d1TaO8nw
+original_wk_time = 0:02:24 alt_wk_time = 0:09:31
+original_tp_time = 0:23:39 alt_tp_time = 0:12:25
+wk_weight = 1.58
+13: ChIJdQ_yANcadkgRJvgBongmJZc, ChIJn8Ps1ywFdkgRJcpkcuK0o0c, ChIJ__8_fLUEdkgRXd3d1TaO8nw
+original_wk_time = 0:02:53 alt_wk_time = 0:10:40
+original_tp_time = 0:23:10 alt_tp_time = 0:14:06
+wk_weight = 1.17
+14: ChIJ14InibkDdkgRf6Dyu_gQeB4, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJNVch-SMbdkgRqv1PBlyKQqU
+original_wk_time = 0:07:47 alt_wk_time = 0:08:27
+original_tp_time = 0:22:50 alt_tp_time = 0:16:26
+wk_weight = 9.61
+15: ChIJ5zC0bnGo2EcR7hZ2UK4c0Co, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJNVch-SMbdkgRqv1PBlyKQqU
+original_wk_time = 0:12:14 alt_wk_time = 0:12:19
+original_tp_time = 0:25:37 alt_tp_time = 0:20:25
+wk_weight = 62.41
+16: ChIJM3GQFOqo2EcRc5q6Eqbsm2c, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJNVch-SMbdkgRqv1PBlyKQqU
+original_wk_time = 0:03:23 alt_wk_time = 0:03:28
+original_tp_time = 0:30:37 alt_tp_time = 0:24:25
+wk_weight = 74.4
+17: ChIJ4UeWPxSv2EcRhh1m1aYLLlA, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJNVch-SMbdkgRqv1PBlyKQqU
+original_wk_time = 0:02:48 alt_wk_time = 0:02:53
+original_tp_time = 0:33:37 alt_tp_time = 0:27:25
+wk_weight = 74.4
+22: ChIJDQew4LcPdkgRNVVocNa3mCM, ChIJlQh0H88adkgRT1sjAmMXQt4, ChIJV_iXMtcadkgRqBI84CY_crE
+original_wk_time = 0:08:43 alt_wk_time = 0:08:44
+original_tp_time = 0:31:06 alt_tp_time = 0:26:37
+wk_weight = 100.0
+23: ChIJqW06Uc4PdkgRkanRyXG1s5k, ChIJlQh0H88adkgRT1sjAmMXQt4, ChIJV_iXMtcadkgRqBI84CY_crE
+original_wk_time = 0:12:52 alt_wk_time = 0:24:52
+original_tp_time = 0:29:44 alt_tp_time = 0:16:07
+wk_weight = 1.14
+24: ChIJKQ1StdEPdkgRpX6fTRnvJA0, ChIJlQh0H88adkgRT1sjAmMXQt4, ChIJV_iXMtcadkgRqBI84CY_crE
+original_wk_time = 0:12:46 alt_wk_time = 0:24:46
+original_tp_time = 0:27:44 alt_tp_time = 0:14:07
+wk_weight = 1.14
+25: ChIJ_6hxS9cPdkgR5NBU94X_tBE, ChIJlQh0H88adkgRT1sjAmMXQt4, ChIJV_iXMtcadkgRqBI84CY_crE
+original_wk_time = 0:13:29 alt_wk_time = 0:25:29
+original_tp_time = 0:26:45 alt_tp_time = 0:13:08
+wk_weight = 1.14
+26: ChIJ-fxiRL4PdkgR6cvc-6EcAmw, ChIJlQh0H88adkgRT1sjAmMXQt4, ChIJV_iXMtcadkgRqBI84CY_crE
+original_wk_time = 0:11:48 alt_wk_time = 0:11:49
+original_tp_time = 0:34:16 alt_tp_time = 0:28:50
+wk_weight = 100.0
+28: ChIJveMeg1gDdkgRXwphFYUtm6g, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJB9OTMDIbdkgRp0JWbQGZsS8
+original_wk_time = 0:09:44 alt_wk_time = 0:05:37
+original_tp_time = 0:10:48 alt_tp_time = 0:15:29
+wk_weight = 1
+32: ChIJgZ24Us4adkgRpDNAwNPO_SY, ChIJra2jTs4EdkgRshPsDJz8OM0, ChIJjcnIsa0EdkgRvQ4XuuvpBqk
+original_wk_time = 0:03:14 alt_wk_time = 0:07:07
+original_tp_time = 0:23:43 alt_tp_time = 0:11:28
+wk_weight = 3.16
+33: ChIJgZ24Us4adkgRpDNAwNPO_SY, ChIJ0160ScQEdkgR3zgV673t8yU, ChIJjcnIsa0EdkgRvQ4XuuvpBqk
+original_wk_time = 0:03:14 alt_wk_time = 0:05:26
+original_tp_time = 0:23:43 alt_tp_time = 0:12:24
+wk_weight = 5.15
+34: ChIJgZ24Us4adkgRpDNAwNPO_SY, ChIJZYFkAlIbdkgRBcSZxfwFqdQ, ChIJjcnIsa0EdkgRvQ4XuuvpBqk
+original_wk_time = 0:03:14 alt_wk_time = 0:08:41
+original_tp_time = 0:23:43 alt_tp_time = 0:09:38
+wk_weight = 2.59
+35: ChIJgZ24Us4adkgRpDNAwNPO_SY, ChIJj-hXfCgbdkgRWewwuunWzdg, ChIJjcnIsa0EdkgRvQ4XuuvpBqk
+original_wk_time = 0:03:14 alt_wk_time = 0:05:22
+original_tp_time = 0:23:43 alt_tp_time = 0:18:46
+wk_weight = 2.33
+36: ChIJSzaZ2oQadkgRLB9nZn-jKMY, ChIJ8fVI48gRdkgRajd7hq8RuEg, ChIJr7lbx-0RdkgRIHx5pPwcuBQ
+original_wk_time = 0:12:30 alt_wk_time = 0:17:20
+original_tp_time = 0:32:12 alt_tp_time = 0:16:03
+wk_weight = 3.35
+37: ChIJ4bikyX8QdkgRa--QlKo4yE8, ChIJ8fVI48gRdkgRajd7hq8RuEg, ChIJr7lbx-0RdkgRIHx5pPwcuBQ
+original_wk_time = 0:13:53 alt_wk_time = 0:22:25
+original_tp_time = 0:41:21 alt_tp_time = 0:18:03
+wk_weight = 2.74
+38: ChIJgYoxT_AadkgRgQ3OUp17q20, ChIJ8fVI48gRdkgRajd7hq8RuEg, ChIJr7lbx-0RdkgRIHx5pPwcuBQ
+original_wk_time = 0:16:30 alt_wk_time = 0:27:29
+original_tp_time = 0:39:21 alt_tp_time = 0:18:18
+wk_weight = 1.92
+39: ChIJKZQaXxwbdkgRWLo89tC-_V8, ChIJ8fVI48gRdkgRajd7hq8RuEg, ChIJr7lbx-0RdkgRIHx5pPwcuBQ
+original_wk_time = 0:11:47 alt_wk_time = 0:17:51
+original_tp_time = 0:33:21 alt_tp_time = 0:25:38
+wk_weight = 1.28
+40: ChIJIzJDyggadkgROFAV19Ti070, ChIJ8fVI48gRdkgRajd7hq8RuEg, ChIJr7lbx-0RdkgRIHx5pPwcuBQ
+original_wk_time = 0:09:55 alt_wk_time = 0:18:24
+original_tp_time = 0:52:06 alt_tp_time = 0:36:17
+wk_weight = 1.87
