@@ -84,9 +84,10 @@ class Directions:
 
         for output in directions_result:
             self.parse_output_and_save(output)
-            if self.alternatives is False:
-                # stop after the first entry
-                break
+            break  # stop after the first entry
+            # if self.alternatives is False:
+            #     # stop after the first entry
+            #     break
 
     def parse_output_and_save(self, output):
         """parse useful information from json output and and save information as class variables"""

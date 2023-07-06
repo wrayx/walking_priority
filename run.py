@@ -13,6 +13,7 @@ if __name__ == "__main__":
     LINE_COUNT = 0
     for start, intermediary, end in zip(starts_list, intermediary_list, ends_list):
         LINE_COUNT = LINE_COUNT + 1
+
         print(f"{LINE_COUNT}: {start}, {intermediary}, {end}")
 
         # wembley park -> convent garden
@@ -53,7 +54,7 @@ if __name__ == "__main__":
         route_alt_2 = Directions(
             f"place_id:{intermediary}",
             f"place_id:{end}",
-            mode="walking",
+            mode="transit",
             alternatives=True,
             departure_time=test_datetime + timedelta(seconds=route_alt_1.routes[0].total_duration),
         )
