@@ -2,3 +2,6 @@ api_key.txt
 .ipynb_checkpoints
 __pycache__
 cache
+.vscode
+data
+.graphml

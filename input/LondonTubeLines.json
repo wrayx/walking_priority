@@ -10988,7 +10988,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Angel to Kings Cross St. Pancras",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11009,7 +11009,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Archway to Highgate",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11030,7 +11030,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Balham to Clapham South",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11051,7 +11051,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Bank to Moorgate",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11072,7 +11072,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Belsize Park to Hampstead",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11093,7 +11093,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Borough to London Bridge",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11114,7 +11114,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Brent Cross to Hendon Central",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11135,7 +11135,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Burnt Oak to Edgware",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11156,7 +11156,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Camden Town to Chalk Farm",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11177,7 +11177,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Camden Town to Kentish Town",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11198,7 +11198,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Chalk Farm to Belsize Park",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11219,7 +11219,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Charing Cross to Leicester Square",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11240,7 +11240,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Clapham Common to Clapham North",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11261,7 +11261,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Clapham North to Stockwell",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11282,7 +11282,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Clapham South to Clapham Common",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11303,7 +11303,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Colindale to Burnt Oak",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11324,7 +11324,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Colliers Wood to Tooting Broadway",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11345,7 +11345,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - East Finchley to Finchley Central",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11366,7 +11366,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - East Finchley to Mill Hill East",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11387,7 +11387,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Elephant and Castle to Borough",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11408,7 +11408,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Embankment to Charing Cross",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11429,7 +11429,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Euston to Camden Town",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11450,7 +11450,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Euston to Mornington Crescent",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11471,7 +11471,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Finchley Central to West Finchley",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11492,7 +11492,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Golders Green to Brent Cross",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11513,7 +11513,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Goodge Street to Warren Street",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11534,7 +11534,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Hampstead to Golders Green",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11555,7 +11555,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Hendon Central to Colindale",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11576,7 +11576,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Highgate to East Finchley",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11597,7 +11597,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Kennington to Elephant and Castle",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11618,7 +11618,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Kennington to Nine Elms",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11639,7 +11639,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Kennington to Waterloo",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11660,7 +11660,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Kentish Town to Tufnell Park",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11681,7 +11681,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Kings Cross St. Pancras to Euston",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11702,7 +11702,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Leicester Square to Tottenham Court Road",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11723,7 +11723,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - London Bridge to Bank",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11744,7 +11744,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Moorgate to Old Street",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11765,7 +11765,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Morden to South Wimbledon",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11786,7 +11786,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Mornington Crescent to Camden Town",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11807,7 +11807,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Nine Elms to Battersea Power Station",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11828,7 +11828,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Old Street to Angel",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11849,7 +11849,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Oval to Kennington",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11870,7 +11870,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - South Wimbledon to Colliers Wood",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11891,7 +11891,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Stockwell to Oval",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11912,7 +11912,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Tooting Bec to Balham",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11933,7 +11933,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Tooting Broadway to Tooting Bec",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11954,7 +11954,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Tottenham Court Road to Goodge Street",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11975,7 +11975,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Totteridge and Whetstone to High Barnet",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -11996,7 +11996,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Tufnell Park to Archway",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -12017,7 +12017,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Warren Street to Euston",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -12038,7 +12038,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Waterloo to Embankment",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -12059,7 +12059,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - West Finchley to Woodside Park",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
@@ -12080,7 +12080,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northern - Woodside Park to Totteridge and Whetstone",
-        "stroke": "#A9A9A9",
+        "stroke": "#1C1C1C",
         "stroke-width": 5
       },
       "geometry": {
