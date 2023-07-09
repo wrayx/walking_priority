@@ -1,0 +1,426 @@
+2023-07-09 03:55:30,537:ERROR:root:Start of the program
+2023-07-09 03:56:07,007:DEBUG:root:Baker Street: {'Bakerloo'}
+2023-07-09 03:56:07,007:DEBUG:root:Regents Park: {'Bakerloo'}
+2023-07-09 03:56:07,113:DEBUG:root:Charing Cross: {'Bakerloo'}
+2023-07-09 03:56:07,114:DEBUG:root:Embankment: {'Bakerloo'}
+2023-07-09 03:56:07,224:DEBUG:root:Edgware Road: {'Bakerloo'}
+2023-07-09 03:56:07,225:DEBUG:root:Marylebone: {'Bakerloo'}
+2023-07-09 03:56:07,326:DEBUG:root:Embankment: {'Bakerloo'}
+2023-07-09 03:56:07,326:DEBUG:root:Waterloo: {'Bakerloo'}
+2023-07-09 03:56:10,785:DEBUG:root:Kilburn Park: {'Bakerloo'}
+2023-07-09 03:56:10,785:DEBUG:root:Maida Vale: {'Bakerloo'}
+2023-07-09 03:56:10,891:DEBUG:root:Lambeth North: {'Bakerloo'}
+2023-07-09 03:56:10,891:DEBUG:root:Elephant and Castle: {'Bakerloo'}
+2023-07-09 03:56:10,992:DEBUG:root:Maida Vale: {'Bakerloo'}
+2023-07-09 03:56:10,992:DEBUG:root:Warwick Avenue: {'Bakerloo'}
+2023-07-09 03:56:11,094:DEBUG:root:Marylebone: {'Bakerloo'}
+2023-07-09 03:56:11,094:DEBUG:root:Baker Street: {'Bakerloo'}
+2023-07-09 03:56:11,304:DEBUG:root:Oxford Circus: {'Bakerloo'}
+2023-07-09 03:56:11,304:DEBUG:root:Piccadilly Circus: {'Bakerloo'}
+2023-07-09 03:56:11,413:DEBUG:root:Paddington: {'Bakerloo'}
+2023-07-09 03:56:11,413:DEBUG:root:Edgware Road: {'Bakerloo'}
+2023-07-09 03:56:11,519:DEBUG:root:Piccadilly Circus: {'Bakerloo'}
+2023-07-09 03:56:11,519:DEBUG:root:Charing Cross: {'Bakerloo'}
+2023-07-09 03:56:13,649:DEBUG:root:Queens Park: {'Bakerloo'}
+2023-07-09 03:56:13,649:DEBUG:root:Kilburn Park: {'Bakerloo'}
+2023-07-09 03:56:13,750:DEBUG:root:Regents Park: {'Bakerloo'}
+2023-07-09 03:56:13,750:DEBUG:root:Oxford Circus: {'Bakerloo'}
+2023-07-09 03:56:14,054:DEBUG:root:Warwick Avenue: {'Bakerloo'}
+2023-07-09 03:56:14,054:DEBUG:root:Paddington: {'Bakerloo'}
+2023-07-09 03:56:14,157:DEBUG:root:Waterloo: {'Bakerloo'}
+2023-07-09 03:56:14,157:DEBUG:root:Lambeth North: {'Bakerloo'}
+2023-07-09 03:56:16,696:DEBUG:root:Bond Street: {'Central'}
+2023-07-09 03:56:16,696:DEBUG:root:Marble Arch: {'Central'}
+2023-07-09 03:56:16,895:DEBUG:root:Chancery Lane: {'Central'}
+2023-07-09 03:56:16,895:DEBUG:root:Holborn: {'Central'}
+2023-07-09 03:56:23,187:DEBUG:root:Holborn: {'Central'}
+2023-07-09 03:56:23,187:DEBUG:root:Tottenham Court Road: {'Central'}
+2023-07-09 03:56:23,422:DEBUG:root:Lancaster Gate: {'Central'}
+2023-07-09 03:56:23,422:DEBUG:root:Queensway: {'Central'}
+2023-07-09 03:56:27,283:DEBUG:root:Marble Arch: {'Central'}
+2023-07-09 03:56:27,283:DEBUG:root:Lancaster Gate: {'Central'}
+2023-07-09 03:56:28,104:DEBUG:root:Notting Hill Gate: {'Central'}
+2023-07-09 03:56:28,104:DEBUG:root:Holland Park: {'Central'}
+2023-07-09 03:56:28,221:DEBUG:root:Oxford Circus: {'Central', 'Bakerloo'}
+2023-07-09 03:56:28,221:DEBUG:root:Bond Street: {'Central'}
+2023-07-09 03:56:32,092:DEBUG:root:Queensway: {'Central'}
+2023-07-09 03:56:32,092:DEBUG:root:Notting Hill Gate: {'Central'}
+2023-07-09 03:56:37,264:DEBUG:root:St. Pauls: {'Central'}
+2023-07-09 03:56:37,264:DEBUG:root:Chancery Lane: {'Central'}
+2023-07-09 03:56:37,627:DEBUG:root:Tottenham Court Road: {'Central'}
+2023-07-09 03:56:37,627:DEBUG:root:Oxford Circus: {'Central', 'Bakerloo'}
+2023-07-09 03:56:41,729:DEBUG:root:Baker Street: {'Circle', 'Bakerloo'}
+2023-07-09 03:56:41,729:DEBUG:root:Great Portland Street: {'Circle'}
+2023-07-09 03:56:41,959:DEBUG:root:Bayswater: {'Circle'}
+2023-07-09 03:56:41,959:DEBUG:root:Paddington: {'Circle', 'Bakerloo'}
+2023-07-09 03:56:42,066:DEBUG:root:Blackfriars: {'Circle'}
+2023-07-09 03:56:42,066:DEBUG:root:Temple: {'Circle'}
+2023-07-09 03:56:42,269:DEBUG:root:Edgware Road: {'Circle'}
+2023-07-09 03:56:42,269:DEBUG:root:Baker Street: {'Circle', 'Bakerloo'}
+2023-07-09 03:56:42,370:DEBUG:root:Embankment: {'Circle', 'Bakerloo'}
+2023-07-09 03:56:42,370:DEBUG:root:Westminster: {'Circle'}
+2023-07-09 03:56:42,469:DEBUG:root:Euston Square: {'Circle'}
+2023-07-09 03:56:42,469:DEBUG:root:Kings Cross St. Pancras: {'Circle'}
+2023-07-09 03:56:45,999:DEBUG:root:Farringdon: {'Circle'}
+2023-07-09 03:56:45,999:DEBUG:root:Barbican: {'Circle'}
+2023-07-09 03:56:46,099:DEBUG:root:Gloucester Road: {'Circle'}
+2023-07-09 03:56:46,099:DEBUG:root:High Street Kensington: {'Circle'}
+2023-07-09 03:56:46,299:DEBUG:root:Great Portland Street: {'Circle'}
+2023-07-09 03:56:46,299:DEBUG:root:Euston Square: {'Circle'}
+2023-07-09 03:56:46,507:DEBUG:root:High Street Kensington: {'Circle'}
+2023-07-09 03:56:46,507:DEBUG:root:Notting Hill Gate: {'Central', 'Circle'}
+2023-07-09 03:56:46,609:DEBUG:root:Kings Cross St. Pancras: {'Circle'}
+2023-07-09 03:56:46,609:DEBUG:root:Farringdon: {'Circle'}
+2023-07-09 03:56:46,713:DEBUG:root:Ladbroke Grove: {'Circle'}
+2023-07-09 03:56:46,713:DEBUG:root:Westbourne Park: {'Circle'}
+2023-07-09 03:56:49,188:DEBUG:root:Mansion House: {'Circle'}
+2023-07-09 03:56:49,188:DEBUG:root:Blackfriars: {'Circle'}
+2023-07-09 03:56:49,499:DEBUG:root:Notting Hill Gate: {'Central', 'Circle'}
+2023-07-09 03:56:49,499:DEBUG:root:Bayswater: {'Circle'}
+2023-07-09 03:56:49,601:DEBUG:root:Paddington: {'Circle', 'Bakerloo'}
+2023-07-09 03:56:49,601:DEBUG:root:Edgware Road: {'Circle'}
+2023-07-09 03:56:49,702:DEBUG:root:Royal Oak: {'Circle'}
+2023-07-09 03:56:49,702:DEBUG:root:Paddington: {'Circle', 'Bakerloo'}
+2023-07-09 03:56:51,774:DEBUG:root:Sloane Square: {'Circle'}
+2023-07-09 03:56:51,774:DEBUG:root:South Kensington: {'Circle'}
+2023-07-09 03:56:51,877:DEBUG:root:South Kensington: {'Circle'}
+2023-07-09 03:56:51,877:DEBUG:root:Gloucester Road: {'Circle'}
+2023-07-09 03:56:51,978:DEBUG:root:St. James's Park: {'Circle'}
+2023-07-09 03:56:51,978:DEBUG:root:Victoria: {'Circle'}
+2023-07-09 03:56:52,078:DEBUG:root:Temple: {'Circle'}
+2023-07-09 03:56:52,078:DEBUG:root:Embankment: {'Circle', 'Bakerloo'}
+2023-07-09 03:56:52,281:DEBUG:root:Victoria: {'Circle'}
+2023-07-09 03:56:52,281:DEBUG:root:Sloane Square: {'Circle'}
+2023-07-09 03:56:52,383:DEBUG:root:Westbourne Park: {'Circle'}
+2023-07-09 03:56:52,383:DEBUG:root:Royal Oak: {'Circle'}
+2023-07-09 03:56:54,765:DEBUG:root:Westminster: {'Circle'}
+2023-07-09 03:56:54,765:DEBUG:root:St. James's Park: {'Circle'}
+2023-07-09 03:56:55,375:DEBUG:root:Bayswater: {'Circle', 'District'}
+2023-07-09 03:56:55,375:DEBUG:root:Paddington: {'District', 'Circle', 'Bakerloo'}
+2023-07-09 03:56:57,708:DEBUG:root:Blackfriars: {'Circle', 'District'}
+2023-07-09 03:56:57,708:DEBUG:root:Temple: {'Circle', 'District'}
+2023-07-09 03:57:00,681:DEBUG:root:Earls Court: {'District'}
+2023-07-09 03:57:00,681:DEBUG:root:High Street Kensington: {'Circle', 'District'}
+2023-07-09 03:57:00,780:DEBUG:root:Earls Court: {'District'}
+2023-07-09 03:57:00,780:DEBUG:root:Kensington: {'District'}
+2023-07-09 03:57:00,881:DEBUG:root:Earls Court: {'District'}
+2023-07-09 03:57:00,881:DEBUG:root:West Brompton: {'District'}
+2023-07-09 03:57:00,982:DEBUG:root:Earls Court: {'District'}
+2023-07-09 03:57:00,982:DEBUG:root:West Kensington: {'District'}
+2023-07-09 03:57:03,479:DEBUG:root:Embankment: {'District', 'Circle', 'Bakerloo'}
+2023-07-09 03:57:03,479:DEBUG:root:Westminster: {'Circle', 'District'}
+2023-07-09 03:57:03,680:DEBUG:root:Gloucester Road: {'Circle', 'District'}
+2023-07-09 03:57:03,680:DEBUG:root:Earls Court: {'District'}
+2023-07-09 03:57:03,987:DEBUG:root:High Street Kensington: {'Circle', 'District'}
+2023-07-09 03:57:03,987:DEBUG:root:Notting Hill Gate: {'Central', 'Circle', 'District'}
+2023-07-09 03:57:06,592:DEBUG:root:Mansion House: {'Circle', 'District'}
+2023-07-09 03:57:06,593:DEBUG:root:Blackfriars: {'Circle', 'District'}
+2023-07-09 03:57:06,794:DEBUG:root:Notting Hill Gate: {'Central', 'Circle', 'District'}
+2023-07-09 03:57:06,794:DEBUG:root:Bayswater: {'Circle', 'District'}
+2023-07-09 03:57:06,893:DEBUG:root:Paddington: {'District', 'Circle', 'Bakerloo'}
+2023-07-09 03:57:06,893:DEBUG:root:Edgware Road: {'Circle', 'District'}
+2023-07-09 03:57:09,756:DEBUG:root:Sloane Square: {'Circle', 'District'}
+2023-07-09 03:57:09,756:DEBUG:root:South Kensington: {'Circle', 'District'}
+2023-07-09 03:57:09,870:DEBUG:root:South Kensington: {'Circle', 'District'}
+2023-07-09 03:57:09,870:DEBUG:root:Gloucester Road: {'Circle', 'District'}
+2023-07-09 03:57:10,069:DEBUG:root:St. James's Park: {'Circle', 'District'}
+2023-07-09 03:57:10,069:DEBUG:root:Victoria: {'Circle', 'District'}
+2023-07-09 03:57:10,367:DEBUG:root:Temple: {'Circle', 'District'}
+2023-07-09 03:57:10,368:DEBUG:root:Embankment: {'District', 'Circle', 'Bakerloo'}
+2023-07-09 03:57:13,325:DEBUG:root:Victoria: {'Circle', 'District'}
+2023-07-09 03:57:13,325:DEBUG:root:Sloane Square: {'Circle', 'District'}
+2023-07-09 03:57:16,001:DEBUG:root:Westminster: {'Circle', 'District'}
+2023-07-09 03:57:16,001:DEBUG:root:St. James's Park: {'Circle', 'District'}
+2023-07-09 03:57:38,320:DEBUG:root:Bond Street: {'Elizabeth', 'Central'}
+2023-07-09 03:57:38,320:DEBUG:root:Paddington: {'District', 'Elizabeth', 'Circle', 'Bakerloo'}
+2023-07-09 03:57:42,152:DEBUG:root:Farringdon: {'Elizabeth', 'Circle'}
+2023-07-09 03:57:42,152:DEBUG:root:Tottenham Court Road: {'Elizabeth', 'Central'}
+2023-07-09 03:57:54,303:DEBUG:root:Tottenham Court Road: {'Elizabeth', 'Central'}
+2023-07-09 03:57:54,303:DEBUG:root:Bond Street: {'Elizabeth', 'Central'}
+2023-07-09 03:57:58,296:DEBUG:root:Baker Street: {'Hammersmith and City', 'Circle', 'Bakerloo'}
+2023-07-09 03:57:58,296:DEBUG:root:Great Portland Street: {'Hammersmith and City', 'Circle'}
+2023-07-09 03:57:58,803:DEBUG:root:Edgware Road: {'Hammersmith and City', 'Circle', 'District'}
+2023-07-09 03:57:58,803:DEBUG:root:Baker Street: {'Hammersmith and City', 'Circle', 'Bakerloo'}
+2023-07-09 03:57:58,904:DEBUG:root:Euston Square: {'Hammersmith and City', 'Circle'}
+2023-07-09 03:57:58,904:DEBUG:root:Kings Cross St. Pancras: {'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:02,187:DEBUG:root:Farringdon: {'Elizabeth', 'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:02,187:DEBUG:root:Barbican: {'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:02,390:DEBUG:root:Great Portland Street: {'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:02,390:DEBUG:root:Euston Square: {'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:02,589:DEBUG:root:Kings Cross St. Pancras: {'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:02,589:DEBUG:root:Farringdon: {'Elizabeth', 'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:02,689:DEBUG:root:Ladbroke Grove: {'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:02,689:DEBUG:root:Westbourne Park: {'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:06,410:DEBUG:root:Paddington: {'Elizabeth', 'Circle', 'Hammersmith and City', 'District', 'Bakerloo'}
+2023-07-09 03:58:06,410:DEBUG:root:Edgware Road: {'Hammersmith and City', 'Circle', 'District'}
+2023-07-09 03:58:06,612:DEBUG:root:Royal Oak: {'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:06,612:DEBUG:root:Paddington: {'Elizabeth', 'Circle', 'Hammersmith and City', 'District', 'Bakerloo'}
+2023-07-09 03:58:10,360:DEBUG:root:Westbourne Park: {'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:10,360:DEBUG:root:Royal Oak: {'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:10,670:DEBUG:root:Baker Street: {'Jubilee', 'Hammersmith and City', 'Circle', 'Bakerloo'}
+2023-07-09 03:58:10,670:DEBUG:root:Bond Street: {'Elizabeth', 'Central', 'Jubilee'}
+2023-07-09 03:58:10,872:DEBUG:root:Bond Street: {'Elizabeth', 'Central', 'Jubilee'}
+2023-07-09 03:58:10,872:DEBUG:root:Green Park: {'Jubilee'}
+2023-07-09 03:58:14,620:DEBUG:root:Finchley Road: {'Jubilee'}
+2023-07-09 03:58:14,621:DEBUG:root:Swiss Cottage: {'Jubilee'}
+2023-07-09 03:58:14,724:DEBUG:root:Green Park: {'Jubilee'}
+2023-07-09 03:58:14,724:DEBUG:root:Westminster: {'Jubilee', 'Circle', 'District'}
+2023-07-09 03:58:14,824:DEBUG:root:Kilburn: {'Jubilee'}
+2023-07-09 03:58:14,824:DEBUG:root:West Hampstead: {'Jubilee'}
+2023-07-09 03:58:18,686:DEBUG:root:St. Johns Wood: {'Jubilee'}
+2023-07-09 03:58:18,686:DEBUG:root:Baker Street: {'Jubilee', 'Hammersmith and City', 'Circle', 'Bakerloo'}
+2023-07-09 03:58:18,889:DEBUG:root:Swiss Cottage: {'Jubilee'}
+2023-07-09 03:58:18,889:DEBUG:root:St. Johns Wood: {'Jubilee'}
+2023-07-09 03:58:22,227:DEBUG:root:Waterloo: {'Jubilee', 'Bakerloo'}
+2023-07-09 03:58:22,228:DEBUG:root:Southwark: {'Jubilee'}
+2023-07-09 03:58:22,533:DEBUG:root:West Hampstead: {'Jubilee'}
+2023-07-09 03:58:22,533:DEBUG:root:Finchley Road: {'Jubilee'}
+2023-07-09 03:58:22,642:DEBUG:root:Westminster: {'Jubilee', 'Circle', 'District'}
+2023-07-09 03:58:22,642:DEBUG:root:Waterloo: {'Jubilee', 'Bakerloo'}
+2023-07-09 03:58:22,944:DEBUG:root:Baker Street: {'Metropolitan', 'Circle', 'Hammersmith and City', 'Jubilee', 'Bakerloo'}
+2023-07-09 03:58:22,945:DEBUG:root:Finchley Road: {'Metropolitan', 'Jubilee'}
+2023-07-09 03:58:26,231:DEBUG:root:Barbican: {'Metropolitan', 'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:26,232:DEBUG:root:Farringdon: {'Elizabeth', 'Metropolitan', 'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:26,852:DEBUG:root:Euston Square: {'Metropolitan', 'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:26,852:DEBUG:root:Great Portland Street: {'Metropolitan', 'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:26,954:DEBUG:root:Farringdon: {'Elizabeth', 'Metropolitan', 'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:26,954:DEBUG:root:Kings Cross St. Pancras: {'Metropolitan', 'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:30,385:DEBUG:root:Great Portland Street: {'Metropolitan', 'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:30,385:DEBUG:root:Baker Street: {'Metropolitan', 'Circle', 'Hammersmith and City', 'Jubilee', 'Bakerloo'}
+2023-07-09 03:58:30,889:DEBUG:root:Kings Cross St. Pancras: {'Metropolitan', 'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:30,889:DEBUG:root:Euston Square: {'Metropolitan', 'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:38,905:DEBUG:root:Angel: {'Northern'}
+2023-07-09 03:58:38,905:DEBUG:root:Kings Cross St. Pancras: {'Northern', 'Metropolitan', 'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:42,555:DEBUG:root:Belsize Park: {'Northern'}
+2023-07-09 03:58:42,555:DEBUG:root:Hampstead: {'Northern'}
+2023-07-09 03:58:42,959:DEBUG:root:Camden Town: {'Northern'}
+2023-07-09 03:58:42,959:DEBUG:root:Chalk Farm: {'Northern'}
+2023-07-09 03:58:43,060:DEBUG:root:Camden Town: {'Northern'}
+2023-07-09 03:58:43,060:DEBUG:root:Kentish Town: {'Northern'}
+2023-07-09 03:58:43,161:DEBUG:root:Chalk Farm: {'Northern'}
+2023-07-09 03:58:43,161:DEBUG:root:Belsize Park: {'Northern'}
+2023-07-09 03:58:46,504:DEBUG:root:Charing Cross: {'Northern', 'Bakerloo'}
+2023-07-09 03:58:46,504:DEBUG:root:Leicester Square: {'Northern'}
+2023-07-09 03:58:50,504:DEBUG:root:Elephant and Castle: {'Northern', 'Bakerloo'}
+2023-07-09 03:58:50,505:DEBUG:root:Borough: {'Northern'}
+2023-07-09 03:58:50,608:DEBUG:root:Embankment: {'District', 'Northern', 'Circle', 'Bakerloo'}
+2023-07-09 03:58:50,608:DEBUG:root:Charing Cross: {'Northern', 'Bakerloo'}
+2023-07-09 03:58:50,710:DEBUG:root:Euston: {'Northern'}
+2023-07-09 03:58:50,710:DEBUG:root:Camden Town: {'Northern'}
+2023-07-09 03:58:50,811:DEBUG:root:Euston: {'Northern'}
+2023-07-09 03:58:50,811:DEBUG:root:Mornington Crescent: {'Northern'}
+2023-07-09 03:58:51,115:DEBUG:root:Goodge Street: {'Northern'}
+2023-07-09 03:58:51,115:DEBUG:root:Warren Street: {'Northern'}
+2023-07-09 03:58:51,216:DEBUG:root:Hampstead: {'Northern'}
+2023-07-09 03:58:51,216:DEBUG:root:Golders Green: {'Northern'}
+2023-07-09 03:58:54,813:DEBUG:root:Kennington: {'Northern'}
+2023-07-09 03:58:54,814:DEBUG:root:Elephant and Castle: {'Northern', 'Bakerloo'}
+2023-07-09 03:58:55,018:DEBUG:root:Kennington: {'Northern'}
+2023-07-09 03:58:55,018:DEBUG:root:Waterloo: {'Northern', 'Jubilee', 'Bakerloo'}
+2023-07-09 03:58:55,121:DEBUG:root:Kentish Town: {'Northern'}
+2023-07-09 03:58:55,121:DEBUG:root:Tufnell Park: {'Northern'}
+2023-07-09 03:58:55,223:DEBUG:root:Kings Cross St. Pancras: {'Northern', 'Metropolitan', 'Hammersmith and City', 'Circle'}
+2023-07-09 03:58:55,223:DEBUG:root:Euston: {'Northern'}
+2023-07-09 03:58:55,325:DEBUG:root:Leicester Square: {'Northern'}
+2023-07-09 03:58:55,325:DEBUG:root:Tottenham Court Road: {'Elizabeth', 'Central', 'Northern'}
+2023-07-09 03:58:58,966:DEBUG:root:Mornington Crescent: {'Northern'}
+2023-07-09 03:58:58,966:DEBUG:root:Camden Town: {'Northern'}
+2023-07-09 03:59:02,998:DEBUG:root:Tottenham Court Road: {'Elizabeth', 'Central', 'Northern'}
+2023-07-09 03:59:02,998:DEBUG:root:Goodge Street: {'Northern'}
+2023-07-09 03:59:03,302:DEBUG:root:Warren Street: {'Northern'}
+2023-07-09 03:59:03,303:DEBUG:root:Euston: {'Northern'}
+2023-07-09 03:59:03,405:DEBUG:root:Waterloo: {'Northern', 'Jubilee', 'Bakerloo'}
+2023-07-09 03:59:03,405:DEBUG:root:Embankment: {'District', 'Northern', 'Circle', 'Bakerloo'}
+2023-07-09 03:59:10,637:DEBUG:root:Brondesbury: {'Overground'}
+2023-07-09 03:59:10,637:DEBUG:root:West Hampstead: {'Overground', 'Jubilee'}
+2023-07-09 03:59:10,738:DEBUG:root:Brondesbury Park: {'Overground'}
+2023-07-09 03:59:10,738:DEBUG:root:Brondesbury: {'Overground'}
+2023-07-09 03:59:11,145:DEBUG:root:Caledonian Road and Barnsbury: {'Overground'}
+2023-07-09 03:59:11,145:DEBUG:root:Highbury and Islington: {'Overground'}
+2023-07-09 03:59:11,346:DEBUG:root:Camden Road: {'Overground'}
+2023-07-09 03:59:11,346:DEBUG:root:Caledonian Road and Barnsbury: {'Overground'}
+2023-07-09 03:59:19,216:DEBUG:root:Finchley Road and Frognal: {'Overground'}
+2023-07-09 03:59:19,216:DEBUG:root:Hampstead Heath: {'Overground'}
+2023-07-09 03:59:19,418:DEBUG:root:Gospel Oak: {'Overground'}
+2023-07-09 03:59:19,418:DEBUG:root:Kentish Town West: {'Overground'}
+2023-07-09 03:59:19,518:DEBUG:root:Gospel Oak: {'Overground'}
+2023-07-09 03:59:19,518:DEBUG:root:Upper Holloway: {'Overground'}
+2023-07-09 03:59:23,476:DEBUG:root:Hampstead Heath: {'Overground'}
+2023-07-09 03:59:23,476:DEBUG:root:Gospel Oak: {'Overground'}
+2023-07-09 03:59:31,421:DEBUG:root:Kensington: {'Overground', 'District'}
+2023-07-09 03:59:31,422:DEBUG:root:West Brompton: {'Overground', 'District'}
+2023-07-09 03:59:31,521:DEBUG:root:Kentish Town West: {'Overground'}
+2023-07-09 03:59:31,521:DEBUG:root:Camden Road: {'Overground'}
+2023-07-09 03:59:35,088:DEBUG:root:Kilburn High Road: {'Overground'}
+2023-07-09 03:59:35,088:DEBUG:root:South Hampstead: {'Overground'}
+2023-07-09 03:59:39,429:DEBUG:root:Queens Park: {'Overground', 'Bakerloo'}
+2023-07-09 03:59:39,430:DEBUG:root:Kilburn High Road: {'Overground'}
+2023-07-09 03:59:43,956:DEBUG:root:South Hampstead: {'Overground'}
+2023-07-09 03:59:43,956:DEBUG:root:Euston: {'Overground', 'Northern'}
+2023-07-09 03:59:52,006:DEBUG:root:Upper Holloway: {'Overground'}
+2023-07-09 03:59:52,010:DEBUG:root:Crouch Hill: {'Overground'}
+2023-07-09 03:59:56,304:DEBUG:root:West Hampstead: {'Overground', 'Jubilee'}
+2023-07-09 03:59:56,304:DEBUG:root:Finchley Road and Frognal: {'Overground'}
+2023-07-09 04:00:04,099:DEBUG:root:Arsenal: {'Piccadilly'}
+2023-07-09 04:00:04,100:DEBUG:root:Holloway Road: {'Piccadilly'}
+2023-07-09 04:00:04,504:DEBUG:root:Caledonian Road: {'Piccadilly'}
+2023-07-09 04:00:04,504:DEBUG:root:Kings Cross St. Pancras: {'Metropolitan', 'Piccadilly', 'Circle', 'Hammersmith and City', 'Northern'}
+2023-07-09 04:00:07,976:DEBUG:root:Covent Garden: {'Piccadilly'}
+2023-07-09 04:00:07,976:DEBUG:root:Leicester Square: {'Northern', 'Piccadilly'}
+2023-07-09 04:00:08,379:DEBUG:root:Finsbury Park: {'Piccadilly'}
+2023-07-09 04:00:08,380:DEBUG:root:Arsenal: {'Piccadilly'}
+2023-07-09 04:00:08,481:DEBUG:root:Gloucester Road: {'Piccadilly', 'Circle', 'District'}
+2023-07-09 04:00:08,481:DEBUG:root:Earls Court: {'Piccadilly', 'District'}
+2023-07-09 04:00:08,580:DEBUG:root:Green Park: {'Piccadilly', 'Jubilee'}
+2023-07-09 04:00:08,580:DEBUG:root:Hyde Park Corner: {'Piccadilly'}
+2023-07-09 04:00:12,547:DEBUG:root:Holborn: {'Central', 'Piccadilly'}
+2023-07-09 04:00:12,548:DEBUG:root:Covent Garden: {'Piccadilly'}
+2023-07-09 04:00:12,650:DEBUG:root:Holloway Road: {'Piccadilly'}
+2023-07-09 04:00:12,650:DEBUG:root:Caledonian Road: {'Piccadilly'}
+2023-07-09 04:00:16,312:DEBUG:root:Hyde Park Corner: {'Piccadilly'}
+2023-07-09 04:00:16,312:DEBUG:root:Knightsbridge: {'Piccadilly'}
+2023-07-09 04:00:16,522:DEBUG:root:Kings Cross St. Pancras: {'Metropolitan', 'Piccadilly', 'Circle', 'Hammersmith and City', 'Northern'}
+2023-07-09 04:00:16,522:DEBUG:root:Russell Square: {'Piccadilly'}
+2023-07-09 04:00:16,622:DEBUG:root:Knightsbridge: {'Piccadilly'}
+2023-07-09 04:00:16,622:DEBUG:root:South Kensington: {'Piccadilly', 'Circle', 'District'}
+2023-07-09 04:00:16,722:DEBUG:root:Leicester Square: {'Northern', 'Piccadilly'}
+2023-07-09 04:00:16,722:DEBUG:root:Piccadilly Circus: {'Piccadilly', 'Bakerloo'}
+2023-07-09 04:00:16,821:DEBUG:root:Manor House: {'Piccadilly'}
+2023-07-09 04:00:16,821:DEBUG:root:Finsbury Park: {'Piccadilly'}
+2023-07-09 04:00:20,790:DEBUG:root:Piccadilly Circus: {'Piccadilly', 'Bakerloo'}
+2023-07-09 04:00:20,790:DEBUG:root:Green Park: {'Piccadilly', 'Jubilee'}
+2023-07-09 04:00:24,517:DEBUG:root:Russell Square: {'Piccadilly'}
+2023-07-09 04:00:24,517:DEBUG:root:Holborn: {'Central', 'Piccadilly'}
+2023-07-09 04:00:24,929:DEBUG:root:South Kensington: {'Piccadilly', 'Circle', 'District'}
+2023-07-09 04:00:24,929:DEBUG:root:Gloucester Road: {'Piccadilly', 'Circle', 'District'}
+2023-07-09 04:00:28,962:DEBUG:root:Euston: {'Victoria', 'Overground', 'Northern'}
+2023-07-09 04:00:28,963:DEBUG:root:Warren Street: {'Victoria', 'Northern'}
+2023-07-09 04:00:29,064:DEBUG:root:Finsbury Park: {'Victoria', 'Piccadilly'}
+2023-07-09 04:00:29,064:DEBUG:root:Highbury and Islington: {'Victoria', 'Overground'}
+2023-07-09 04:00:29,166:DEBUG:root:Green Park: {'Victoria', 'Piccadilly', 'Jubilee'}
+2023-07-09 04:00:29,166:DEBUG:root:Victoria: {'Victoria', 'Circle', 'District'}
+2023-07-09 04:00:29,270:DEBUG:root:Highbury and Islington: {'Victoria', 'Overground'}
+2023-07-09 04:00:29,270:DEBUG:root:Kings Cross St. Pancras: {'Metropolitan', 'Piccadilly', 'Circle', 'Hammersmith and City', 'Victoria', 'Northern'}
+2023-07-09 04:00:29,371:DEBUG:root:Kings Cross St. Pancras: {'Metropolitan', 'Piccadilly', 'Circle', 'Hammersmith and City', 'Victoria', 'Northern'}
+2023-07-09 04:00:29,371:DEBUG:root:Euston: {'Victoria', 'Overground', 'Northern'}
+2023-07-09 04:00:32,754:DEBUG:root:Oxford Circus: {'Victoria', 'Central', 'Bakerloo'}
+2023-07-09 04:00:32,754:DEBUG:root:Green Park: {'Victoria', 'Piccadilly', 'Jubilee'}
+2023-07-09 04:00:32,853:DEBUG:root:Pimlico: {'Victoria'}
+2023-07-09 04:00:32,853:DEBUG:root:Vauxhall: {'Victoria'}
+2023-07-09 04:00:33,357:DEBUG:root:Victoria: {'Victoria', 'Circle', 'District'}
+2023-07-09 04:00:33,357:DEBUG:root:Pimlico: {'Victoria'}
+2023-07-09 04:00:36,874:DEBUG:root:Warren Street: {'Victoria', 'Northern'}
+2023-07-09 04:00:36,875:DEBUG:root:Oxford Circus: {'Victoria', 'Central', 'Bakerloo'}
+2023-07-09 04:00:47,065:DEBUG:root:awt1: 5.0 mins, awt2: 5.0 mins
+2023-07-09 04:00:56,583:DEBUG:root:awt1: 5.5 mins, awt2: 5.5 mins
+2023-07-09 04:01:06,031:DEBUG:root:awt1: 6.0 mins, awt2: 6.0 mins
+2023-07-09 04:01:15,515:DEBUG:root:awt1: 6.5 mins, awt2: 6.5 mins
+2023-07-09 04:01:24,959:DEBUG:root:awt1: 7.0 mins, awt2: 7.0 mins
+2023-07-09 04:01:34,483:DEBUG:root:awt1: 7.5 mins, awt2: 7.5 mins
+2023-07-09 04:01:43,937:DEBUG:root:awt1: 8.0 mins, awt2: 8.0 mins
+2023-07-09 04:01:53,441:DEBUG:root:awt1: 8.5 mins, awt2: 8.5 mins
+2023-07-09 04:02:02,969:DEBUG:root:awt1: 9.0 mins, awt2: 9.0 mins
+2023-07-09 04:02:12,480:DEBUG:root:awt1: 9.5 mins, awt2: 9.5 mins
+2023-07-09 04:02:21,992:DEBUG:root:awt1: 9.5 mins, awt2: 10.0 mins
+2023-07-09 04:02:22,047:DEBUG:root:Start at : Finchley Road Station, London, UK
+2023-07-09 04:02:22,047:DEBUG:root:1. 🚄 From [Finchley Road] take Jubilee line
+2023-07-09 04:02:22,047:DEBUG:root:   -> to [Baker Street]
+2023-07-09 04:02:22,047:DEBUG:root:2. 🚄 Change at [Baker Street] to Bakerloo line
+2023-07-09 04:02:22,047:DEBUG:root:   -> Get off at [Charing Cross]
+2023-07-09 04:02:22,047:DEBUG:root:3. 🚶🏻 Walk
+2023-07-09 04:02:22,047:DEBUG:root:Reaching destination: Covent Garden, London, UK
+2023-07-09 04:02:22,047:DEBUG:root:Transfers: 3 times
+2023-07-09 04:02:22,082:DEBUG:root:Trip time: 41.46053740357288 mins
+
+2023-07-09 04:02:22,092:DEBUG:root:Start at : Finchley Road Station, London, UK
+2023-07-09 04:02:22,092:DEBUG:root:1. 🚄 From [Finchley Road] take Jubilee line
+2023-07-09 04:02:22,092:DEBUG:root:   -> to [Baker Street]
+2023-07-09 04:02:22,092:DEBUG:root:2. 🚄 Change at [Baker Street] to Bakerloo line
+2023-07-09 04:02:22,092:DEBUG:root:   -> Get off at [Charing Cross]
+2023-07-09 04:02:22,092:DEBUG:root:3. 🚶🏻 Walk
+2023-07-09 04:02:22,092:DEBUG:root:Reaching destination: Covent Garden, London, UK
+2023-07-09 04:02:22,092:DEBUG:root:Transfers: 3 times
+2023-07-09 04:02:22,102:DEBUG:root:Trip time: 28.193870736906213 mins
+
+2023-07-09 04:02:22,109:DEBUG:root:Start at : Finchley Road Station, London, UK
+2023-07-09 04:02:22,109:DEBUG:root:1. 🚄 From [Swiss Cottage] take Jubilee line
+2023-07-09 04:02:22,110:DEBUG:root:   -> to [Baker Street]
+2023-07-09 04:02:22,110:DEBUG:root:2. 🚄 Change at [Baker Street] to Bakerloo line
+2023-07-09 04:02:22,110:DEBUG:root:   -> Get off at [Charing Cross]
+2023-07-09 04:02:22,110:DEBUG:root:3. 🚶🏻 Walk
+2023-07-09 04:02:22,110:DEBUG:root:Reaching destination: Covent Garden, London, UK
+2023-07-09 04:02:22,110:DEBUG:root:Transfers: 3 times
+2023-07-09 04:02:22,118:DEBUG:root:Trip time: 33.87568546995534 mins
+
+2023-07-09 04:02:22,141:DEBUG:root:Start at : Finchley Road Station, London, UK
+2023-07-09 04:02:22,141:DEBUG:root:1. 🚄 From [Finchley Road] take Jubilee line
+2023-07-09 04:02:22,141:DEBUG:root:   -> to [Baker Street]
+2023-07-09 04:02:22,141:DEBUG:root:2. 🚄 Change at [Baker Street] to Bakerloo line
+2023-07-09 04:02:22,141:DEBUG:root:   -> to [Charing Cross]
+2023-07-09 04:02:22,141:DEBUG:root:3. 🚄 Change at [Charing Cross] to Northern line
+2023-07-09 04:02:22,141:DEBUG:root:   -> Get off at [Leicester Square]
+2023-07-09 04:02:22,141:DEBUG:root:4. 🚶🏻 Walk
+2023-07-09 04:02:22,141:DEBUG:root:Reaching destination: Covent Garden, London, UK
+2023-07-09 04:02:22,141:DEBUG:root:Transfers: 4 times
+2023-07-09 04:02:22,173:DEBUG:root:Trip time: 39.92913778928137 mins
+
+2023-07-09 04:02:22,184:DEBUG:root:Start at : Finchley Road Station, London, UK
+2023-07-09 04:02:22,184:DEBUG:root:1. 🚄 From [Finchley Road] take Jubilee line
+2023-07-09 04:02:22,184:DEBUG:root:   -> to [Baker Street]
+2023-07-09 04:02:22,184:DEBUG:root:2. 🚄 Change at [Baker Street] to Bakerloo line
+2023-07-09 04:02:22,184:DEBUG:root:   -> to [Charing Cross]
+2023-07-09 04:02:22,184:DEBUG:root:3. 🚄 Change at [Charing Cross] to Northern line
+2023-07-09 04:02:22,184:DEBUG:root:   -> Get off at [Leicester Square]
+2023-07-09 04:02:22,184:DEBUG:root:4. 🚶🏻 Walk
+2023-07-09 04:02:22,184:DEBUG:root:Reaching destination: Covent Garden, London, UK
+2023-07-09 04:02:22,184:DEBUG:root:Transfers: 4 times
+2023-07-09 04:02:22,196:DEBUG:root:Trip time: 26.6624711226147 mins
+
+2023-07-09 04:02:22,204:DEBUG:root:Start at : Finchley Road Station, London, UK
+2023-07-09 04:02:22,205:DEBUG:root:1. 🚄 From [Swiss Cottage] take Jubilee line
+2023-07-09 04:02:22,205:DEBUG:root:   -> to [Baker Street]
+2023-07-09 04:02:22,205:DEBUG:root:2. 🚄 Change at [Baker Street] to Bakerloo line
+2023-07-09 04:02:22,205:DEBUG:root:   -> to [Charing Cross]
+2023-07-09 04:02:22,205:DEBUG:root:3. 🚄 Change at [Charing Cross] to Northern line
+2023-07-09 04:02:22,205:DEBUG:root:   -> Get off at [Leicester Square]
+2023-07-09 04:02:22,205:DEBUG:root:4. 🚶🏻 Walk
+2023-07-09 04:02:22,205:DEBUG:root:Reaching destination: Covent Garden, London, UK
+2023-07-09 04:02:22,205:DEBUG:root:Transfers: 4 times
+2023-07-09 04:02:22,217:DEBUG:root:Trip time: 32.34428585566383 mins
+
+2023-07-09 04:02:22,243:DEBUG:root:Start at : Finchley Road Station, London, UK
+2023-07-09 04:02:22,243:DEBUG:root:1. 🚄 From [Finchley Road] take Jubilee line
+2023-07-09 04:02:22,243:DEBUG:root:   -> to [Baker Street]
+2023-07-09 04:02:22,243:DEBUG:root:2. 🚄 Change at [Baker Street] to Metropolitan line
+2023-07-09 04:02:22,243:DEBUG:root:   -> to [Kings Cross St. Pancras]
+2023-07-09 04:02:22,243:DEBUG:root:3. 🚄 Change at [Kings Cross St. Pancras] to Piccadilly line
+2023-07-09 04:02:22,243:DEBUG:root:   -> Get off at [Covent Garden]
+2023-07-09 04:02:22,243:DEBUG:root:4. 🚶🏻 Walk
+2023-07-09 04:02:22,243:DEBUG:root:Reaching destination: Covent Garden, London, UK
+2023-07-09 04:02:22,243:DEBUG:root:Transfers: 4 times
+2023-07-09 04:02:22,289:DEBUG:root:Trip time: 38.546021797604546 mins
+
+2023-07-09 04:02:22,301:DEBUG:root:Start at : Finchley Road Station, London, UK
+2023-07-09 04:02:22,301:DEBUG:root:1. 🚄 From [Finchley Road] take Jubilee line
+2023-07-09 04:02:22,301:DEBUG:root:   -> to [Baker Street]
+2023-07-09 04:02:22,301:DEBUG:root:2. 🚄 Change at [Baker Street] to Metropolitan line
+2023-07-09 04:02:22,301:DEBUG:root:   -> to [Kings Cross St. Pancras]
+2023-07-09 04:02:22,301:DEBUG:root:3. 🚄 Change at [Kings Cross St. Pancras] to Piccadilly line
+2023-07-09 04:02:22,301:DEBUG:root:   -> Get off at [Covent Garden]
+2023-07-09 04:02:22,301:DEBUG:root:4. 🚶🏻 Walk
+2023-07-09 04:02:22,301:DEBUG:root:Reaching destination: Covent Garden, London, UK
+2023-07-09 04:02:22,301:DEBUG:root:Transfers: 4 times
+2023-07-09 04:02:22,322:DEBUG:root:Trip time: 25.279355130937883 mins
+
+2023-07-09 04:02:22,333:DEBUG:root:Start at : Finchley Road Station, London, UK
+2023-07-09 04:02:22,333:DEBUG:root:1. 🚄 From [Swiss Cottage] take Jubilee line
+2023-07-09 04:02:22,333:DEBUG:root:   -> to [Baker Street]
+2023-07-09 04:02:22,333:DEBUG:root:2. 🚄 Change at [Baker Street] to Metropolitan line
+2023-07-09 04:02:22,333:DEBUG:root:   -> to [Kings Cross St. Pancras]
+2023-07-09 04:02:22,333:DEBUG:root:3. 🚄 Change at [Kings Cross St. Pancras] to Piccadilly line
+2023-07-09 04:02:22,333:DEBUG:root:   -> Get off at [Covent Garden]
+2023-07-09 04:02:22,334:DEBUG:root:4. 🚶🏻 Walk
+2023-07-09 04:02:22,334:DEBUG:root:Reaching destination: Covent Garden, London, UK
+2023-07-09 04:02:22,334:DEBUG:root:Transfers: 4 times
+2023-07-09 04:02:22,352:DEBUG:root:Trip time: 30.961169863987006 mins
+
