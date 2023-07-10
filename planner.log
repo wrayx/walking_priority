@@ -1,0 +1,909 @@
+2023-07-10 19:10:25,761:INFO:root:Start of the program
+2023-07-10 19:10:25,862:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): overpass-api.de:443
+2023-07-10 19:10:26,007:DEBUG:urllib3.connectionpool:https://overpass-api.de:443 "GET /api/status HTTP/1.1" 200 179
+2023-07-10 19:10:26,012:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): overpass-api.de:443
+2023-07-10 19:10:27,980:DEBUG:urllib3.connectionpool:https://overpass-api.de:443 "POST /api/interpreter HTTP/1.1" 200 None
+2023-07-10 19:11:06,536:DEBUG:root:Baker Street: {'Bakerloo'}
+2023-07-10 19:11:06,537:DEBUG:root:Regents Park: {'Bakerloo'}
+2023-07-10 19:11:06,647:DEBUG:root:Charing Cross: {'Bakerloo'}
+2023-07-10 19:11:06,648:DEBUG:root:Embankment: {'Bakerloo'}
+2023-07-10 19:11:06,754:DEBUG:root:Edgware Road: {'Bakerloo'}
+2023-07-10 19:11:06,754:DEBUG:root:Marylebone: {'Bakerloo'}
+2023-07-10 19:11:06,860:DEBUG:root:Embankment: {'Bakerloo'}
+2023-07-10 19:11:06,860:DEBUG:root:Waterloo: {'Bakerloo'}
+2023-07-10 19:11:07,377:DEBUG:root:Kilburn Park: {'Bakerloo'}
+2023-07-10 19:11:07,377:DEBUG:root:Maida Vale: {'Bakerloo'}
+2023-07-10 19:11:07,482:DEBUG:root:Lambeth North: {'Bakerloo'}
+2023-07-10 19:11:07,483:DEBUG:root:Elephant and Castle: {'Bakerloo'}
+2023-07-10 19:11:07,590:DEBUG:root:Maida Vale: {'Bakerloo'}
+2023-07-10 19:11:07,590:DEBUG:root:Warwick Avenue: {'Bakerloo'}
+2023-07-10 19:11:15,685:DEBUG:root:Marylebone: {'Bakerloo'}
+2023-07-10 19:11:15,686:DEBUG:root:Baker Street: {'Bakerloo'}
+2023-07-10 19:11:15,892:DEBUG:root:Oxford Circus: {'Bakerloo'}
+2023-07-10 19:11:15,892:DEBUG:root:Piccadilly Circus: {'Bakerloo'}
+2023-07-10 19:11:15,997:DEBUG:root:Paddington: {'Bakerloo'}
+2023-07-10 19:11:15,997:DEBUG:root:Edgware Road: {'Bakerloo'}
+2023-07-10 19:11:16,102:DEBUG:root:Piccadilly Circus: {'Bakerloo'}
+2023-07-10 19:11:16,102:DEBUG:root:Charing Cross: {'Bakerloo'}
+2023-07-10 19:11:16,208:DEBUG:root:Queens Park: {'Bakerloo'}
+2023-07-10 19:11:16,208:DEBUG:root:Kilburn Park: {'Bakerloo'}
+2023-07-10 19:11:16,342:DEBUG:root:Regents Park: {'Bakerloo'}
+2023-07-10 19:11:16,342:DEBUG:root:Oxford Circus: {'Bakerloo'}
+2023-07-10 19:11:16,665:DEBUG:root:Warwick Avenue: {'Bakerloo'}
+2023-07-10 19:11:16,665:DEBUG:root:Paddington: {'Bakerloo'}
+2023-07-10 19:11:16,768:DEBUG:root:Waterloo: {'Bakerloo'}
+2023-07-10 19:11:16,768:DEBUG:root:Lambeth North: {'Bakerloo'}
+2023-07-10 19:11:17,076:DEBUG:root:Bank: {'Central'}
+2023-07-10 19:11:17,076:DEBUG:root:St. Pauls: {'Central'}
+2023-07-10 19:11:24,406:DEBUG:root:Bond Street: {'Central'}
+2023-07-10 19:11:24,406:DEBUG:root:Marble Arch: {'Central'}
+2023-07-10 19:11:24,609:DEBUG:root:Chancery Lane: {'Central'}
+2023-07-10 19:11:24,609:DEBUG:root:Holborn: {'Central'}
+2023-07-10 19:11:25,715:DEBUG:root:Holborn: {'Central'}
+2023-07-10 19:11:25,715:DEBUG:root:Tottenham Court Road: {'Central'}
+2023-07-10 19:11:32,822:DEBUG:root:Lancaster Gate: {'Central'}
+2023-07-10 19:11:32,823:DEBUG:root:Queensway: {'Central'}
+2023-07-10 19:11:33,429:DEBUG:root:Marble Arch: {'Central'}
+2023-07-10 19:11:33,429:DEBUG:root:Lancaster Gate: {'Central'}
+2023-07-10 19:11:34,034:DEBUG:root:Notting Hill Gate: {'Central'}
+2023-07-10 19:11:34,034:DEBUG:root:Holland Park: {'Central'}
+2023-07-10 19:11:34,135:DEBUG:root:Oxford Circus: {'Central', 'Bakerloo'}
+2023-07-10 19:11:34,135:DEBUG:root:Bond Street: {'Central'}
+2023-07-10 19:11:41,806:DEBUG:root:Queensway: {'Central'}
+2023-07-10 19:11:41,807:DEBUG:root:Notting Hill Gate: {'Central'}
+2023-07-10 19:11:42,552:DEBUG:root:St. Pauls: {'Central'}
+2023-07-10 19:11:42,552:DEBUG:root:Chancery Lane: {'Central'}
+2023-07-10 19:11:42,921:DEBUG:root:Tottenham Court Road: {'Central'}
+2023-07-10 19:11:42,921:DEBUG:root:Oxford Circus: {'Central', 'Bakerloo'}
+2023-07-10 19:11:52,077:DEBUG:root:Baker Street: {'Bakerloo', 'Circle'}
+2023-07-10 19:11:52,077:DEBUG:root:Great Portland Street: {'Circle'}
+2023-07-10 19:11:52,189:DEBUG:root:Barbican: {'Circle'}
+2023-07-10 19:11:52,189:DEBUG:root:Moorgate: {'Circle'}
+2023-07-10 19:11:52,306:DEBUG:root:Bayswater: {'Circle'}
+2023-07-10 19:11:52,306:DEBUG:root:Paddington: {'Bakerloo', 'Circle'}
+2023-07-10 19:11:52,411:DEBUG:root:Blackfriars: {'Circle'}
+2023-07-10 19:11:52,411:DEBUG:root:Temple: {'Circle'}
+2023-07-10 19:11:52,515:DEBUG:root:Cannon Street: {'Circle'}
+2023-07-10 19:11:52,515:DEBUG:root:Mansion House: {'Circle'}
+2023-07-10 19:11:52,617:DEBUG:root:Edgware Road: {'Bakerloo', 'Circle'}
+2023-07-10 19:11:52,617:DEBUG:root:Baker Street: {'Bakerloo', 'Circle'}
+2023-07-10 19:11:52,736:DEBUG:root:Embankment: {'Bakerloo', 'Circle'}
+2023-07-10 19:11:52,736:DEBUG:root:Westminster: {'Circle'}
+2023-07-10 19:11:52,850:DEBUG:root:Euston Square: {'Circle'}
+2023-07-10 19:11:52,850:DEBUG:root:Kings Cross St. Pancras: {'Circle'}
+2023-07-10 19:11:52,985:DEBUG:root:Farringdon: {'Circle'}
+2023-07-10 19:11:52,985:DEBUG:root:Barbican: {'Circle'}
+2023-07-10 19:11:53,113:DEBUG:root:Gloucester Road: {'Circle'}
+2023-07-10 19:11:53,113:DEBUG:root:High Street Kensington: {'Circle'}
+2023-07-10 19:11:53,357:DEBUG:root:Great Portland Street: {'Circle'}
+2023-07-10 19:11:53,358:DEBUG:root:Euston Square: {'Circle'}
+2023-07-10 19:11:53,698:DEBUG:root:High Street Kensington: {'Circle'}
+2023-07-10 19:11:53,698:DEBUG:root:Notting Hill Gate: {'Central', 'Circle'}
+2023-07-10 19:11:53,818:DEBUG:root:Kings Cross St. Pancras: {'Circle'}
+2023-07-10 19:11:53,818:DEBUG:root:Farringdon: {'Circle'}
+2023-07-10 19:12:02,582:DEBUG:root:Ladbroke Grove: {'Circle'}
+2023-07-10 19:12:02,582:DEBUG:root:Westbourne Park: {'Circle'}
+2023-07-10 19:12:02,934:DEBUG:root:Mansion House: {'Circle'}
+2023-07-10 19:12:02,934:DEBUG:root:Blackfriars: {'Circle'}
+2023-07-10 19:12:03,270:DEBUG:root:Notting Hill Gate: {'Central', 'Circle'}
+2023-07-10 19:12:03,270:DEBUG:root:Bayswater: {'Circle'}
+2023-07-10 19:12:03,389:DEBUG:root:Paddington: {'Bakerloo', 'Circle'}
+2023-07-10 19:12:03,389:DEBUG:root:Edgware Road: {'Bakerloo', 'Circle'}
+2023-07-10 19:12:03,500:DEBUG:root:Royal Oak: {'Circle'}
+2023-07-10 19:12:03,500:DEBUG:root:Paddington: {'Bakerloo', 'Circle'}
+2023-07-10 19:12:03,706:DEBUG:root:Sloane Square: {'Circle'}
+2023-07-10 19:12:03,706:DEBUG:root:South Kensington: {'Circle'}
+2023-07-10 19:12:03,811:DEBUG:root:South Kensington: {'Circle'}
+2023-07-10 19:12:03,811:DEBUG:root:Gloucester Road: {'Circle'}
+2023-07-10 19:12:03,917:DEBUG:root:St. James's Park: {'Circle'}
+2023-07-10 19:12:03,918:DEBUG:root:Victoria: {'Circle'}
+2023-07-10 19:12:04,026:DEBUG:root:Temple: {'Circle'}
+2023-07-10 19:12:04,026:DEBUG:root:Embankment: {'Bakerloo', 'Circle'}
+2023-07-10 19:12:04,257:DEBUG:root:Victoria: {'Circle'}
+2023-07-10 19:12:04,258:DEBUG:root:Sloane Square: {'Circle'}
+2023-07-10 19:12:11,410:DEBUG:root:Westbourne Park: {'Circle'}
+2023-07-10 19:12:11,410:DEBUG:root:Royal Oak: {'Circle'}
+2023-07-10 19:12:11,511:DEBUG:root:Westminster: {'Circle'}
+2023-07-10 19:12:11,511:DEBUG:root:St. James's Park: {'Circle'}
+2023-07-10 19:12:12,120:DEBUG:root:Bayswater: {'District', 'Circle'}
+2023-07-10 19:12:12,121:DEBUG:root:Paddington: {'District', 'Bakerloo', 'Circle'}
+2023-07-10 19:12:12,329:DEBUG:root:Blackfriars: {'District', 'Circle'}
+2023-07-10 19:12:12,329:DEBUG:root:Temple: {'District', 'Circle'}
+2023-07-10 19:12:12,750:DEBUG:root:Cannon Street: {'District', 'Circle'}
+2023-07-10 19:12:12,750:DEBUG:root:Mansion House: {'District', 'Circle'}
+2023-07-10 19:12:19,861:DEBUG:root:Earls Court: {'District'}
+2023-07-10 19:12:19,861:DEBUG:root:High Street Kensington: {'District', 'Circle'}
+2023-07-10 19:12:19,963:DEBUG:root:Earls Court: {'District'}
+2023-07-10 19:12:19,963:DEBUG:root:Kensington (Olympia): {'District'}
+2023-07-10 19:12:20,066:DEBUG:root:Earls Court: {'District'}
+2023-07-10 19:12:20,067:DEBUG:root:West Brompton: {'District'}
+2023-07-10 19:12:20,170:DEBUG:root:Earls Court: {'District'}
+2023-07-10 19:12:20,170:DEBUG:root:West Kensington: {'District'}
+2023-07-10 19:12:20,628:DEBUG:root:Embankment: {'District', 'Bakerloo', 'Circle'}
+2023-07-10 19:12:20,628:DEBUG:root:Westminster: {'District', 'Circle'}
+2023-07-10 19:12:20,835:DEBUG:root:Gloucester Road: {'District', 'Circle'}
+2023-07-10 19:12:20,835:DEBUG:root:Earls Court: {'District'}
+2023-07-10 19:12:21,146:DEBUG:root:High Street Kensington: {'District', 'Circle'}
+2023-07-10 19:12:21,146:DEBUG:root:Notting Hill Gate: {'District', 'Central', 'Circle'}
+2023-07-10 19:12:28,956:DEBUG:root:Mansion House: {'District', 'Circle'}
+2023-07-10 19:12:28,956:DEBUG:root:Blackfriars: {'District', 'Circle'}
+2023-07-10 19:12:29,213:DEBUG:root:Notting Hill Gate: {'District', 'Central', 'Circle'}
+2023-07-10 19:12:29,213:DEBUG:root:Bayswater: {'District', 'Circle'}
+2023-07-10 19:12:29,328:DEBUG:root:Paddington: {'District', 'Bakerloo', 'Circle'}
+2023-07-10 19:12:29,330:DEBUG:root:Edgware Road: {'District', 'Bakerloo', 'Circle'}
+2023-07-10 19:12:30,009:DEBUG:root:Sloane Square: {'District', 'Circle'}
+2023-07-10 19:12:30,009:DEBUG:root:South Kensington: {'District', 'Circle'}
+2023-07-10 19:12:30,122:DEBUG:root:South Kensington: {'District', 'Circle'}
+2023-07-10 19:12:30,122:DEBUG:root:Gloucester Road: {'District', 'Circle'}
+2023-07-10 19:12:30,338:DEBUG:root:St. James's Park: {'District', 'Circle'}
+2023-07-10 19:12:30,338:DEBUG:root:Victoria: {'District', 'Circle'}
+2023-07-10 19:12:38,868:DEBUG:root:Temple: {'District', 'Circle'}
+2023-07-10 19:12:38,868:DEBUG:root:Embankment: {'District', 'Bakerloo', 'Circle'}
+2023-07-10 19:12:39,726:DEBUG:root:Victoria: {'District', 'Circle'}
+2023-07-10 19:12:39,726:DEBUG:root:Sloane Square: {'District', 'Circle'}
+2023-07-10 19:12:40,180:DEBUG:root:Westminster: {'District', 'Circle'}
+2023-07-10 19:12:40,180:DEBUG:root:St. James's Park: {'District', 'Circle'}
+2023-07-10 19:13:16,304:DEBUG:root:Bond Street: {'Elizabeth', 'Central'}
+2023-07-10 19:13:16,304:DEBUG:root:Paddington: {'District', 'Bakerloo', 'Circle', 'Elizabeth'}
+2023-07-10 19:13:17,050:DEBUG:root:Farringdon: {'Elizabeth', 'Circle'}
+2023-07-10 19:13:17,050:DEBUG:root:Tottenham Court Road: {'Elizabeth', 'Central'}
+2023-07-10 19:13:35,615:DEBUG:root:Tottenham Court Road: {'Elizabeth', 'Central'}
+2023-07-10 19:13:35,615:DEBUG:root:Bond Street: {'Elizabeth', 'Central'}
+2023-07-10 19:13:36,474:DEBUG:root:Baker Street: {'Bakerloo', 'Hammersmith and City', 'Circle'}
+2023-07-10 19:13:36,474:DEBUG:root:Great Portland Street: {'Circle', 'Hammersmith and City'}
+2023-07-10 19:13:36,580:DEBUG:root:Barbican: {'Circle', 'Hammersmith and City'}
+2023-07-10 19:13:36,580:DEBUG:root:Moorgate: {'Circle', 'Hammersmith and City'}
+2023-07-10 19:13:37,008:DEBUG:root:Edgware Road: {'District', 'Bakerloo', 'Hammersmith and City', 'Circle'}
+2023-07-10 19:13:37,008:DEBUG:root:Baker Street: {'Bakerloo', 'Hammersmith and City', 'Circle'}
+2023-07-10 19:13:37,113:DEBUG:root:Euston Square: {'Circle', 'Hammersmith and City'}
+2023-07-10 19:13:37,113:DEBUG:root:Kings Cross St. Pancras: {'Circle', 'Hammersmith and City'}
+2023-07-10 19:13:46,241:DEBUG:root:Farringdon: {'Elizabeth', 'Circle', 'Hammersmith and City'}
+2023-07-10 19:13:46,242:DEBUG:root:Barbican: {'Circle', 'Hammersmith and City'}
+2023-07-10 19:13:46,468:DEBUG:root:Great Portland Street: {'Circle', 'Hammersmith and City'}
+2023-07-10 19:13:46,468:DEBUG:root:Euston Square: {'Circle', 'Hammersmith and City'}
+2023-07-10 19:13:46,688:DEBUG:root:Kings Cross St. Pancras: {'Circle', 'Hammersmith and City'}
+2023-07-10 19:13:46,688:DEBUG:root:Farringdon: {'Elizabeth', 'Circle', 'Hammersmith and City'}
+2023-07-10 19:13:46,795:DEBUG:root:Ladbroke Grove: {'Circle', 'Hammersmith and City'}
+2023-07-10 19:13:46,795:DEBUG:root:Westbourne Park: {'Circle', 'Hammersmith and City'}
+2023-07-10 19:13:47,408:DEBUG:root:Paddington: {'Bakerloo', 'Circle', 'District', 'Hammersmith and City', 'Elizabeth'}
+2023-07-10 19:13:47,408:DEBUG:root:Edgware Road: {'District', 'Bakerloo', 'Hammersmith and City', 'Circle'}
+2023-07-10 19:13:47,636:DEBUG:root:Royal Oak: {'Circle', 'Hammersmith and City'}
+2023-07-10 19:13:47,636:DEBUG:root:Paddington: {'Bakerloo', 'Circle', 'District', 'Hammersmith and City', 'Elizabeth'}
+2023-07-10 19:13:56,378:DEBUG:root:Westbourne Park: {'Circle', 'Hammersmith and City'}
+2023-07-10 19:13:56,378:DEBUG:root:Royal Oak: {'Circle', 'Hammersmith and City'}
+2023-07-10 19:13:56,716:DEBUG:root:Baker Street: {'Bakerloo', 'Hammersmith and City', 'Circle', 'Jubilee'}
+2023-07-10 19:13:56,717:DEBUG:root:Bond Street: {'Elizabeth', 'Central', 'Jubilee'}
+2023-07-10 19:13:56,982:DEBUG:root:Bond Street: {'Elizabeth', 'Central', 'Jubilee'}
+2023-07-10 19:13:56,983:DEBUG:root:Green Park: {'Jubilee'}
+2023-07-10 19:13:57,621:DEBUG:root:Finchley Road: {'Jubilee'}
+2023-07-10 19:13:57,621:DEBUG:root:Swiss Cottage: {'Jubilee'}
+2023-07-10 19:13:57,726:DEBUG:root:Green Park: {'Jubilee'}
+2023-07-10 19:13:57,726:DEBUG:root:Westminster: {'District', 'Circle', 'Jubilee'}
+2023-07-10 19:13:57,827:DEBUG:root:Kilburn: {'Jubilee'}
+2023-07-10 19:13:57,827:DEBUG:root:West Hampstead: {'Jubilee'}
+2023-07-10 19:14:06,195:DEBUG:root:St. Johns Wood: {'Jubilee'}
+2023-07-10 19:14:06,195:DEBUG:root:Baker Street: {'Bakerloo', 'Hammersmith and City', 'Circle', 'Jubilee'}
+2023-07-10 19:14:06,401:DEBUG:root:Swiss Cottage: {'Jubilee'}
+2023-07-10 19:14:06,401:DEBUG:root:St. Johns Wood: {'Jubilee'}
+2023-07-10 19:14:06,517:DEBUG:root:Waterloo: {'Bakerloo', 'Jubilee'}
+2023-07-10 19:14:06,518:DEBUG:root:Southwark: {'Jubilee'}
+2023-07-10 19:14:06,847:DEBUG:root:West Hampstead: {'Jubilee'}
+2023-07-10 19:14:06,847:DEBUG:root:Finchley Road: {'Jubilee'}
+2023-07-10 19:14:06,952:DEBUG:root:Westminster: {'District', 'Circle', 'Jubilee'}
+2023-07-10 19:14:06,952:DEBUG:root:Waterloo: {'Bakerloo', 'Jubilee'}
+2023-07-10 19:14:15,874:DEBUG:root:Baker Street: {'Bakerloo', 'Circle', 'Metropolitan', 'Hammersmith and City', 'Jubilee'}
+2023-07-10 19:14:15,875:DEBUG:root:Finchley Road: {'Metropolitan', 'Jubilee'}
+2023-07-10 19:14:15,983:DEBUG:root:Barbican: {'Metropolitan', 'Circle', 'Hammersmith and City'}
+2023-07-10 19:14:15,983:DEBUG:root:Farringdon: {'Elizabeth', 'Circle', 'Hammersmith and City', 'Metropolitan'}
+2023-07-10 19:14:16,652:DEBUG:root:Euston Square: {'Metropolitan', 'Circle', 'Hammersmith and City'}
+2023-07-10 19:14:16,652:DEBUG:root:Great Portland Street: {'Metropolitan', 'Circle', 'Hammersmith and City'}
+2023-07-10 19:14:16,762:DEBUG:root:Farringdon: {'Elizabeth', 'Circle', 'Hammersmith and City', 'Metropolitan'}
+2023-07-10 19:14:16,762:DEBUG:root:Kings Cross St. Pancras: {'Metropolitan', 'Circle', 'Hammersmith and City'}
+2023-07-10 19:14:16,988:DEBUG:root:Great Portland Street: {'Metropolitan', 'Circle', 'Hammersmith and City'}
+2023-07-10 19:14:16,989:DEBUG:root:Baker Street: {'Bakerloo', 'Circle', 'Metropolitan', 'Hammersmith and City', 'Jubilee'}
+2023-07-10 19:14:25,396:DEBUG:root:Kings Cross St. Pancras: {'Metropolitan', 'Circle', 'Hammersmith and City'}
+2023-07-10 19:14:25,396:DEBUG:root:Euston Square: {'Metropolitan', 'Circle', 'Hammersmith and City'}
+2023-07-10 19:14:25,811:DEBUG:root:Moorgate: {'Metropolitan', 'Circle', 'Hammersmith and City'}
+2023-07-10 19:14:25,811:DEBUG:root:Barbican: {'Metropolitan', 'Circle', 'Hammersmith and City'}
+2023-07-10 19:14:35,207:DEBUG:root:Angel: {'Northern'}
+2023-07-10 19:14:35,207:DEBUG:root:Kings Cross St. Pancras: {'Metropolitan', 'Circle', 'Hammersmith and City', 'Northern'}
+2023-07-10 19:14:35,544:DEBUG:root:Bank: {'Central', 'Northern'}
+2023-07-10 19:14:35,544:DEBUG:root:Moorgate: {'Metropolitan', 'Circle', 'Hammersmith and City', 'Northern'}
+2023-07-10 19:14:35,649:DEBUG:root:Belsize Park: {'Northern'}
+2023-07-10 19:14:35,649:DEBUG:root:Hampstead: {'Northern'}
+2023-07-10 19:14:36,071:DEBUG:root:Camden Town: {'Northern'}
+2023-07-10 19:14:36,071:DEBUG:root:Chalk Farm: {'Northern'}
+2023-07-10 19:14:36,176:DEBUG:root:Camden Town: {'Northern'}
+2023-07-10 19:14:36,176:DEBUG:root:Kentish Town: {'Northern'}
+2023-07-10 19:14:36,284:DEBUG:root:Chalk Farm: {'Northern'}
+2023-07-10 19:14:36,284:DEBUG:root:Belsize Park: {'Northern'}
+2023-07-10 19:14:36,386:DEBUG:root:Charing Cross: {'Bakerloo', 'Northern'}
+2023-07-10 19:14:36,386:DEBUG:root:Leicester Square: {'Northern'}
+2023-07-10 19:14:45,964:DEBUG:root:Elephant and Castle: {'Bakerloo', 'Northern'}
+2023-07-10 19:14:45,965:DEBUG:root:Borough: {'Northern'}
+2023-07-10 19:14:46,168:DEBUG:root:Embankment: {'District', 'Bakerloo', 'Northern', 'Circle'}
+2023-07-10 19:14:46,169:DEBUG:root:Charing Cross: {'Bakerloo', 'Northern'}
+2023-07-10 19:14:46,287:DEBUG:root:Euston: {'Northern'}
+2023-07-10 19:14:46,287:DEBUG:root:Camden Town: {'Northern'}
+2023-07-10 19:14:46,397:DEBUG:root:Euston: {'Northern'}
+2023-07-10 19:14:46,397:DEBUG:root:Mornington Crescent: {'Northern'}
+2023-07-10 19:14:46,754:DEBUG:root:Goodge Street: {'Northern'}
+2023-07-10 19:14:46,754:DEBUG:root:Warren Street: {'Northern'}
+2023-07-10 19:14:46,864:DEBUG:root:Hampstead: {'Northern'}
+2023-07-10 19:14:46,864:DEBUG:root:Golders Green: {'Northern'}
+2023-07-10 19:14:47,202:DEBUG:root:Kennington: {'Northern'}
+2023-07-10 19:14:47,202:DEBUG:root:Elephant and Castle: {'Bakerloo', 'Northern'}
+2023-07-10 19:14:56,782:DEBUG:root:Kennington: {'Northern'}
+2023-07-10 19:14:56,782:DEBUG:root:Waterloo: {'Northern', 'Bakerloo', 'Jubilee'}
+2023-07-10 19:14:56,894:DEBUG:root:Kentish Town: {'Northern'}
+2023-07-10 19:14:56,894:DEBUG:root:Tufnell Park: {'Northern'}
+2023-07-10 19:14:56,999:DEBUG:root:Kings Cross St. Pancras: {'Metropolitan', 'Circle', 'Hammersmith and City', 'Northern'}
+2023-07-10 19:14:56,999:DEBUG:root:Euston: {'Northern'}
+2023-07-10 19:14:57,110:DEBUG:root:Leicester Square: {'Northern'}
+2023-07-10 19:14:57,110:DEBUG:root:Tottenham Court Road: {'Elizabeth', 'Central', 'Northern'}
+2023-07-10 19:14:57,321:DEBUG:root:Moorgate: {'Metropolitan', 'Circle', 'Hammersmith and City', 'Northern'}
+2023-07-10 19:14:57,321:DEBUG:root:Old Street: {'Northern'}
+2023-07-10 19:14:57,541:DEBUG:root:Mornington Crescent: {'Northern'}
+2023-07-10 19:14:57,541:DEBUG:root:Camden Town: {'Northern'}
+2023-07-10 19:14:57,772:DEBUG:root:Old Street: {'Northern'}
+2023-07-10 19:14:57,772:DEBUG:root:Angel: {'Northern'}
+2023-07-10 19:15:05,852:DEBUG:root:Tottenham Court Road: {'Elizabeth', 'Central', 'Northern'}
+2023-07-10 19:15:05,852:DEBUG:root:Goodge Street: {'Northern'}
+2023-07-10 19:15:06,161:DEBUG:root:Warren Street: {'Northern'}
+2023-07-10 19:15:06,161:DEBUG:root:Euston: {'Northern'}
+2023-07-10 19:15:06,263:DEBUG:root:Waterloo: {'Northern', 'Bakerloo', 'Jubilee'}
+2023-07-10 19:15:06,263:DEBUG:root:Embankment: {'District', 'Bakerloo', 'Northern', 'Circle'}
+2023-07-10 19:15:07,373:DEBUG:root:Brondesbury: {'Overground'}
+2023-07-10 19:15:07,374:DEBUG:root:West Hampstead: {'Jubilee', 'Overground'}
+2023-07-10 19:15:07,485:DEBUG:root:Brondesbury Park: {'Overground'}
+2023-07-10 19:15:07,485:DEBUG:root:Brondesbury: {'Overground'}
+2023-07-10 19:15:15,185:DEBUG:root:Caledonian Road and Barnsbury: {'Overground'}
+2023-07-10 19:15:15,185:DEBUG:root:Highbury and Islington: {'Overground'}
+2023-07-10 19:15:15,403:DEBUG:root:Camden Road: {'Overground'}
+2023-07-10 19:15:15,403:DEBUG:root:Caledonian Road and Barnsbury: {'Overground'}
+2023-07-10 19:15:25,820:DEBUG:root:Finchley Road and Frognal: {'Overground'}
+2023-07-10 19:15:25,821:DEBUG:root:Hampstead Heath: {'Overground'}
+2023-07-10 19:15:26,280:DEBUG:root:Gospel Oak: {'Overground'}
+2023-07-10 19:15:26,281:DEBUG:root:Kentish Town West: {'Overground'}
+2023-07-10 19:15:26,420:DEBUG:root:Gospel Oak: {'Overground'}
+2023-07-10 19:15:26,420:DEBUG:root:Upper Holloway: {'Overground'}
+2023-07-10 19:15:27,235:DEBUG:root:Hampstead Heath: {'Overground'}
+2023-07-10 19:15:27,235:DEBUG:root:Gospel Oak: {'Overground'}
+2023-07-10 19:15:36,037:DEBUG:root:Highbury and Islington: {'Overground'}
+2023-07-10 19:15:36,037:DEBUG:root:Canonbury: {'Overground'}
+2023-07-10 19:15:36,808:DEBUG:root:Kensington (Olympia): {'District', 'Overground'}
+2023-07-10 19:15:36,808:DEBUG:root:West Brompton: {'District', 'Overground'}
+2023-07-10 19:15:36,917:DEBUG:root:Kentish Town West: {'Overground'}
+2023-07-10 19:15:36,917:DEBUG:root:Camden Road: {'Overground'}
+2023-07-10 19:15:44,214:DEBUG:root:Kilburn High Road: {'Overground'}
+2023-07-10 19:15:44,215:DEBUG:root:South Hampstead: {'Overground'}
+2023-07-10 19:15:45,244:DEBUG:root:Queens Park: {'Bakerloo', 'Overground'}
+2023-07-10 19:15:45,244:DEBUG:root:Kilburn High Road: {'Overground'}
+2023-07-10 19:15:54,160:DEBUG:root:South Hampstead: {'Overground'}
+2023-07-10 19:15:54,160:DEBUG:root:Euston: {'Northern', 'Overground'}
+2023-07-10 19:16:02,548:DEBUG:root:Upper Holloway: {'Overground'}
+2023-07-10 19:16:02,548:DEBUG:root:Crouch Hill: {'Overground'}
+2023-07-10 19:16:10,544:DEBUG:root:West Hampstead: {'Jubilee', 'Overground'}
+2023-07-10 19:16:10,544:DEBUG:root:Finchley Road and Frognal: {'Overground'}
+2023-07-10 19:16:11,796:DEBUG:root:Arsenal: {'Piccadilly'}
+2023-07-10 19:16:11,796:DEBUG:root:Holloway Road: {'Piccadilly'}
+2023-07-10 19:16:20,843:DEBUG:root:Caledonian Road: {'Piccadilly'}
+2023-07-10 19:16:20,844:DEBUG:root:Kings Cross St. Pancras: {'Circle', 'Northern', 'Metropolitan', 'Hammersmith and City', 'Piccadilly'}
+2023-07-10 19:16:21,083:DEBUG:root:Covent Garden: {'Piccadilly'}
+2023-07-10 19:16:21,083:DEBUG:root:Leicester Square: {'Northern', 'Piccadilly'}
+2023-07-10 19:16:21,525:DEBUG:root:Finsbury Park: {'Piccadilly'}
+2023-07-10 19:16:21,525:DEBUG:root:Arsenal: {'Piccadilly'}
+2023-07-10 19:16:21,643:DEBUG:root:Gloucester Road: {'District', 'Circle', 'Piccadilly'}
+2023-07-10 19:16:21,643:DEBUG:root:Earls Court: {'District', 'Piccadilly'}
+2023-07-10 19:16:21,762:DEBUG:root:Green Park: {'Jubilee', 'Piccadilly'}
+2023-07-10 19:16:21,762:DEBUG:root:Hyde Park Corner: {'Piccadilly'}
+2023-07-10 19:16:30,107:DEBUG:root:Holborn: {'Central', 'Piccadilly'}
+2023-07-10 19:16:30,107:DEBUG:root:Covent Garden: {'Piccadilly'}
+2023-07-10 19:16:30,211:DEBUG:root:Holloway Road: {'Piccadilly'}
+2023-07-10 19:16:30,211:DEBUG:root:Caledonian Road: {'Piccadilly'}
+2023-07-10 19:16:30,634:DEBUG:root:Hyde Park Corner: {'Piccadilly'}
+2023-07-10 19:16:30,634:DEBUG:root:Knightsbridge: {'Piccadilly'}
+2023-07-10 19:16:30,842:DEBUG:root:Kings Cross St. Pancras: {'Circle', 'Northern', 'Metropolitan', 'Hammersmith and City', 'Piccadilly'}
+2023-07-10 19:16:30,842:DEBUG:root:Russell Square: {'Piccadilly'}
+2023-07-10 19:16:30,950:DEBUG:root:Knightsbridge: {'Piccadilly'}
+2023-07-10 19:16:30,950:DEBUG:root:South Kensington: {'District', 'Circle', 'Piccadilly'}
+2023-07-10 19:16:31,056:DEBUG:root:Leicester Square: {'Northern', 'Piccadilly'}
+2023-07-10 19:16:31,056:DEBUG:root:Piccadilly Circus: {'Bakerloo', 'Piccadilly'}
+2023-07-10 19:16:31,160:DEBUG:root:Manor House: {'Piccadilly'}
+2023-07-10 19:16:31,160:DEBUG:root:Finsbury Park: {'Piccadilly'}
+2023-07-10 19:16:39,707:DEBUG:root:Piccadilly Circus: {'Bakerloo', 'Piccadilly'}
+2023-07-10 19:16:39,707:DEBUG:root:Green Park: {'Jubilee', 'Piccadilly'}
+2023-07-10 19:16:40,223:DEBUG:root:Russell Square: {'Piccadilly'}
+2023-07-10 19:16:40,223:DEBUG:root:Holborn: {'Central', 'Piccadilly'}
+2023-07-10 19:16:40,683:DEBUG:root:South Kensington: {'District', 'Circle', 'Piccadilly'}
+2023-07-10 19:16:40,683:DEBUG:root:Gloucester Road: {'District', 'Circle', 'Piccadilly'}
+2023-07-10 19:16:50,095:DEBUG:root:Euston: {'Northern', 'Victoria', 'Overground'}
+2023-07-10 19:16:50,095:DEBUG:root:Warren Street: {'Northern', 'Victoria'}
+2023-07-10 19:16:50,205:DEBUG:root:Finsbury Park: {'Victoria', 'Piccadilly'}
+2023-07-10 19:16:50,205:DEBUG:root:Highbury and Islington: {'Victoria', 'Overground'}
+2023-07-10 19:16:50,314:DEBUG:root:Green Park: {'Jubilee', 'Piccadilly', 'Victoria'}
+2023-07-10 19:16:50,314:DEBUG:root:Victoria: {'District', 'Circle', 'Victoria'}
+2023-07-10 19:16:50,420:DEBUG:root:Highbury and Islington: {'Victoria', 'Overground'}
+2023-07-10 19:16:50,420:DEBUG:root:Kings Cross St. Pancras: {'Circle', 'Northern', 'Metropolitan', 'Hammersmith and City', 'Piccadilly', 'Victoria'}
+2023-07-10 19:16:50,529:DEBUG:root:Kings Cross St. Pancras: {'Circle', 'Northern', 'Metropolitan', 'Hammersmith and City', 'Piccadilly', 'Victoria'}
+2023-07-10 19:16:50,529:DEBUG:root:Euston: {'Northern', 'Victoria', 'Overground'}
+2023-07-10 19:16:50,638:DEBUG:root:Oxford Circus: {'Central', 'Bakerloo', 'Victoria'}
+2023-07-10 19:16:50,638:DEBUG:root:Green Park: {'Jubilee', 'Piccadilly', 'Victoria'}
+2023-07-10 19:16:50,741:DEBUG:root:Pimlico: {'Victoria'}
+2023-07-10 19:16:50,741:DEBUG:root:Vauxhall: {'Victoria'}
+2023-07-10 19:16:51,350:DEBUG:root:Victoria: {'District', 'Circle', 'Victoria'}
+2023-07-10 19:16:51,350:DEBUG:root:Pimlico: {'Victoria'}
+2023-07-10 19:16:51,586:DEBUG:root:Warren Street: {'Northern', 'Victoria'}
+2023-07-10 19:16:51,586:DEBUG:root:Oxford Circus: {'Central', 'Bakerloo', 'Victoria'}
+2023-07-10 19:16:51,718:DEBUG:root:Waterloo: {'Northern', 'Bakerloo', 'Jubilee', 'Waterloo and City'}
+2023-07-10 19:16:51,718:DEBUG:root:Bank: {'Central', 'Northern', 'Waterloo and City'}
+2023-07-10 19:16:51,719:DEBUG:root:all station info been added
+
+2023-07-10 19:16:52,197:DEBUG:root:add tp time{'color': '#0450a1', 'length': 2004.636, 'travel_mode': 'tp', 'time': 302.16}
+2023-07-10 19:16:52,197:DEBUG:root:add tp time{'color': '#0450a1', 'length': 641.895, 'travel_mode': 'tp', 'time': 96.75}
+2023-07-10 19:16:52,198:DEBUG:root:add tp time{'color': '#ae6118', 'length': 762.319, 'travel_mode': 'tp', 'time': 114.9}
+2023-07-10 19:16:52,198:DEBUG:root:add tp time{'color': '#F86C00', 'length': 957.861, 'travel_mode': 'tp', 'time': 144.38}
+2023-07-10 19:16:52,199:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 784.023, 'travel_mode': 'tp', 'time': 118.18}
+2023-07-10 19:16:52,199:DEBUG:root:add tp time{'color': '#00a575', 'length': 784.023, 'travel_mode': 'tp', 'time': 118.18}
+2023-07-10 19:16:52,199:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 641.91, 'travel_mode': 'tp', 'time': 96.76}
+2023-07-10 19:16:52,199:DEBUG:root:add tp time{'color': '#00a575', 'length': 641.91, 'travel_mode': 'tp', 'time': 96.76}
+2023-07-10 19:16:52,200:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 298.364, 'travel_mode': 'tp', 'time': 44.97}
+2023-07-10 19:16:52,201:DEBUG:root:add tp time{'color': '#00a575', 'length': 298.364, 'travel_mode': 'tp', 'time': 44.97}
+2023-07-10 19:16:52,201:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 600.979, 'travel_mode': 'tp', 'time': 90.59}
+2023-07-10 19:16:52,201:DEBUG:root:add tp time{'color': '#00a575', 'length': 600.979, 'travel_mode': 'tp', 'time': 90.59}
+2023-07-10 19:16:52,202:DEBUG:root:add tp time{'color': '#ae6118', 'length': 197.281, 'travel_mode': 'tp', 'time': 29.74}
+2023-07-10 19:16:52,202:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 197.281, 'travel_mode': 'tp', 'time': 29.74}
+2023-07-10 19:16:52,202:DEBUG:root:add tp time{'color': '#ae6118', 'length': 789.288, 'travel_mode': 'tp', 'time': 118.97}
+2023-07-10 19:16:52,202:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 789.288, 'travel_mode': 'tp', 'time': 118.97}
+2023-07-10 19:16:52,202:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 696.197, 'travel_mode': 'tp', 'time': 104.94}
+2023-07-10 19:16:52,202:DEBUG:root:add tp time{'color': '#00a575', 'length': 696.197, 'travel_mode': 'tp', 'time': 104.94}
+2023-07-10 19:16:52,202:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 752.811, 'travel_mode': 'tp', 'time': 113.47}
+2023-07-10 19:16:52,202:DEBUG:root:add tp time{'color': '#00a575', 'length': 752.811, 'travel_mode': 'tp', 'time': 113.47}
+2023-07-10 19:16:52,203:DEBUG:root:add tp time{'color': '#0450a1', 'length': 295.622, 'travel_mode': 'tp', 'time': 44.56}
+2023-07-10 19:16:52,203:DEBUG:root:add tp time{'color': '#0450a1', 'length': 597.872, 'travel_mode': 'tp', 'time': 90.12}
+2023-07-10 19:16:52,204:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 900.751, 'travel_mode': 'tp', 'time': 135.77}
+2023-07-10 19:16:52,204:DEBUG:root:add tp time{'color': '#00a575', 'length': 900.751, 'travel_mode': 'tp', 'time': 135.77}
+2023-07-10 19:16:52,204:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 674.285, 'travel_mode': 'tp', 'time': 101.64}
+2023-07-10 19:16:52,204:DEBUG:root:add tp time{'color': '#00a575', 'length': 674.285, 'travel_mode': 'tp', 'time': 101.64}
+2023-07-10 19:16:52,204:DEBUG:root:add tp time{'color': '#ae6118', 'length': 823.839, 'travel_mode': 'tp', 'time': 124.18}
+2023-07-10 19:16:52,204:DEBUG:root:add tp time{'color': '#ae6118', 'length': 608.24, 'travel_mode': 'tp', 'time': 91.68}
+2023-07-10 19:16:52,204:DEBUG:root:add tp time{'color': '#0450a1', 'length': 421.558, 'travel_mode': 'tp', 'time': 63.54}
+2023-07-10 19:16:52,204:DEBUG:root:add tp time{'color': '#0450a1', 'length': 673.803, 'travel_mode': 'tp', 'time': 101.56}
+2023-07-10 19:16:52,205:DEBUG:root:add tp time{'color': '#00a575', 'length': 861.966, 'travel_mode': 'tp', 'time': 129.92}
+2023-07-10 19:16:52,206:DEBUG:root:add tp time{'color': '#0450a1', 'length': 826.087, 'travel_mode': 'tp', 'time': 124.52}
+2023-07-10 19:16:52,206:DEBUG:root:add tp time{'color': '#0450a1', 'length': 620.897, 'travel_mode': 'tp', 'time': 93.59}
+2023-07-10 19:16:52,208:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 1240.973, 'travel_mode': 'tp', 'time': 187.05}
+2023-07-10 19:16:52,208:DEBUG:root:add tp time{'color': '#00a575', 'length': 1240.973, 'travel_mode': 'tp', 'time': 187.05}
+2023-07-10 19:16:52,208:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 662.468, 'travel_mode': 'tp', 'time': 99.85}
+2023-07-10 19:16:52,208:DEBUG:root:add tp time{'color': '#00a575', 'length': 662.468, 'travel_mode': 'tp', 'time': 99.85}
+2023-07-10 19:16:52,208:DEBUG:root:add tp time{'color': '#0450a1', 'length': 662.468, 'travel_mode': 'tp', 'time': 99.85}
+2023-07-10 19:16:52,208:DEBUG:root:add tp time{'color': '#0450a1', 'length': 1207.272, 'travel_mode': 'tp', 'time': 181.97}
+2023-07-10 19:16:52,211:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 816.179, 'travel_mode': 'tp', 'time': 123.02}
+2023-07-10 19:16:52,211:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 1244.177, 'travel_mode': 'tp', 'time': 187.54}
+2023-07-10 19:16:52,213:DEBUG:root:add tp time{'color': '#F86C00', 'length': 1037.957, 'travel_mode': 'tp', 'time': 156.45}
+2023-07-10 19:16:52,213:DEBUG:root:add tp time{'color': '#F86C00', 'length': 3418.519, 'travel_mode': 'tp', 'time': 515.28}
+2023-07-10 19:16:52,214:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 497.93, 'travel_mode': 'tp', 'time': 75.05}
+2023-07-10 19:16:52,214:DEBUG:root:add tp time{'color': '#e899a8', 'length': 497.93, 'travel_mode': 'tp', 'time': 75.05}
+2023-07-10 19:16:52,214:DEBUG:root:add tp time{'color': '#893267', 'length': 497.93, 'travel_mode': 'tp', 'time': 75.05}
+2023-07-10 19:16:52,214:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 1727.108, 'travel_mode': 'tp', 'time': 260.33}
+2023-07-10 19:16:52,214:DEBUG:root:add tp time{'color': '#e899a8', 'length': 1727.108, 'travel_mode': 'tp', 'time': 260.33}
+2023-07-10 19:16:52,214:DEBUG:root:add tp time{'color': '#893267', 'length': 1727.108, 'travel_mode': 'tp', 'time': 260.33}
+2023-07-10 19:16:52,214:DEBUG:root:add tp time{'color': '#603E99', 'length': 1872.386, 'travel_mode': 'tp', 'time': 282.23}
+2023-07-10 19:16:52,215:DEBUG:root:add tp time{'color': '#0450a1', 'length': 972.608, 'travel_mode': 'tp', 'time': 146.6}
+2023-07-10 19:16:52,216:DEBUG:root:add tp time{'color': '#F86C00', 'length': 1192.939, 'travel_mode': 'tp', 'time': 179.81}
+2023-07-10 19:16:52,217:DEBUG:root:add tp time{'color': '#009fe0', 'length': 778.511, 'travel_mode': 'tp', 'time': 117.35}
+2023-07-10 19:16:52,218:DEBUG:root:add tp time{'color': '#F86C00', 'length': 725.804, 'travel_mode': 'tp', 'time': 109.4}
+2023-07-10 19:16:52,218:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 724.014, 'travel_mode': 'tp', 'time': 109.13}
+2023-07-10 19:16:52,219:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 1429.78, 'travel_mode': 'tp', 'time': 215.51}
+2023-07-10 19:16:52,219:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 718.627, 'travel_mode': 'tp', 'time': 108.32}
+2023-07-10 19:16:52,219:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 676.474, 'travel_mode': 'tp', 'time': 101.97}
+2023-07-10 19:16:52,219:DEBUG:root:add tp time{'color': '#009fe0', 'length': 676.474, 'travel_mode': 'tp', 'time': 101.97}
+2023-07-10 19:16:52,219:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 548.162, 'travel_mode': 'tp', 'time': 82.62}
+2023-07-10 19:16:52,219:DEBUG:root:add tp time{'color': '#009fe0', 'length': 548.162, 'travel_mode': 'tp', 'time': 82.62}
+2023-07-10 19:16:52,219:DEBUG:root:add tp time{'color': '#F86C00', 'length': 3418.519, 'travel_mode': 'tp', 'time': 515.28}
+2023-07-10 19:16:52,219:DEBUG:root:add tp time{'color': '#009fe0', 'length': 778.511, 'travel_mode': 'tp', 'time': 117.35}
+2023-07-10 19:16:52,219:DEBUG:root:add tp time{'color': '#009fe0', 'length': 1043.455, 'travel_mode': 'tp', 'time': 157.28}
+2023-07-10 19:16:52,219:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 844.579, 'travel_mode': 'tp', 'time': 127.3}
+2023-07-10 19:16:52,220:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 1034.902, 'travel_mode': 'tp', 'time': 155.99}
+2023-07-10 19:16:52,220:DEBUG:root:add tp time{'color': '#00a575', 'length': 1034.902, 'travel_mode': 'tp', 'time': 155.99}
+2023-07-10 19:16:52,220:DEBUG:root:add tp time{'color': '#00a575', 'length': 1017.055, 'travel_mode': 'tp', 'time': 153.3}
+2023-07-10 19:16:52,220:DEBUG:root:add tp time{'color': '#F86C00', 'length': 1411.471, 'travel_mode': 'tp', 'time': 212.75}
+2023-07-10 19:16:52,220:DEBUG:root:add tp time{'color': '#F86C00', 'length': 611.369, 'travel_mode': 'tp', 'time': 92.15}
+2023-07-10 19:16:52,220:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 2081.575, 'travel_mode': 'tp', 'time': 313.76}
+2023-07-10 19:16:52,220:DEBUG:root:add tp time{'color': '#F86C00', 'length': 1411.471, 'travel_mode': 'tp', 'time': 212.75}
+2023-07-10 19:16:52,220:DEBUG:root:add tp time{'color': '#F86C00', 'length': 917.067, 'travel_mode': 'tp', 'time': 138.23}
+2023-07-10 19:16:52,220:DEBUG:root:add tp time{'color': '#ae6118', 'length': 811.139, 'travel_mode': 'tp', 'time': 122.26}
+2023-07-10 19:16:52,220:DEBUG:root:add tp time{'color': '#ae6118', 'length': 1005.397, 'travel_mode': 'tp', 'time': 151.54}
+2023-07-10 19:16:52,221:DEBUG:root:add tp time{'color': '#F86C00', 'length': 1781.385, 'travel_mode': 'tp', 'time': 268.51}
+2023-07-10 19:16:52,221:DEBUG:root:add tp time{'color': '#F86C00', 'length': 1192.939, 'travel_mode': 'tp', 'time': 179.81}
+2023-07-10 19:16:52,221:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 696.197, 'travel_mode': 'tp', 'time': 104.94}
+2023-07-10 19:16:52,221:DEBUG:root:add tp time{'color': '#00a575', 'length': 696.197, 'travel_mode': 'tp', 'time': 104.94}
+2023-07-10 19:16:52,221:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 641.91, 'travel_mode': 'tp', 'time': 96.76}
+2023-07-10 19:16:52,221:DEBUG:root:add tp time{'color': '#00a575', 'length': 641.91, 'travel_mode': 'tp', 'time': 96.76}
+2023-07-10 19:16:52,221:DEBUG:root:add tp time{'color': '#8f989e', 'length': 1364.325, 'travel_mode': 'tp', 'time': 205.65}
+2023-07-10 19:16:52,221:DEBUG:root:add tp time{'color': '#8f989e', 'length': 842.768, 'travel_mode': 'tp', 'time': 127.03}
+2023-07-10 19:16:52,221:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 740.619, 'travel_mode': 'tp', 'time': 111.63}
+2023-07-10 19:16:52,221:DEBUG:root:add tp time{'color': '#00a575', 'length': 740.619, 'travel_mode': 'tp', 'time': 111.63}
+2023-07-10 19:16:52,221:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 600.979, 'travel_mode': 'tp', 'time': 90.59}
+2023-07-10 19:16:52,221:DEBUG:root:add tp time{'color': '#00a575', 'length': 600.979, 'travel_mode': 'tp', 'time': 90.59}
+2023-07-10 19:16:52,222:DEBUG:root:add tp time{'color': '#ae6118', 'length': 809.882, 'travel_mode': 'tp', 'time': 122.07}
+2023-07-10 19:16:52,222:DEBUG:root:add tp time{'color': '#ae6118', 'length': 813.043, 'travel_mode': 'tp', 'time': 122.55}
+2023-07-10 19:16:52,223:DEBUG:root:add tp time{'color': '#F86C00', 'length': 1037.957, 'travel_mode': 'tp', 'time': 156.45}
+2023-07-10 19:16:52,223:DEBUG:root:add tp time{'color': '#F86C00', 'length': 957.861, 'travel_mode': 'tp', 'time': 144.38}
+2023-07-10 19:16:52,223:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 823.157, 'travel_mode': 'tp', 'time': 124.08}
+2023-07-10 19:16:52,223:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 1514.258, 'travel_mode': 'tp', 'time': 228.25}
+2023-07-10 19:16:52,223:DEBUG:root:add tp time{'color': '#F86C00', 'length': 1029.44, 'travel_mode': 'tp', 'time': 155.17}
+2023-07-10 19:16:52,223:DEBUG:root:add tp time{'color': '#F86C00', 'length': 1781.385, 'travel_mode': 'tp', 'time': 268.51}
+2023-07-10 19:16:52,223:DEBUG:root:add tp time{'color': '#F86C00', 'length': 917.067, 'travel_mode': 'tp', 'time': 138.23}
+2023-07-10 19:16:52,223:DEBUG:root:add tp time{'color': '#ae6118', 'length': 811.139, 'travel_mode': 'tp', 'time': 122.26}
+2023-07-10 19:16:52,223:DEBUG:root:add tp time{'color': '#ae6118', 'length': 445.424, 'travel_mode': 'tp', 'time': 67.14}
+2023-07-10 19:16:52,223:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 907.487, 'travel_mode': 'tp', 'time': 136.79}
+2023-07-10 19:16:52,223:DEBUG:root:add tp time{'color': '#e899a8', 'length': 907.487, 'travel_mode': 'tp', 'time': 136.79}
+2023-07-10 19:16:52,223:DEBUG:root:add tp time{'color': '#893267', 'length': 907.487, 'travel_mode': 'tp', 'time': 136.79}
+2023-07-10 19:16:52,223:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 811.468, 'travel_mode': 'tp', 'time': 122.31}
+2023-07-10 19:16:52,223:DEBUG:root:add tp time{'color': '#e899a8', 'length': 811.468, 'travel_mode': 'tp', 'time': 122.31}
+2023-07-10 19:16:52,223:DEBUG:root:add tp time{'color': '#8f989e', 'length': 1161.006, 'travel_mode': 'tp', 'time': 175.0}
+2023-07-10 19:16:52,223:DEBUG:root:add tp time{'color': '#8f989e', 'length': 1756.454, 'travel_mode': 'tp', 'time': 264.75}
+2023-07-10 19:16:52,223:DEBUG:root:add tp time{'color': '#893267', 'length': 3091.928, 'travel_mode': 'tp', 'time': 466.05}
+2023-07-10 19:16:52,224:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 883.132, 'travel_mode': 'tp', 'time': 133.12}
+2023-07-10 19:16:52,224:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 1099.815, 'travel_mode': 'tp', 'time': 165.78}
+2023-07-10 19:16:52,224:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 1429.78, 'travel_mode': 'tp', 'time': 215.51}
+2023-07-10 19:16:52,224:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 713.966, 'travel_mode': 'tp', 'time': 107.62}
+2023-07-10 19:16:52,224:DEBUG:root:add tp time{'color': '#0450a1', 'length': 836.091, 'travel_mode': 'tp', 'time': 126.02}
+2023-07-10 19:16:52,224:DEBUG:root:add tp time{'color': '#0450a1', 'length': 692.701, 'travel_mode': 'tp', 'time': 104.41}
+2023-07-10 19:16:52,225:DEBUG:root:add tp time{'color': '#F86C00', 'length': 853.247, 'travel_mode': 'tp', 'time': 128.61}
+2023-07-10 19:16:52,225:DEBUG:root:add tp time{'color': '#F86C00', 'length': 1660.505, 'travel_mode': 'tp', 'time': 250.29}
+2023-07-10 19:16:52,225:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 718.627, 'travel_mode': 'tp', 'time': 108.32}
+2023-07-10 19:16:52,226:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 713.966, 'travel_mode': 'tp', 'time': 107.62}
+2023-07-10 19:16:52,226:DEBUG:root:add tp time{'color': '#F86C00', 'length': 782.408, 'travel_mode': 'tp', 'time': 117.93}
+2023-07-10 19:16:52,226:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 967.335, 'travel_mode': 'tp', 'time': 145.81}
+2023-07-10 19:16:52,226:DEBUG:root:add tp time{'color': '#e899a8', 'length': 967.335, 'travel_mode': 'tp', 'time': 145.81}
+2023-07-10 19:16:52,226:DEBUG:root:add tp time{'color': '#893267', 'length': 967.335, 'travel_mode': 'tp', 'time': 145.81}
+2023-07-10 19:16:52,226:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 1727.108, 'travel_mode': 'tp', 'time': 260.33}
+2023-07-10 19:16:52,226:DEBUG:root:add tp time{'color': '#e899a8', 'length': 1727.108, 'travel_mode': 'tp', 'time': 260.33}
+2023-07-10 19:16:52,226:DEBUG:root:add tp time{'color': '#893267', 'length': 1727.108, 'travel_mode': 'tp', 'time': 260.33}
+2023-07-10 19:16:52,226:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 1301.321, 'travel_mode': 'tp', 'time': 196.15}
+2023-07-10 19:16:52,226:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 676.474, 'travel_mode': 'tp', 'time': 101.97}
+2023-07-10 19:16:52,226:DEBUG:root:add tp time{'color': '#009fe0', 'length': 676.474, 'travel_mode': 'tp', 'time': 101.97}
+2023-07-10 19:16:52,226:DEBUG:root:add tp time{'color': '#0450a1', 'length': 2004.636, 'travel_mode': 'tp', 'time': 302.16}
+2023-07-10 19:16:52,226:DEBUG:root:add tp time{'color': '#0450a1', 'length': 836.091, 'travel_mode': 'tp', 'time': 126.02}
+2023-07-10 19:16:52,226:DEBUG:root:add tp time{'color': '#009fe0', 'length': 2272.867, 'travel_mode': 'tp', 'time': 342.59}
+2023-07-10 19:16:52,226:DEBUG:root:add tp time{'color': '#8f989e', 'length': 551.255, 'travel_mode': 'tp', 'time': 83.09}
+2023-07-10 19:16:52,226:DEBUG:root:add tp time{'color': '#8f989e', 'length': 774.195, 'travel_mode': 'tp', 'time': 116.7}
+2023-07-10 19:16:52,226:DEBUG:root:add tp time{'color': '#893267', 'length': 3091.928, 'travel_mode': 'tp', 'time': 466.05}
+2023-07-10 19:16:52,227:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 740.619, 'travel_mode': 'tp', 'time': 111.63}
+2023-07-10 19:16:52,227:DEBUG:root:add tp time{'color': '#00a575', 'length': 740.619, 'travel_mode': 'tp', 'time': 111.63}
+2023-07-10 19:16:52,227:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 752.811, 'travel_mode': 'tp', 'time': 113.47}
+2023-07-10 19:16:52,227:DEBUG:root:add tp time{'color': '#00a575', 'length': 752.811, 'travel_mode': 'tp', 'time': 113.47}
+2023-07-10 19:16:52,227:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 519.136, 'travel_mode': 'tp', 'time': 78.25}
+2023-07-10 19:16:52,227:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 548.162, 'travel_mode': 'tp', 'time': 82.62}
+2023-07-10 19:16:52,227:DEBUG:root:add tp time{'color': '#009fe0', 'length': 548.162, 'travel_mode': 'tp', 'time': 82.62}
+2023-07-10 19:16:52,227:DEBUG:root:add tp time{'color': '#009fe0', 'length': 1086.039, 'travel_mode': 'tp', 'time': 163.7}
+2023-07-10 19:16:52,229:DEBUG:root:add tp time{'color': '#F86C00', 'length': 1029.44, 'travel_mode': 'tp', 'time': 155.17}
+2023-07-10 19:16:52,229:DEBUG:root:add tp time{'color': '#F86C00', 'length': 739.658, 'travel_mode': 'tp', 'time': 111.49}
+2023-07-10 19:16:52,229:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 298.364, 'travel_mode': 'tp', 'time': 44.97}
+2023-07-10 19:16:52,229:DEBUG:root:add tp time{'color': '#00a575', 'length': 298.364, 'travel_mode': 'tp', 'time': 44.97}
+2023-07-10 19:16:52,229:DEBUG:root:add tp time{'color': '#F86C00', 'length': 853.247, 'travel_mode': 'tp', 'time': 128.61}
+2023-07-10 19:16:52,229:DEBUG:root:add tp time{'color': '#F86C00', 'length': 782.408, 'travel_mode': 'tp', 'time': 117.93}
+2023-07-10 19:16:52,229:DEBUG:root:add tp time{'color': '#009fe0', 'length': 2016.636, 'travel_mode': 'tp', 'time': 303.97}
+2023-07-10 19:16:52,229:DEBUG:root:add tp time{'color': '#009fe0', 'length': 2272.867, 'travel_mode': 'tp', 'time': 342.59}
+2023-07-10 19:16:52,230:DEBUG:root:add tp time{'color': '#ae6118', 'length': 809.882, 'travel_mode': 'tp', 'time': 122.07}
+2023-07-10 19:16:52,230:DEBUG:root:add tp time{'color': '#ae6118', 'length': 762.319, 'travel_mode': 'tp', 'time': 114.9}
+2023-07-10 19:16:52,230:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 784.023, 'travel_mode': 'tp', 'time': 118.18}
+2023-07-10 19:16:52,230:DEBUG:root:add tp time{'color': '#00a575', 'length': 784.023, 'travel_mode': 'tp', 'time': 118.18}
+2023-07-10 19:16:52,230:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 975.093, 'travel_mode': 'tp', 'time': 146.98}
+2023-07-10 19:16:52,230:DEBUG:root:add tp time{'color': '#00a575', 'length': 975.093, 'travel_mode': 'tp', 'time': 146.98}
+2023-07-10 19:16:52,230:DEBUG:root:add tp time{'color': '#009fe0', 'length': 1163.706, 'travel_mode': 'tp', 'time': 175.41}
+2023-07-10 19:16:52,230:DEBUG:root:add tp time{'color': '#009fe0', 'length': 1043.455, 'travel_mode': 'tp', 'time': 157.28}
+2023-07-10 19:16:52,231:DEBUG:root:add tp time{'color': '#ae6118', 'length': 823.839, 'travel_mode': 'tp', 'time': 124.18}
+2023-07-10 19:16:52,231:DEBUG:root:add tp time{'color': '#ae6118', 'length': 1005.397, 'travel_mode': 'tp', 'time': 151.54}
+2023-07-10 19:16:52,231:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 596.591, 'travel_mode': 'tp', 'time': 89.92}
+2023-07-10 19:16:52,231:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 691.425, 'travel_mode': 'tp', 'time': 104.22}
+2023-07-10 19:16:52,231:DEBUG:root:add tp time{'color': '#009fe0', 'length': 938.345, 'travel_mode': 'tp', 'time': 141.44}
+2023-07-10 19:16:52,231:DEBUG:root:add tp time{'color': '#009fe0', 'length': 1086.039, 'travel_mode': 'tp', 'time': 163.7}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#8f989e', 'length': 522.697, 'travel_mode': 'tp', 'time': 78.79}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#ae6118', 'length': 864.056, 'travel_mode': 'tp', 'time': 130.24}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 724.014, 'travel_mode': 'tp', 'time': 109.13}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 873.33, 'travel_mode': 'tp', 'time': 131.64}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 785.393, 'travel_mode': 'tp', 'time': 118.38}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 691.425, 'travel_mode': 'tp', 'time': 104.22}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#603E99', 'length': 1872.386, 'travel_mode': 'tp', 'time': 282.23}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#603E99', 'length': 1286.987, 'travel_mode': 'tp', 'time': 193.99}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 592.115, 'travel_mode': 'tp', 'time': 89.25}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 556.662, 'travel_mode': 'tp', 'time': 83.91}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#8f989e', 'length': 937.733, 'travel_mode': 'tp', 'time': 141.35}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#00a575', 'length': 459.345, 'travel_mode': 'tp', 'time': 69.24}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#F86C00', 'length': 1543.428, 'travel_mode': 'tp', 'time': 232.64}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 589.147, 'travel_mode': 'tp', 'time': 88.8}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 785.393, 'travel_mode': 'tp', 'time': 118.38}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#0450a1', 'length': 597.872, 'travel_mode': 'tp', 'time': 90.12}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#0450a1', 'length': 692.701, 'travel_mode': 'tp', 'time': 104.41}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 622.467, 'travel_mode': 'tp', 'time': 93.82}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 544.884, 'travel_mode': 'tp', 'time': 82.13}
+2023-07-10 19:16:52,234:DEBUG:root:add tp time{'color': '#70c3ce', 'length': 2012.034, 'travel_mode': 'tp', 'time': 303.28}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 1195.865, 'travel_mode': 'tp', 'time': 180.25}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 993.451, 'travel_mode': 'tp', 'time': 149.74}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#0450a1', 'length': 807.051, 'travel_mode': 'tp', 'time': 121.65}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#0450a1', 'length': 687.495, 'travel_mode': 'tp', 'time': 103.63}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 967.335, 'travel_mode': 'tp', 'time': 145.81}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#e899a8', 'length': 967.335, 'travel_mode': 'tp', 'time': 145.81}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#893267', 'length': 967.335, 'travel_mode': 'tp', 'time': 145.81}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 614.66, 'travel_mode': 'tp', 'time': 92.65}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#e899a8', 'length': 614.66, 'travel_mode': 'tp', 'time': 92.65}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#893267', 'length': 614.66, 'travel_mode': 'tp', 'time': 92.65}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 907.487, 'travel_mode': 'tp', 'time': 136.79}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#e899a8', 'length': 907.487, 'travel_mode': 'tp', 'time': 136.79}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#893267', 'length': 907.487, 'travel_mode': 'tp', 'time': 136.79}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 614.66, 'travel_mode': 'tp', 'time': 92.65}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#e899a8', 'length': 614.66, 'travel_mode': 'tp', 'time': 92.65}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#893267', 'length': 614.66, 'travel_mode': 'tp', 'time': 92.65}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#0450a1', 'length': 620.897, 'travel_mode': 'tp', 'time': 93.59}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#0450a1', 'length': 1207.272, 'travel_mode': 'tp', 'time': 181.97}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 392.196, 'travel_mode': 'tp', 'time': 59.12}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 592.115, 'travel_mode': 'tp', 'time': 89.25}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#0450a1', 'length': 295.622, 'travel_mode': 'tp', 'time': 44.56}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#0450a1', 'length': 421.558, 'travel_mode': 'tp', 'time': 63.54}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 650.257, 'travel_mode': 'tp', 'time': 98.01}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#e899a8', 'length': 650.257, 'travel_mode': 'tp', 'time': 98.01}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#893267', 'length': 650.257, 'travel_mode': 'tp', 'time': 98.01}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 497.93, 'travel_mode': 'tp', 'time': 75.05}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#e899a8', 'length': 497.93, 'travel_mode': 'tp', 'time': 75.05}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#893267', 'length': 497.93, 'travel_mode': 'tp', 'time': 75.05}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#ae6118', 'length': 813.043, 'travel_mode': 'tp', 'time': 122.55}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#ae6118', 'length': 993.185, 'travel_mode': 'tp', 'time': 149.7}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 777.766, 'travel_mode': 'tp', 'time': 117.23}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 627.265, 'travel_mode': 'tp', 'time': 94.55}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 1034.902, 'travel_mode': 'tp', 'time': 155.99}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#00a575', 'length': 1034.902, 'travel_mode': 'tp', 'time': 155.99}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 674.285, 'travel_mode': 'tp', 'time': 101.64}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#00a575', 'length': 674.285, 'travel_mode': 'tp', 'time': 101.64}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 1195.865, 'travel_mode': 'tp', 'time': 180.25}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 2081.575, 'travel_mode': 'tp', 'time': 313.76}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#0450a1', 'length': 807.051, 'travel_mode': 'tp', 'time': 121.65}
+2023-07-10 19:16:52,235:DEBUG:root:add tp time{'color': '#0450a1', 'length': 641.895, 'travel_mode': 'tp', 'time': 96.75}
+2023-07-10 19:16:52,236:DEBUG:root:add tp time{'color': '#8f989e', 'length': 937.733, 'travel_mode': 'tp', 'time': 141.35}
+2023-07-10 19:16:52,237:DEBUG:root:add tp time{'color': '#8f989e', 'length': 774.195, 'travel_mode': 'tp', 'time': 116.7}
+2023-07-10 19:16:52,237:DEBUG:root:add tp time{'color': '#F86C00', 'length': 854.693, 'travel_mode': 'tp', 'time': 128.83}
+2023-07-10 19:16:52,237:DEBUG:root:add tp time{'color': '#F86C00', 'length': 611.369, 'travel_mode': 'tp', 'time': 92.15}
+2023-07-10 19:16:52,237:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 883.132, 'travel_mode': 'tp', 'time': 133.12}
+2023-07-10 19:16:52,237:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 993.451, 'travel_mode': 'tp', 'time': 149.74}
+2023-07-10 19:16:52,237:DEBUG:root:add tp time{'color': '#ae6118', 'length': 789.288, 'travel_mode': 'tp', 'time': 118.97}
+2023-07-10 19:16:52,237:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 789.288, 'travel_mode': 'tp', 'time': 118.97}
+2023-07-10 19:16:52,237:DEBUG:root:add tp time{'color': '#ae6118', 'length': 454.044, 'travel_mode': 'tp', 'time': 68.44}
+2023-07-10 19:16:52,237:DEBUG:root:add tp time{'color': '#8f989e', 'length': 522.697, 'travel_mode': 'tp', 'time': 78.79}
+2023-07-10 19:16:52,237:DEBUG:root:add tp time{'color': '#8f989e', 'length': 842.768, 'travel_mode': 'tp', 'time': 127.03}
+2023-07-10 19:16:52,237:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 1759.796, 'travel_mode': 'tp', 'time': 265.26}
+2023-07-10 19:16:52,237:DEBUG:root:add tp time{'color': '#70c3ce', 'length': 2012.034, 'travel_mode': 'tp', 'time': 303.28}
+2023-07-10 19:16:52,238:DEBUG:root:add tp time{'color': '#8f989e', 'length': 1756.454, 'travel_mode': 'tp', 'time': 264.75}
+2023-07-10 19:16:52,238:DEBUG:root:add tp time{'color': '#8f989e', 'length': 889.818, 'travel_mode': 'tp', 'time': 134.12}
+2023-07-10 19:16:52,238:DEBUG:root:add tp time{'color': '#8f989e', 'length': 925.611, 'travel_mode': 'tp', 'time': 139.52}
+2023-07-10 19:16:52,238:DEBUG:root:add tp time{'color': '#8f989e', 'length': 1364.325, 'travel_mode': 'tp', 'time': 205.65}
+2023-07-10 19:16:52,238:DEBUG:root:add tp time{'color': '#0450a1', 'length': 826.087, 'travel_mode': 'tp', 'time': 124.52}
+2023-07-10 19:16:52,238:DEBUG:root:add tp time{'color': '#0450a1', 'length': 673.803, 'travel_mode': 'tp', 'time': 101.56}
+2023-07-10 19:16:52,238:DEBUG:root:add tp time{'color': '#009fe0', 'length': 1163.706, 'travel_mode': 'tp', 'time': 175.41}
+2023-07-10 19:16:52,238:DEBUG:root:add tp time{'color': '#009fe0', 'length': 938.345, 'travel_mode': 'tp', 'time': 141.44}
+2023-07-10 19:16:52,238:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 589.147, 'travel_mode': 'tp', 'time': 88.8}
+2023-07-10 19:16:52,238:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 1068.683, 'travel_mode': 'tp', 'time': 161.08}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 972.432, 'travel_mode': 'tp', 'time': 146.58}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#e899a8', 'length': 972.432, 'travel_mode': 'tp', 'time': 146.58}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 876.443, 'travel_mode': 'tp', 'time': 132.11}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#e899a8', 'length': 876.443, 'travel_mode': 'tp', 'time': 132.11}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 607.524, 'travel_mode': 'tp', 'time': 91.57}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 1244.177, 'travel_mode': 'tp', 'time': 187.54}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 519.136, 'travel_mode': 'tp', 'time': 78.25}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 556.662, 'travel_mode': 'tp', 'time': 83.91}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 607.524, 'travel_mode': 'tp', 'time': 91.57}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 596.591, 'travel_mode': 'tp', 'time': 89.92}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#603E99', 'length': 1827.415, 'travel_mode': 'tp', 'time': 275.45}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#603E99', 'length': 1286.987, 'travel_mode': 'tp', 'time': 193.99}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#8f989e', 'length': 1161.006, 'travel_mode': 'tp', 'time': 175.0}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#8f989e', 'length': 925.611, 'travel_mode': 'tp', 'time': 139.52}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 1240.973, 'travel_mode': 'tp', 'time': 187.05}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#00a575', 'length': 1240.973, 'travel_mode': 'tp', 'time': 187.05}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 975.093, 'travel_mode': 'tp', 'time': 146.98}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#00a575', 'length': 975.093, 'travel_mode': 'tp', 'time': 146.98}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 755.283, 'travel_mode': 'tp', 'time': 113.84}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#e899a8', 'length': 755.283, 'travel_mode': 'tp', 'time': 113.84}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 876.443, 'travel_mode': 'tp', 'time': 132.11}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#e899a8', 'length': 876.443, 'travel_mode': 'tp', 'time': 132.11}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#00a575', 'length': 1017.055, 'travel_mode': 'tp', 'time': 153.3}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#00a575', 'length': 1312.558, 'travel_mode': 'tp', 'time': 197.84}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#00a575', 'length': 459.345, 'travel_mode': 'tp', 'time': 69.24}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#00a575', 'length': 861.966, 'travel_mode': 'tp', 'time': 129.92}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#00a575', 'length': 829.935, 'travel_mode': 'tp', 'time': 125.1}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#0450a1', 'length': 829.935, 'travel_mode': 'tp', 'time': 125.1}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 755.283, 'travel_mode': 'tp', 'time': 113.84}
+2023-07-10 19:16:52,239:DEBUG:root:add tp time{'color': '#e899a8', 'length': 755.283, 'travel_mode': 'tp', 'time': 113.84}
+2023-07-10 19:16:52,240:DEBUG:root:add tp time{'color': '#ae6118', 'length': 864.056, 'travel_mode': 'tp', 'time': 130.24}
+2023-07-10 19:16:52,240:DEBUG:root:add tp time{'color': '#ae6118', 'length': 454.044, 'travel_mode': 'tp', 'time': 68.44}
+2023-07-10 19:16:52,240:DEBUG:root:add tp time{'color': '#ae6118', 'length': 398.564, 'travel_mode': 'tp', 'time': 60.08}
+2023-07-10 19:16:52,240:DEBUG:root:add tp time{'color': '#ae6118', 'length': 445.424, 'travel_mode': 'tp', 'time': 67.14}
+2023-07-10 19:16:52,241:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 1099.815, 'travel_mode': 'tp', 'time': 165.78}
+2023-07-10 19:16:52,241:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 744.02, 'travel_mode': 'tp', 'time': 112.15}
+2023-07-10 19:16:52,243:DEBUG:root:add tp time{'color': '#0450a1', 'length': 687.495, 'travel_mode': 'tp', 'time': 103.63}
+2023-07-10 19:16:52,243:DEBUG:root:add tp time{'color': '#0450a1', 'length': 972.608, 'travel_mode': 'tp', 'time': 146.6}
+2023-07-10 19:16:52,243:DEBUG:root:add tp time{'color': '#009fe0', 'length': 2016.636, 'travel_mode': 'tp', 'time': 303.97}
+2023-07-10 19:16:52,243:DEBUG:root:add tp time{'color': '#00a575', 'length': 1312.558, 'travel_mode': 'tp', 'time': 197.84}
+2023-07-10 19:16:52,243:DEBUG:root:add tp time{'color': '#F86C00', 'length': 1543.428, 'travel_mode': 'tp', 'time': 232.64}
+2023-07-10 19:16:52,243:DEBUG:root:add tp time{'color': '#ae6118', 'length': 398.564, 'travel_mode': 'tp', 'time': 60.08}
+2023-07-10 19:16:52,243:DEBUG:root:add tp time{'color': '#ae6118', 'length': 748.556, 'travel_mode': 'tp', 'time': 112.83}
+2023-07-10 19:16:52,243:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 748.556, 'travel_mode': 'tp', 'time': 112.83}
+2023-07-10 19:16:52,243:DEBUG:root:add tp time{'color': '#00a575', 'length': 748.556, 'travel_mode': 'tp', 'time': 112.83}
+2023-07-10 19:16:52,243:DEBUG:root:add tp time{'color': '#e899a8', 'length': 748.556, 'travel_mode': 'tp', 'time': 112.83}
+2023-07-10 19:16:52,243:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 811.468, 'travel_mode': 'tp', 'time': 122.31}
+2023-07-10 19:16:52,243:DEBUG:root:add tp time{'color': '#e899a8', 'length': 811.468, 'travel_mode': 'tp', 'time': 122.31}
+2023-07-10 19:16:52,243:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 622.467, 'travel_mode': 'tp', 'time': 93.82}
+2023-07-10 19:16:52,243:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 1068.683, 'travel_mode': 'tp', 'time': 161.08}
+2023-07-10 19:16:52,243:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 650.257, 'travel_mode': 'tp', 'time': 98.01}
+2023-07-10 19:16:52,243:DEBUG:root:add tp time{'color': '#e899a8', 'length': 650.257, 'travel_mode': 'tp', 'time': 98.01}
+2023-07-10 19:16:52,243:DEBUG:root:add tp time{'color': '#893267', 'length': 650.257, 'travel_mode': 'tp', 'time': 98.01}
+2023-07-10 19:16:52,244:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 544.884, 'travel_mode': 'tp', 'time': 82.13}
+2023-07-10 19:16:52,244:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 823.157, 'travel_mode': 'tp', 'time': 124.08}
+2023-07-10 19:16:52,244:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 1301.321, 'travel_mode': 'tp', 'time': 196.15}
+2023-07-10 19:16:52,244:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 1514.258, 'travel_mode': 'tp', 'time': 228.25}
+2023-07-10 19:16:52,245:DEBUG:root:add tp time{'color': '#8f989e', 'length': 551.255, 'travel_mode': 'tp', 'time': 83.09}
+2023-07-10 19:16:52,245:DEBUG:root:add tp time{'color': '#8f989e', 'length': 889.818, 'travel_mode': 'tp', 'time': 134.12}
+2023-07-10 19:16:52,245:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 816.179, 'travel_mode': 'tp', 'time': 123.02}
+2023-07-10 19:16:52,245:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 627.265, 'travel_mode': 'tp', 'time': 94.55}
+2023-07-10 19:16:52,245:DEBUG:root:add tp time{'color': '#ae6118', 'length': 748.556, 'travel_mode': 'tp', 'time': 112.83}
+2023-07-10 19:16:52,246:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 748.556, 'travel_mode': 'tp', 'time': 112.83}
+2023-07-10 19:16:52,246:DEBUG:root:add tp time{'color': '#00a575', 'length': 748.556, 'travel_mode': 'tp', 'time': 112.83}
+2023-07-10 19:16:52,246:DEBUG:root:add tp time{'color': '#e899a8', 'length': 748.556, 'travel_mode': 'tp', 'time': 112.83}
+2023-07-10 19:16:52,246:DEBUG:root:add tp time{'color': '#ae6118', 'length': 993.185, 'travel_mode': 'tp', 'time': 149.7}
+2023-07-10 19:16:52,246:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 900.751, 'travel_mode': 'tp', 'time': 135.77}
+2023-07-10 19:16:52,246:DEBUG:root:add tp time{'color': '#00a575', 'length': 900.751, 'travel_mode': 'tp', 'time': 135.77}
+2023-07-10 19:16:52,246:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 972.432, 'travel_mode': 'tp', 'time': 146.58}
+2023-07-10 19:16:52,246:DEBUG:root:add tp time{'color': '#e899a8', 'length': 972.432, 'travel_mode': 'tp', 'time': 146.58}
+2023-07-10 19:16:52,246:DEBUG:root:add tp time{'color': '#603E99', 'length': 1827.415, 'travel_mode': 'tp', 'time': 275.45}
+2023-07-10 19:16:52,246:DEBUG:root:add tp time{'color': '#F86C00', 'length': 854.693, 'travel_mode': 'tp', 'time': 128.83}
+2023-07-10 19:16:52,246:DEBUG:root:add tp time{'color': '#F86C00', 'length': 725.804, 'travel_mode': 'tp', 'time': 109.4}
+2023-07-10 19:16:52,246:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 744.02, 'travel_mode': 'tp', 'time': 112.15}
+2023-07-10 19:16:52,247:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 844.579, 'travel_mode': 'tp', 'time': 127.3}
+2023-07-10 19:16:52,247:DEBUG:root:add tp time{'color': '#f8d42d', 'length': 662.468, 'travel_mode': 'tp', 'time': 99.85}
+2023-07-10 19:16:52,247:DEBUG:root:add tp time{'color': '#00a575', 'length': 662.468, 'travel_mode': 'tp', 'time': 99.85}
+2023-07-10 19:16:52,247:DEBUG:root:add tp time{'color': '#0450a1', 'length': 662.468, 'travel_mode': 'tp', 'time': 99.85}
+2023-07-10 19:16:52,247:DEBUG:root:add tp time{'color': '#00a575', 'length': 829.935, 'travel_mode': 'tp', 'time': 125.1}
+2023-07-10 19:16:52,247:DEBUG:root:add tp time{'color': '#0450a1', 'length': 829.935, 'travel_mode': 'tp', 'time': 125.1}
+2023-07-10 19:16:52,247:DEBUG:root:add tp time{'color': '#ae6118', 'length': 197.281, 'travel_mode': 'tp', 'time': 29.74}
+2023-07-10 19:16:52,247:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 197.281, 'travel_mode': 'tp', 'time': 29.74}
+2023-07-10 19:16:52,247:DEBUG:root:add tp time{'color': '#ae6118', 'length': 608.24, 'travel_mode': 'tp', 'time': 91.68}
+2023-07-10 19:16:52,247:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 392.196, 'travel_mode': 'tp', 'time': 59.12}
+2023-07-10 19:16:52,248:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 873.33, 'travel_mode': 'tp', 'time': 131.64}
+2023-07-10 19:16:52,248:DEBUG:root:add tp time{'color': '#1C1C1C', 'length': 1759.796, 'travel_mode': 'tp', 'time': 265.26}
+2023-07-10 19:16:52,249:DEBUG:root:add tp time{'color': '#e41f1f', 'length': 777.766, 'travel_mode': 'tp', 'time': 117.23}
+2023-07-10 19:16:52,249:DEBUG:root:add tp time{'color': '#F86C00', 'length': 1660.505, 'travel_mode': 'tp', 'time': 250.29}
+2023-07-10 19:16:52,249:DEBUG:root:add tp time{'color': '#F86C00', 'length': 739.658, 'travel_mode': 'tp', 'time': 111.49}
+2023-07-10 19:16:53,160:DEBUG:root:AWT_ORIGIN: 5.0 minutes
+2023-07-10 19:16:53,161:DEBUG:root:AWT_DEST: 5.0 minutes
+
+2023-07-10 19:16:54,065:DEBUG:root:AWT_ORIGIN: 7.0 minutes
+2023-07-10 19:16:54,065:DEBUG:root:AWT_DEST: 7.0 minutes
+
+2023-07-10 19:16:54,902:DEBUG:root:AWT_ORIGIN: 9.0 minutes
+2023-07-10 19:16:54,902:DEBUG:root:AWT_DEST: 9.0 minutes
+
+2023-07-10 19:16:55,718:DEBUG:root:AWT_ORIGIN: 11.0 minutes
+2023-07-10 19:16:55,718:DEBUG:root:AWT_DEST: 11.0 minutes
+
+2023-07-10 19:16:56,524:DEBUG:root:AWT_ORIGIN: 13.0 minutes
+2023-07-10 19:16:56,524:DEBUG:root:AWT_DEST: 13.0 minutes
+
+2023-07-10 19:16:57,376:DEBUG:root:AWT_ORIGIN: 13.0 minutes
+2023-07-10 19:16:57,376:DEBUG:root:AWT_DEST: 15.0 minutes
+
+2023-07-10 19:16:58,194:DEBUG:root:AWT_ORIGIN: 13.0 minutes
+2023-07-10 19:16:58,195:DEBUG:root:AWT_DEST: 17.0 minutes
+
+2023-07-10 19:16:59,065:DEBUG:root:AWT_ORIGIN: 13.0 minutes
+2023-07-10 19:16:59,065:DEBUG:root:AWT_DEST: 19.0 minutes
+
+2023-07-10 19:16:59,895:DEBUG:root:AWT_ORIGIN: 13.0 minutes
+2023-07-10 19:16:59,895:DEBUG:root:AWT_DEST: 21.0 minutes
+
+2023-07-10 19:17:00,725:DEBUG:root:AWT_ORIGIN: 13.0 minutes
+2023-07-10 19:17:00,725:DEBUG:root:AWT_DEST: 23.0 minutes
+
+2023-07-10 19:17:01,564:DEBUG:root:AWT_ORIGIN: 13.0 minutes
+2023-07-10 19:17:01,565:DEBUG:root:AWT_DEST: 25.0 minutes
+
+2023-07-10 19:17:01,565:DEBUG:root:Searching route 1 from West Hampstead to Temple
+2023-07-10 19:17:01,773:DEBUG:root:all shortest paths: 1
+
+2023-07-10 19:17:01,773:DEBUG:root:Start at : Finchley Road Station, London, UK
+2023-07-10 19:17:01,773:DEBUG:root:1. 🚄 From [Finchley Road] take Jubilee line
+2023-07-10 19:17:01,774:DEBUG:root:   -> to [Bond Street]
+2023-07-10 19:17:01,774:DEBUG:root:2. 🚄 Change at [Bond Street] to Central line
+2023-07-10 19:17:01,774:DEBUG:root:   -> to [Oxford Circus]
+2023-07-10 19:17:01,774:DEBUG:root:3. 🚄 Change at [Oxford Circus] to Bakerloo line
+2023-07-10 19:17:01,774:DEBUG:root:   -> to [Embankment]
+2023-07-10 19:17:01,774:DEBUG:root:4. 🚄 Change at [Embankment] to District line
+2023-07-10 19:17:01,774:DEBUG:root:   -> Get off at [Temple]
+2023-07-10 19:17:01,774:DEBUG:root:5. 🚶🏻 Walk
+2023-07-10 19:17:01,774:DEBUG:root:Reaching destination: Bush House, London, UK
+
+2023-07-10 19:17:01,774:DEBUG:root:Transfers: 5 times
+2023-07-10 19:17:01,774:DEBUG:root:Total wk time: 6.57 minutes
+2023-07-10 19:17:01,774:DEBUG:root:Total tp time: 22.06 minutes
+2023-07-10 19:17:01,774:DEBUG:root:Total Trip time: 28.63 minutes
+2023-07-10 19:17:01,774:DEBUG:root:Final weight: 43.629999999999995 
+
+
+2023-07-10 19:17:01,774:DEBUG:root:Searching route 2 from Finchley Road to Temple
+2023-07-10 19:17:09,989:DEBUG:root:all shortest paths: 1
+
+2023-07-10 19:17:09,990:DEBUG:root:Start at : Finchley Road Station, London, UK
+2023-07-10 19:17:09,990:DEBUG:root:1. 🚄 From [Finchley Road] take Jubilee line
+2023-07-10 19:17:09,990:DEBUG:root:   -> to [Bond Street]
+2023-07-10 19:17:09,990:DEBUG:root:2. 🚄 Change at [Bond Street] to Central line
+2023-07-10 19:17:09,990:DEBUG:root:   -> to [Oxford Circus]
+2023-07-10 19:17:09,990:DEBUG:root:3. 🚄 Change at [Oxford Circus] to Bakerloo line
+2023-07-10 19:17:09,990:DEBUG:root:   -> to [Embankment]
+2023-07-10 19:17:09,990:DEBUG:root:4. 🚄 Change at [Embankment] to District line
+2023-07-10 19:17:09,990:DEBUG:root:   -> Get off at [Temple]
+2023-07-10 19:17:09,990:DEBUG:root:5. 🚶🏻 Walk
+2023-07-10 19:17:09,990:DEBUG:root:Reaching destination: Bush House, London, UK
+
+2023-07-10 19:17:09,990:DEBUG:root:Transfers: 5 times
+2023-07-10 19:17:09,990:DEBUG:root:Total wk time: 6.57 minutes
+2023-07-10 19:17:09,990:DEBUG:root:Total tp time: 18.17 minutes
+2023-07-10 19:17:09,990:DEBUG:root:Total Trip time: 24.740000000000002 minutes
+2023-07-10 19:17:09,990:DEBUG:root:Final weight: 39.74 
+
+
+2023-07-10 19:17:09,990:DEBUG:root:Searching route 3 from Swiss Cottage to Temple
+2023-07-10 19:17:10,145:DEBUG:root:all shortest paths: 1
+
+2023-07-10 19:17:10,145:DEBUG:root:Start at : Finchley Road Station, London, UK
+2023-07-10 19:17:10,145:DEBUG:root:1. 🚄 From [Finchley Road] take Jubilee line
+2023-07-10 19:17:10,145:DEBUG:root:   -> to [Bond Street]
+2023-07-10 19:17:10,145:DEBUG:root:2. 🚄 Change at [Bond Street] to Central line
+2023-07-10 19:17:10,145:DEBUG:root:   -> to [Oxford Circus]
+2023-07-10 19:17:10,145:DEBUG:root:3. 🚄 Change at [Oxford Circus] to Bakerloo line
+2023-07-10 19:17:10,145:DEBUG:root:   -> to [Embankment]
+2023-07-10 19:17:10,145:DEBUG:root:4. 🚄 Change at [Embankment] to District line
+2023-07-10 19:17:10,145:DEBUG:root:   -> Get off at [Temple]
+2023-07-10 19:17:10,145:DEBUG:root:5. 🚶🏻 Walk
+2023-07-10 19:17:10,145:DEBUG:root:Reaching destination: Bush House, London, UK
+
+2023-07-10 19:17:10,145:DEBUG:root:Transfers: 5 times
+2023-07-10 19:17:10,145:DEBUG:root:Total wk time: 6.57 minutes
+2023-07-10 19:17:10,145:DEBUG:root:Total tp time: 18.43 minutes
+2023-07-10 19:17:10,145:DEBUG:root:Total Trip time: 25.0 minutes
+2023-07-10 19:17:10,145:DEBUG:root:Final weight: 40.0 
+
+
+2023-07-10 19:17:10,145:DEBUG:root:Searching route 4 from West Hampstead to Blackfriars
+2023-07-10 19:17:10,305:DEBUG:root:all shortest paths: 1
+
+2023-07-10 19:17:10,305:DEBUG:root:Start at : Finchley Road Station, London, UK
+2023-07-10 19:17:10,305:DEBUG:root:1. 🚄 From [Finchley Road] take Jubilee line
+2023-07-10 19:17:10,305:DEBUG:root:   -> to [Bond Street]
+2023-07-10 19:17:10,306:DEBUG:root:2. 🚄 Change at [Bond Street] to Central line
+2023-07-10 19:17:10,306:DEBUG:root:   -> to [Oxford Circus]
+2023-07-10 19:17:10,306:DEBUG:root:3. 🚄 Change at [Oxford Circus] to Bakerloo line
+2023-07-10 19:17:10,306:DEBUG:root:   -> to [Embankment]
+2023-07-10 19:17:10,306:DEBUG:root:4. 🚄 Change at [Embankment] to District line
+2023-07-10 19:17:10,306:DEBUG:root:   -> Get off at [Temple]
+2023-07-10 19:17:10,306:DEBUG:root:5. 🚶🏻 Walk
+2023-07-10 19:17:10,306:DEBUG:root:Reaching destination: Bush House, London, UK
+
+2023-07-10 19:17:10,306:DEBUG:root:Transfers: 5 times
+2023-07-10 19:17:10,306:DEBUG:root:Total wk time: 6.57 minutes
+2023-07-10 19:17:10,306:DEBUG:root:Total tp time: 25.78 minutes
+2023-07-10 19:17:10,306:DEBUG:root:Total Trip time: 32.35 minutes
+2023-07-10 19:17:10,306:DEBUG:root:Final weight: 47.35 
+
+
+2023-07-10 19:17:10,306:DEBUG:root:Searching route 5 from Finchley Road to Blackfriars
+2023-07-10 19:17:10,459:DEBUG:root:all shortest paths: 1
+
+2023-07-10 19:17:10,459:DEBUG:root:Start at : Finchley Road Station, London, UK
+2023-07-10 19:17:10,459:DEBUG:root:1. 🚄 From [Finchley Road] take Jubilee line
+2023-07-10 19:17:10,459:DEBUG:root:   -> to [Bond Street]
+2023-07-10 19:17:10,459:DEBUG:root:2. 🚄 Change at [Bond Street] to Central line
+2023-07-10 19:17:10,459:DEBUG:root:   -> to [Oxford Circus]
+2023-07-10 19:17:10,459:DEBUG:root:3. 🚄 Change at [Oxford Circus] to Bakerloo line
+2023-07-10 19:17:10,459:DEBUG:root:   -> to [Embankment]
+2023-07-10 19:17:10,459:DEBUG:root:4. 🚄 Change at [Embankment] to District line
+2023-07-10 19:17:10,459:DEBUG:root:   -> Get off at [Temple]
+2023-07-10 19:17:10,459:DEBUG:root:5. 🚶🏻 Walk
+2023-07-10 19:17:10,459:DEBUG:root:Reaching destination: Bush House, London, UK
+
+2023-07-10 19:17:10,459:DEBUG:root:Transfers: 5 times
+2023-07-10 19:17:10,459:DEBUG:root:Total wk time: 6.57 minutes
+2023-07-10 19:17:10,459:DEBUG:root:Total tp time: 21.89 minutes
+2023-07-10 19:17:10,459:DEBUG:root:Total Trip time: 28.46 minutes
+2023-07-10 19:17:10,459:DEBUG:root:Final weight: 43.46 
+
+
+2023-07-10 19:17:10,459:DEBUG:root:Searching route 6 from Swiss Cottage to Blackfriars
+2023-07-10 19:17:10,616:DEBUG:root:all shortest paths: 1
+
+2023-07-10 19:17:10,616:DEBUG:root:Start at : Finchley Road Station, London, UK
+2023-07-10 19:17:10,616:DEBUG:root:1. 🚄 From [Finchley Road] take Jubilee line
+2023-07-10 19:17:10,616:DEBUG:root:   -> to [Bond Street]
+2023-07-10 19:17:10,616:DEBUG:root:2. 🚄 Change at [Bond Street] to Central line
+2023-07-10 19:17:10,616:DEBUG:root:   -> to [Oxford Circus]
+2023-07-10 19:17:10,616:DEBUG:root:3. 🚄 Change at [Oxford Circus] to Bakerloo line
+2023-07-10 19:17:10,616:DEBUG:root:   -> to [Embankment]
+2023-07-10 19:17:10,616:DEBUG:root:4. 🚄 Change at [Embankment] to District line
+2023-07-10 19:17:10,616:DEBUG:root:   -> Get off at [Temple]
+2023-07-10 19:17:10,616:DEBUG:root:5. 🚶🏻 Walk
+2023-07-10 19:17:10,616:DEBUG:root:Reaching destination: Bush House, London, UK
+
+2023-07-10 19:17:10,616:DEBUG:root:Transfers: 5 times
+2023-07-10 19:17:10,616:DEBUG:root:Total wk time: 6.57 minutes
+2023-07-10 19:17:10,616:DEBUG:root:Total tp time: 22.15 minutes
+2023-07-10 19:17:10,616:DEBUG:root:Total Trip time: 28.72 minutes
+2023-07-10 19:17:10,616:DEBUG:root:Final weight: 43.72 
+
+
+2023-07-10 19:17:10,616:DEBUG:root:Searching route 7 from West Hampstead to Embankment
+2023-07-10 19:17:10,771:DEBUG:root:all shortest paths: 1
+
+2023-07-10 19:17:10,771:DEBUG:root:Start at : Finchley Road Station, London, UK
+2023-07-10 19:17:10,771:DEBUG:root:1. 🚄 From [Finchley Road] take Jubilee line
+2023-07-10 19:17:10,771:DEBUG:root:   -> to [Bond Street]
+2023-07-10 19:17:10,771:DEBUG:root:2. 🚄 Change at [Bond Street] to Central line
+2023-07-10 19:17:10,771:DEBUG:root:   -> to [Oxford Circus]
+2023-07-10 19:17:10,771:DEBUG:root:3. 🚄 Change at [Oxford Circus] to Bakerloo line
+2023-07-10 19:17:10,771:DEBUG:root:   -> to [Embankment]
+2023-07-10 19:17:10,771:DEBUG:root:4. 🚄 Change at [Embankment] to District line
+2023-07-10 19:17:10,771:DEBUG:root:   -> Get off at [Temple]
+2023-07-10 19:17:10,771:DEBUG:root:5. 🚶🏻 Walk
+2023-07-10 19:17:10,771:DEBUG:root:Reaching destination: Bush House, London, UK
+
+2023-07-10 19:17:10,771:DEBUG:root:Transfers: 5 times
+2023-07-10 19:17:10,771:DEBUG:root:Total wk time: 6.57 minutes
+2023-07-10 19:17:10,771:DEBUG:root:Total tp time: 22.06 minutes
+2023-07-10 19:17:10,771:DEBUG:root:Total Trip time: 28.63 minutes
+2023-07-10 19:17:10,771:DEBUG:root:Final weight: 43.629999999999995 
+
+
+2023-07-10 19:17:10,771:DEBUG:root:Searching route 8 from Finchley Road to Embankment
+2023-07-10 19:17:10,922:DEBUG:root:all shortest paths: 1
+
+2023-07-10 19:17:10,922:DEBUG:root:Start at : Finchley Road Station, London, UK
+2023-07-10 19:17:10,922:DEBUG:root:1. 🚄 From [Finchley Road] take Jubilee line
+2023-07-10 19:17:10,922:DEBUG:root:   -> to [Bond Street]
+2023-07-10 19:17:10,922:DEBUG:root:2. 🚄 Change at [Bond Street] to Central line
+2023-07-10 19:17:10,922:DEBUG:root:   -> to [Oxford Circus]
+2023-07-10 19:17:10,922:DEBUG:root:3. 🚄 Change at [Oxford Circus] to Bakerloo line
+2023-07-10 19:17:10,922:DEBUG:root:   -> to [Embankment]
+2023-07-10 19:17:10,922:DEBUG:root:4. 🚄 Change at [Embankment] to District line
+2023-07-10 19:17:10,922:DEBUG:root:   -> Get off at [Temple]
+2023-07-10 19:17:10,922:DEBUG:root:5. 🚶🏻 Walk
+2023-07-10 19:17:10,922:DEBUG:root:Reaching destination: Bush House, London, UK
+
+2023-07-10 19:17:10,922:DEBUG:root:Transfers: 5 times
+2023-07-10 19:17:10,922:DEBUG:root:Total wk time: 6.57 minutes
+2023-07-10 19:17:10,922:DEBUG:root:Total tp time: 18.17 minutes
+2023-07-10 19:17:10,922:DEBUG:root:Total Trip time: 24.740000000000002 minutes
+2023-07-10 19:17:10,922:DEBUG:root:Final weight: 39.74 
+
+
+2023-07-10 19:17:10,922:DEBUG:root:Searching route 9 from Swiss Cottage to Embankment
+2023-07-10 19:17:11,082:DEBUG:root:all shortest paths: 1
+
+2023-07-10 19:17:11,082:DEBUG:root:Start at : Finchley Road Station, London, UK
+2023-07-10 19:17:11,082:DEBUG:root:1. 🚄 From [Finchley Road] take Jubilee line
+2023-07-10 19:17:11,082:DEBUG:root:   -> to [Bond Street]
+2023-07-10 19:17:11,082:DEBUG:root:2. 🚄 Change at [Bond Street] to Central line
+2023-07-10 19:17:11,083:DEBUG:root:   -> to [Oxford Circus]
+2023-07-10 19:17:11,083:DEBUG:root:3. 🚄 Change at [Oxford Circus] to Bakerloo line
+2023-07-10 19:17:11,083:DEBUG:root:   -> to [Embankment]
+2023-07-10 19:17:11,083:DEBUG:root:4. 🚄 Change at [Embankment] to District line
+2023-07-10 19:17:11,083:DEBUG:root:   -> Get off at [Temple]
+2023-07-10 19:17:11,083:DEBUG:root:5. 🚶🏻 Walk
+2023-07-10 19:17:11,083:DEBUG:root:Reaching destination: Bush House, London, UK
+
+2023-07-10 19:17:11,083:DEBUG:root:Transfers: 5 times
+2023-07-10 19:17:11,083:DEBUG:root:Total wk time: 6.57 minutes
+2023-07-10 19:17:11,083:DEBUG:root:Total tp time: 18.43 minutes
+2023-07-10 19:17:11,083:DEBUG:root:Total Trip time: 25.0 minutes
+2023-07-10 19:17:11,083:DEBUG:root:Final weight: 40.0 
+
+
+2023-07-10 19:17:11,083:DEBUG:root:Total number of routes searched: 9
+
+
