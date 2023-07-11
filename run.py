@@ -10,6 +10,11 @@ if __name__ == "__main__":
     with open("input/ends.txt", encoding="utf-8") as f:
         ends_list = [x.rstrip() for x in f]
 
+    # set up output file and clear old content
+    OUTPUT_FILE = "output/directions.json"
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        f.write("\n")
+
     LINE_COUNT = 0
     for start, intermediary, end in zip(starts_list, intermediary_list, ends_list):
         LINE_COUNT = LINE_COUNT + 1
@@ -22,6 +27,7 @@ if __name__ == "__main__":
             f"place_id:{end}",
             mode="transit",
             alternatives=False,
+            output_file=OUTPUT_FILE,
         )
 
         route_original.get_directions_transit()
@@ -34,6 +40,7 @@ if __name__ == "__main__":
             f"place_id:{intermediary}",
             mode="transit",
             alternatives=False,
+            output_file=OUTPUT_FILE,
         )
 
         route_alt_1.get_directions_transit()
@@ -57,6 +64,7 @@ if __name__ == "__main__":
             mode="transit",
             alternatives=True,
             departure_time=test_datetime + timedelta(seconds=route_alt_1.routes[0].total_duration),
+            output_file=OUTPUT_FILE,
         )
 
         route_alt_2.get_directions_transit()

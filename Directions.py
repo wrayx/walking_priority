@@ -28,6 +28,7 @@ class Directions:
             minute=0,
             second=0,
         ),
+        output_file="output/directions.json",
     ):
         self.mode = mode
         self.origin_input = start
@@ -37,6 +38,7 @@ class Directions:
         self.routes = []
         self.alternatives = alternatives
         self.departure_time = departure_time
+        self.output_file = output_file
 
         # setup API key
         self.setup()
@@ -119,7 +121,7 @@ class Directions:
                 travel_modes.append((travel_mode.capitalize(), step["html_instructions"]))
                 origin_destination_pairs.append(("n/a", "n/a"))
             if travel_mode == "TRANSIT":
-                travel_modes.append((travel_mode.capitalize(), step["transit_details"]["line"]["vehicle"]["name"]))
+                travel_modes.append((travel_mode.capitalize(), step["transit_details"]["line"]["color"]))
                 depart = step["transit_details"]["departure_stop"]["name"]
                 arrive = step["transit_details"]["arrival_stop"]["name"]
                 origin_destination_pairs.append((depart, arrive))
@@ -129,6 +131,11 @@ class Directions:
         route.setTravelDistances(travel_distances)
         route.setPartialOriginDestinationPairs(origin_destination_pairs)
         route.setWaypoints(waypoints)
+        with open(self.output_file, "a", encoding="utf-8") as f:
+            f.write(json.dumps(waypoints))
+            f.write("\n")
+            f.write(json.dumps(travel_modes))
+            f.write("\n")
         print(waypoints)
         print(travel_modes)
 
