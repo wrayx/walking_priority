@@ -1,664 +1,783 @@
-2023-07-10 23:47:54,564:INFO:root:Start of the program
-2023-07-10 23:48:24,265:DEBUG:root:1741590045 add Baker Street [Bakerloo]
-2023-07-10 23:48:24,266:DEBUG:root:1427421955 add Regents Park [Bakerloo]
-2023-07-10 23:48:24,367:DEBUG:root:9904350256 add Charing Cross [Bakerloo]
-2023-07-10 23:48:24,367:DEBUG:root:25476051 add Embankment [Bakerloo]
-2023-07-10 23:48:24,465:DEBUG:root:8731461097 add Edgware Road [Bakerloo]
-2023-07-10 23:48:24,465:DEBUG:root:7770710708 add Marylebone [Bakerloo]
-2023-07-10 23:48:24,561:DEBUG:root:6505620197 add Waterloo [Bakerloo]
-2023-07-10 23:48:29,648:DEBUG:root:4033385470 add Kilburn Park [Bakerloo]
-2023-07-10 23:48:29,649:DEBUG:root:1687504906 add Maida Vale [Bakerloo]
-2023-07-10 23:48:29,745:DEBUG:root:7564332460 add Lambeth North [Bakerloo]
-2023-07-10 23:48:29,745:DEBUG:root:5455870260 add Elephant and Castle [Bakerloo]
-2023-07-10 23:48:29,842:DEBUG:root:5479703556 add Warwick Avenue [Bakerloo]
-2023-07-10 23:48:30,129:DEBUG:root:4305326861 add Oxford Circus [Bakerloo]
-2023-07-10 23:48:30,129:DEBUG:root:26559371 add Piccadilly Circus [Bakerloo]
-2023-07-10 23:48:32,362:DEBUG:root:9385808430 add Paddington [Bakerloo]
-2023-07-10 23:48:32,554:DEBUG:root:276529 add Queens Park [Bakerloo]
-2023-07-10 23:48:35,272:DEBUG:root:7049135911 add Bond Street [Central]
-2023-07-10 23:48:35,272:DEBUG:root:7012714671 add Marble Arch [Central]
-2023-07-10 23:48:35,461:DEBUG:root:6943758097 add Chancery Lane [Central]
-2023-07-10 23:48:35,462:DEBUG:root:5466793795 add Holborn [Central]
-2023-07-10 23:48:38,363:DEBUG:root:5461199778 add Tottenham Court Road [Central]
-2023-07-10 23:48:38,552:DEBUG:root:366239944 add Lancaster Gate [Central]
-2023-07-10 23:48:38,552:DEBUG:root:9385780171 add Queensway [Central]
-2023-07-10 23:48:43,654:DEBUG:root:5480725845 add Notting Hill Gate [Central]
-2023-07-10 23:48:43,655:DEBUG:root:10592639431 add Holland Park [Central]
-2023-07-10 23:48:43,749:DEBUG:root:4305326861 add Oxford Circus [Central]
-2023-07-10 23:48:46,290:DEBUG:root:8868824855 add St. Pauls [Central]
-2023-07-10 23:48:48,764:DEBUG:root:1741590045 add Baker Street [Circle]
-2023-07-10 23:48:48,764:DEBUG:root:5473525151 add Great Portland Street [Circle]
-2023-07-10 23:48:48,951:DEBUG:root:26374009 add Bayswater [Circle]
-2023-07-10 23:48:48,952:DEBUG:root:9385808430 add Paddington [Circle]
-2023-07-10 23:48:49,046:DEBUG:root:1610858904 add Blackfriars [Circle]
-2023-07-10 23:48:49,046:DEBUG:root:2533371669 add Temple [Circle]
-2023-07-10 23:48:49,234:DEBUG:root:8731461097 add Edgware Road [Circle]
-2023-07-10 23:48:49,328:DEBUG:root:25476051 add Embankment [Circle]
-2023-07-10 23:48:49,329:DEBUG:root:1587629435 add Westminster [Circle]
-2023-07-10 23:48:49,423:DEBUG:root:5473426154 add Euston Square [Circle]
-2023-07-10 23:48:49,423:DEBUG:root:2428147220 add Kings Cross St. Pancras [Circle]
-2023-07-10 23:48:51,305:DEBUG:root:700169540 add Farringdon [Circle]
-2023-07-10 23:48:51,305:DEBUG:root:5479654175 add Barbican [Circle]
-2023-07-10 23:48:51,410:DEBUG:root:9874019022 add Gloucester Road [Circle]
-2023-07-10 23:48:51,410:DEBUG:root:1291284829 add High Street Kensington [Circle]
-2023-07-10 23:48:51,783:DEBUG:root:5480725845 add Notting Hill Gate [Circle]
-2023-07-10 23:48:51,968:DEBUG:root:7318339408 add Ladbroke Grove [Circle]
-2023-07-10 23:48:51,968:DEBUG:root:7075428513 add Westbourne Park [Circle]
-2023-07-10 23:48:54,045:DEBUG:root:25066784 add Mansion House [Circle]
-2023-07-10 23:48:54,510:DEBUG:root:6980174342 add Royal Oak [Circle]
-2023-07-10 23:48:54,705:DEBUG:root:7051934318 add Sloane Square [Circle]
-2023-07-10 23:48:54,705:DEBUG:root:277336614 add South Kensington [Circle]
-2023-07-10 23:48:54,893:DEBUG:root:12198505 add St. James's Park [Circle]
-2023-07-10 23:48:54,893:DEBUG:root:4052472148 add Victoria [Circle]
-2023-07-10 23:48:59,385:DEBUG:root:26374009 add Bayswater [District]
-2023-07-10 23:48:59,386:DEBUG:root:9385808430 add Paddington [District]
-2023-07-10 23:48:59,577:DEBUG:root:1610858904 add Blackfriars [District]
-2023-07-10 23:48:59,577:DEBUG:root:2533371669 add Temple [District]
-2023-07-10 23:49:02,741:DEBUG:root:7163500914 add Earls Court [District]
-2023-07-10 23:49:02,741:DEBUG:root:1291284829 add High Street Kensington [District]
-2023-07-10 23:49:02,835:DEBUG:root:8724298604 add Kensington [District]
-2023-07-10 23:49:02,930:DEBUG:root:5461690536 add West Brompton [District]
-2023-07-10 23:49:03,027:DEBUG:root:33203791 add West Kensington [District]
-2023-07-10 23:49:05,539:DEBUG:root:25476051 add Embankment [District]
-2023-07-10 23:49:05,539:DEBUG:root:1587629435 add Westminster [District]
-2023-07-10 23:49:05,732:DEBUG:root:9874019022 add Gloucester Road [District]
-2023-07-10 23:49:06,017:DEBUG:root:5480725845 add Notting Hill Gate [District]
-2023-07-10 23:49:06,302:DEBUG:root:25066784 add Mansion House [District]
-2023-07-10 23:49:08,575:DEBUG:root:8731461097 add Edgware Road [District]
-2023-07-10 23:49:09,046:DEBUG:root:7051934318 add Sloane Square [District]
-2023-07-10 23:49:09,046:DEBUG:root:277336614 add South Kensington [District]
-2023-07-10 23:49:11,303:DEBUG:root:12198505 add St. James's Park [District]
-2023-07-10 23:49:11,304:DEBUG:root:4052472148 add Victoria [District]
-2023-07-10 23:49:29,279:DEBUG:root:7049135911 add Bond Street [Elizabeth]
-2023-07-10 23:49:29,281:DEBUG:root:9385808430 add Paddington [Elizabeth]
-2023-07-10 23:49:31,889:DEBUG:root:700169540 add Farringdon [Elizabeth]
-2023-07-10 23:49:31,890:DEBUG:root:5461199778 add Tottenham Court Road [Elizabeth]
-2023-07-10 23:49:40,947:DEBUG:root:1741590045 add Baker Street [Hammersmith and City]
-2023-07-10 23:49:40,948:DEBUG:root:5473525151 add Great Portland Street [Hammersmith and City]
-2023-07-10 23:49:45,397:DEBUG:root:8731461097 add Edgware Road [Hammersmith and City]
-2023-07-10 23:49:45,496:DEBUG:root:5473426154 add Euston Square [Hammersmith and City]
-2023-07-10 23:49:45,496:DEBUG:root:2428147220 add Kings Cross St. Pancras [Hammersmith and City]
-2023-07-10 23:49:45,593:DEBUG:root:700169540 add Farringdon [Hammersmith and City]
-2023-07-10 23:49:45,593:DEBUG:root:5479654175 add Barbican [Hammersmith and City]
-2023-07-10 23:49:48,516:DEBUG:root:7318339408 add Ladbroke Grove [Hammersmith and City]
-2023-07-10 23:49:48,516:DEBUG:root:7075428513 add Westbourne Park [Hammersmith and City]
-2023-07-10 23:49:49,028:DEBUG:root:9385808430 add Paddington [Hammersmith and City]
-2023-07-10 23:49:49,292:DEBUG:root:6980174342 add Royal Oak [Hammersmith and City]
-2023-07-10 23:49:53,631:DEBUG:root:1741590045 add Baker Street [Jubilee]
-2023-07-10 23:49:53,631:DEBUG:root:7049135911 add Bond Street [Jubilee]
-2023-07-10 23:49:53,834:DEBUG:root:6915368620 add Green Park [Jubilee]
-2023-07-10 23:49:57,182:DEBUG:root:2458659131 add Finchley Road [Jubilee]
-2023-07-10 23:49:57,183:DEBUG:root:9383796635 add Swiss Cottage [Jubilee]
-2023-07-10 23:49:57,296:DEBUG:root:1587629435 add Westminster [Jubilee]
-2023-07-10 23:49:57,399:DEBUG:root:5461682849 add Kilburn [Jubilee]
-2023-07-10 23:49:57,399:DEBUG:root:6215264408 add West Hampstead [Jubilee]
-2023-07-10 23:50:00,213:DEBUG:root:6564822627 add St. Johns Wood [Jubilee]
-2023-07-10 23:50:00,500:DEBUG:root:6505620197 add Waterloo [Jubilee]
-2023-07-10 23:50:00,500:DEBUG:root:5361364375 add Southwark [Jubilee]
-2023-07-10 23:50:03,446:DEBUG:root:1741590045 add Baker Street [Metropolitan]
-2023-07-10 23:50:03,447:DEBUG:root:2458659131 add Finchley Road [Metropolitan]
-2023-07-10 23:50:03,553:DEBUG:root:5479654175 add Barbican [Metropolitan]
-2023-07-10 23:50:03,553:DEBUG:root:700169540 add Farringdon [Metropolitan]
-2023-07-10 23:50:06,266:DEBUG:root:5473426154 add Euston Square [Metropolitan]
-2023-07-10 23:50:06,266:DEBUG:root:5473525151 add Great Portland Street [Metropolitan]
-2023-07-10 23:50:06,363:DEBUG:root:2428147220 add Kings Cross St. Pancras [Metropolitan]
-2023-07-10 23:50:13,617:DEBUG:root:8987955803 add Angel [Northern]
-2023-07-10 23:50:13,617:DEBUG:root:2428147220 add Kings Cross St. Pancras [Northern]
-2023-07-10 23:50:15,951:DEBUG:root:5473343566 add Belsize Park [Northern]
-2023-07-10 23:50:15,951:DEBUG:root:5482469739 add Hampstead [Northern]
-2023-07-10 23:50:16,350:DEBUG:root:1782971979 add Camden Town [Northern]
-2023-07-10 23:50:16,350:DEBUG:root:6467180630 add Chalk Farm [Northern]
-2023-07-10 23:50:16,449:DEBUG:root:7887549205 add Kentish Town [Northern]
-2023-07-10 23:50:16,642:DEBUG:root:9904350256 add Charing Cross [Northern]
-2023-07-10 23:50:16,642:DEBUG:root:5479635739 add Leicester Square [Northern]
-2023-07-10 23:50:19,380:DEBUG:root:5455870260 add Elephant and Castle [Northern]
-2023-07-10 23:50:19,380:DEBUG:root:1155200706 add Borough [Northern]
-2023-07-10 23:50:19,474:DEBUG:root:25476051 add Embankment [Northern]
-2023-07-10 23:50:19,569:DEBUG:root:1264708174 add Euston [Northern]
-2023-07-10 23:50:19,664:DEBUG:root:2344320142 add Mornington Crescent [Northern]
-2023-07-10 23:50:21,996:DEBUG:root:7021671308 add Goodge Street [Northern]
-2023-07-10 23:50:21,996:DEBUG:root:2833955781 add Warren Street [Northern]
-2023-07-10 23:50:22,092:DEBUG:root:1389423777 add Golders Green [Northern]
-2023-07-10 23:50:22,378:DEBUG:root:10181017921 add Kennington [Northern]
-2023-07-10 23:50:22,568:DEBUG:root:6505620197 add Waterloo [Northern]
-2023-07-10 23:50:24,644:DEBUG:root:9460016065 add Tufnell Park [Northern]
-2023-07-10 23:50:24,840:DEBUG:root:5461199778 add Tottenham Court Road [Northern]
-2023-07-10 23:50:31,383:DEBUG:root:9396600836 add Brondesbury [Overground]
-2023-07-10 23:50:31,384:DEBUG:root:6215264408 add West Hampstead [Overground]
-2023-07-10 23:50:31,481:DEBUG:root:1142155736 add Brondesbury Park [Overground]
-2023-07-10 23:50:33,896:DEBUG:root:2086131577 add Caledonian Road and Barnsbury [Overground]
-2023-07-10 23:50:33,897:DEBUG:root:3718520125 add Highbury and Islington [Overground]
-2023-07-10 23:50:34,088:DEBUG:root:10790335380 add Camden Road [Overground]
-2023-07-10 23:50:39,538:DEBUG:root:1321766489 add Finchley Road and Frognal [Overground]
-2023-07-10 23:50:39,539:DEBUG:root:1399861907 add Hampstead Heath [Overground]
-2023-07-10 23:50:39,733:DEBUG:root:1734132071 add Gospel Oak [Overground]
-2023-07-10 23:50:39,733:DEBUG:root:3535402339 add Kentish Town West [Overground]
-2023-07-10 23:50:39,828:DEBUG:root:1468597233 add Upper Holloway [Overground]
-2023-07-10 23:50:45,819:DEBUG:root:8724298604 add Kensington [Overground]
-2023-07-10 23:50:45,819:DEBUG:root:5461690536 add West Brompton [Overground]
-2023-07-10 23:50:46,201:DEBUG:root:1692927619 add Kilburn High Road [Overground]
-2023-07-10 23:50:46,202:DEBUG:root:620076633 add South Hampstead [Overground]
-2023-07-10 23:50:49,188:DEBUG:root:276529 add Queens Park [Overground]
-2023-07-10 23:50:54,421:DEBUG:root:1264708174 add Euston [Overground]
-2023-07-10 23:50:57,884:DEBUG:root:847744617 add Crouch Hill [Overground]
-2023-07-10 23:51:06,035:DEBUG:root:5473386924 add Arsenal [Piccadilly]
-2023-07-10 23:51:06,035:DEBUG:root:5482917401 add Holloway Road [Piccadilly]
-2023-07-10 23:51:06,430:DEBUG:root:198118 add Caledonian Road [Piccadilly]
-2023-07-10 23:51:06,430:DEBUG:root:2428147220 add Kings Cross St. Pancras [Piccadilly]
-2023-07-10 23:51:06,623:DEBUG:root:25544135 add Covent Garden [Piccadilly]
-2023-07-10 23:51:06,623:DEBUG:root:5479635739 add Leicester Square [Piccadilly]
-2023-07-10 23:51:09,024:DEBUG:root:8691942848 add Finsbury Park [Piccadilly]
-2023-07-10 23:51:09,120:DEBUG:root:9874019022 add Gloucester Road [Piccadilly]
-2023-07-10 23:51:09,120:DEBUG:root:7163500914 add Earls Court [Piccadilly]
-2023-07-10 23:51:09,217:DEBUG:root:6915368620 add Green Park [Piccadilly]
-2023-07-10 23:51:09,217:DEBUG:root:135772063 add Hyde Park Corner [Piccadilly]
-2023-07-10 23:51:11,919:DEBUG:root:5466793795 add Holborn [Piccadilly]
-2023-07-10 23:51:12,409:DEBUG:root:5475500034 add Knightsbridge [Piccadilly]
-2023-07-10 23:51:12,604:DEBUG:root:1843348265 add Russell Square [Piccadilly]
-2023-07-10 23:51:12,703:DEBUG:root:277336614 add South Kensington [Piccadilly]
-2023-07-10 23:51:12,800:DEBUG:root:26559371 add Piccadilly Circus [Piccadilly]
-2023-07-10 23:51:14,861:DEBUG:root:759818262 add Manor House [Piccadilly]
-2023-07-10 23:51:20,993:DEBUG:root:1264708174 add Euston [Victoria]
-2023-07-10 23:51:20,993:DEBUG:root:2833955781 add Warren Street [Victoria]
-2023-07-10 23:51:21,088:DEBUG:root:8691942848 add Finsbury Park [Victoria]
-2023-07-10 23:51:21,089:DEBUG:root:3718520125 add Highbury and Islington [Victoria]
-2023-07-10 23:51:21,190:DEBUG:root:6915368620 add Green Park [Victoria]
-2023-07-10 23:51:21,191:DEBUG:root:4052472148 add Victoria [Victoria]
-2023-07-10 23:51:21,287:DEBUG:root:2428147220 add Kings Cross St. Pancras [Victoria]
-2023-07-10 23:51:21,478:DEBUG:root:4305326861 add Oxford Circus [Victoria]
-2023-07-10 23:51:21,575:DEBUG:root:1287703214 add Pimlico [Victoria]
-2023-07-10 23:51:21,575:DEBUG:root:926239878 add Vauxhall [Victoria]
-2023-07-10 23:51:24,338:DEBUG:root:added node Baker Street [Bakerloo]: {'x': -0.15699670000000002, 'y': 51.5232224, 'type': 'tube_station'}
-2023-07-10 23:51:24,338:DEBUG:root:entrance added: 1741590045 -> Baker Street [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,338:DEBUG:root:added node Baker Street [Circle]: {'x': -0.1568967, 'y': 51.5232224, 'type': 'tube_station'}
-2023-07-10 23:51:24,338:DEBUG:root:entrance added: 1741590045 -> Baker Street [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,338:DEBUG:root:added node Baker Street [Hammersmith and City]: {'x': -0.1567967, 'y': 51.5232224, 'type': 'tube_station'}
-2023-07-10 23:51:24,338:DEBUG:root:entrance added: 1741590045 -> Baker Street [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,338:DEBUG:root:added node Baker Street [Jubilee]: {'x': -0.1566967, 'y': 51.5232224, 'type': 'tube_station'}
-2023-07-10 23:51:24,338:DEBUG:root:entrance added: 1741590045 -> Baker Street [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,338:DEBUG:root:added node Baker Street [Metropolitan]: {'x': -0.1565967, 'y': 51.5232224, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 1741590045 -> Baker Street [Metropolitan] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Regents Park [Bakerloo]: {'x': -0.1453191, 'y': 51.5238724, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 1427421955 -> Regents Park [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Charing Cross [Bakerloo]: {'x': -0.1248597, 'y': 51.5083916, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 9904350256 -> Charing Cross [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Charing Cross [Northern]: {'x': -0.1247597, 'y': 51.5083916, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 9904350256 -> Charing Cross [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Embankment [Bakerloo]: {'x': -0.1225925, 'y': 51.5073162, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 25476051 -> Embankment [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Embankment [Circle]: {'x': -0.12249249999999999, 'y': 51.5073162, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 25476051 -> Embankment [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Embankment [District]: {'x': -0.1223925, 'y': 51.5073162, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 25476051 -> Embankment [District] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Embankment [Northern]: {'x': -0.1222925, 'y': 51.5073162, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 25476051 -> Embankment [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Edgware Road [Bakerloo]: {'x': -0.16749350000000002, 'y': 51.5199669, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 8731461097 -> Edgware Road [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Edgware Road [Circle]: {'x': -0.1673935, 'y': 51.5199669, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 8731461097 -> Edgware Road [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Edgware Road [District]: {'x': -0.1672935, 'y': 51.5199669, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 8731461097 -> Edgware Road [District] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Edgware Road [Hammersmith and City]: {'x': -0.1671935, 'y': 51.5199669, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 8731461097 -> Edgware Road [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Marylebone [Bakerloo]: {'x': -0.16330730000000002, 'y': 51.5224292, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 7770710708 -> Marylebone [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Waterloo [Bakerloo]: {'x': -0.1131093, 'y': 51.5033738, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 6505620197 -> Waterloo [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Waterloo [Jubilee]: {'x': -0.1130093, 'y': 51.5033738, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 6505620197 -> Waterloo [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Waterloo [Northern]: {'x': -0.1129093, 'y': 51.5033738, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 6505620197 -> Waterloo [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Kilburn Park [Bakerloo]: {'x': -0.19361630000000002, 'y': 51.5352274, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 4033385470 -> Kilburn Park [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Maida Vale [Bakerloo]: {'x': -0.1850227, 'y': 51.5302806, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 1687504906 -> Maida Vale [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Lambeth North [Bakerloo]: {'x': -0.1117809, 'y': 51.4993751, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 7564332460 -> Lambeth North [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Elephant and Castle [Bakerloo]: {'x': -0.10064719999999999, 'y': 51.4958622, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 5455870260 -> Elephant and Castle [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Elephant and Castle [Northern]: {'x': -0.10054719999999999, 'y': 51.4958622, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 5455870260 -> Elephant and Castle [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Warwick Avenue [Bakerloo]: {'x': -0.1831546, 'y': 51.5230617, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 5479703556 -> Warwick Avenue [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Oxford Circus [Bakerloo]: {'x': -0.14090370000000002, 'y': 51.5152582, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 4305326861 -> Oxford Circus [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Oxford Circus [Central]: {'x': -0.1408037, 'y': 51.5152582, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 4305326861 -> Oxford Circus [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,339:DEBUG:root:added node Oxford Circus [Victoria]: {'x': -0.14070370000000001, 'y': 51.5152582, 'type': 'tube_station'}
-2023-07-10 23:51:24,339:DEBUG:root:entrance added: 4305326861 -> Oxford Circus [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Piccadilly Circus [Bakerloo]: {'x': -0.1334766, 'y': 51.5094679, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 26559371 -> Piccadilly Circus [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Piccadilly Circus [Piccadilly]: {'x': -0.13337659999999998, 'y': 51.5094679, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 26559371 -> Piccadilly Circus [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Paddington [Bakerloo]: {'x': -0.1755612, 'y': 51.5154819, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 9385808430 -> Paddington [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Paddington [Circle]: {'x': -0.17546119999999998, 'y': 51.5154819, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 9385808430 -> Paddington [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Paddington [District]: {'x': -0.1753612, 'y': 51.5154819, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 9385808430 -> Paddington [District] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Paddington [Elizabeth]: {'x': -0.17526119999999998, 'y': 51.5154819, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 9385808430 -> Paddington [Elizabeth] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Paddington [Hammersmith and City]: {'x': -0.1751612, 'y': 51.5154819, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 9385808430 -> Paddington [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Queens Park [Bakerloo]: {'x': -0.2045959, 'y': 51.5346313, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 276529 -> Queens Park [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Queens Park [Overground]: {'x': -0.20449589999999998, 'y': 51.5346313, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 276529 -> Queens Park [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Bond Street [Central]: {'x': -0.149267, 'y': 51.5139551, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 7049135911 -> Bond Street [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Bond Street [Elizabeth]: {'x': -0.149167, 'y': 51.5139551, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 7049135911 -> Bond Street [Elizabeth] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Bond Street [Jubilee]: {'x': -0.149067, 'y': 51.5139551, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 7049135911 -> Bond Street [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Marble Arch [Central]: {'x': -0.15802770000000002, 'y': 51.5143112, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 7012714671 -> Marble Arch [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Chancery Lane [Central]: {'x': -0.1116278, 'y': 51.518753, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 6943758097 -> Chancery Lane [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Holborn [Central]: {'x': -0.1198159, 'y': 51.5173, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 5466793795 -> Holborn [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Holborn [Piccadilly]: {'x': -0.1197159, 'y': 51.5173, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 5466793795 -> Holborn [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Tottenham Court Road [Central]: {'x': -0.1310473, 'y': 51.5162798, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 5461199778 -> Tottenham Court Road [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Tottenham Court Road [Elizabeth]: {'x': -0.1309473, 'y': 51.5162798, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 5461199778 -> Tottenham Court Road [Elizabeth] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Tottenham Court Road [Northern]: {'x': -0.1308473, 'y': 51.5162798, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 5461199778 -> Tottenham Court Road [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Lancaster Gate [Central]: {'x': -0.17548930000000001, 'y': 51.5116457, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 366239944 -> Lancaster Gate [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Queensway [Central]: {'x': -0.18709830000000002, 'y': 51.5103513, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 9385780171 -> Queensway [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Notting Hill Gate [Central]: {'x': -0.1959886, 'y': 51.5092529, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 5480725845 -> Notting Hill Gate [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Notting Hill Gate [Circle]: {'x': -0.1958886, 'y': 51.5092529, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 5480725845 -> Notting Hill Gate [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Notting Hill Gate [District]: {'x': -0.1957886, 'y': 51.5092529, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 5480725845 -> Notting Hill Gate [District] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Holland Park [Central]: {'x': -0.2065992, 'y': 51.5069484, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 10592639431 -> Holland Park [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node St. Pauls [Central]: {'x': -0.0975613, 'y': 51.5147847, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 8868824855 -> St. Pauls [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Great Portland Street [Circle]: {'x': -0.1439107, 'y': 51.5237818, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 5473525151 -> Great Portland Street [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,340:DEBUG:root:added node Great Portland Street [Hammersmith and City]: {'x': -0.14381069999999999, 'y': 51.5237818, 'type': 'tube_station'}
-2023-07-10 23:51:24,340:DEBUG:root:entrance added: 5473525151 -> Great Portland Street [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Great Portland Street [Metropolitan]: {'x': -0.1437107, 'y': 51.5237818, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 5473525151 -> Great Portland Street [Metropolitan] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Bayswater [Circle]: {'x': -0.18740910000000002, 'y': 51.512127, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 26374009 -> Bayswater [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Bayswater [District]: {'x': -0.1873091, 'y': 51.512127, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 26374009 -> Bayswater [District] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Blackfriars [Circle]: {'x': -0.1029697, 'y': 51.5116791, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 1610858904 -> Blackfriars [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Blackfriars [District]: {'x': -0.1028697, 'y': 51.5116791, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 1610858904 -> Blackfriars [District] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Temple [Circle]: {'x': -0.1136394, 'y': 51.5111613, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 2533371669 -> Temple [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Temple [District]: {'x': -0.1135394, 'y': 51.5111613, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 2533371669 -> Temple [District] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Westminster [Circle]: {'x': -0.1247756, 'y': 51.5012044, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 1587629435 -> Westminster [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Westminster [District]: {'x': -0.1246756, 'y': 51.5012044, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 1587629435 -> Westminster [District] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Westminster [Jubilee]: {'x': -0.12457560000000001, 'y': 51.5012044, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 1587629435 -> Westminster [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Euston Square [Circle]: {'x': -0.13544540000000002, 'y': 51.5254598, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 5473426154 -> Euston Square [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Euston Square [Hammersmith and City]: {'x': -0.1353454, 'y': 51.5254598, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 5473426154 -> Euston Square [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Euston Square [Metropolitan]: {'x': -0.13524540000000002, 'y': 51.5254598, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 5473426154 -> Euston Square [Metropolitan] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Kings Cross St. Pancras [Circle]: {'x': -0.1238141, 'y': 51.5302886, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 2428147220 -> Kings Cross St. Pancras [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Kings Cross St. Pancras [Hammersmith and City]: {'x': -0.1237141, 'y': 51.5302886, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 2428147220 -> Kings Cross St. Pancras [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Kings Cross St. Pancras [Metropolitan]: {'x': -0.1236141, 'y': 51.5302886, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 2428147220 -> Kings Cross St. Pancras [Metropolitan] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Kings Cross St. Pancras [Northern]: {'x': -0.1235141, 'y': 51.5302886, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 2428147220 -> Kings Cross St. Pancras [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Kings Cross St. Pancras [Piccadilly]: {'x': -0.1234141, 'y': 51.5302886, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 2428147220 -> Kings Cross St. Pancras [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Kings Cross St. Pancras [Victoria]: {'x': -0.1233141, 'y': 51.5302886, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 2428147220 -> Kings Cross St. Pancras [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Farringdon [Circle]: {'x': -0.104753, 'y': 51.5202582, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 700169540 -> Farringdon [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Farringdon [Elizabeth]: {'x': -0.104653, 'y': 51.5202582, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 700169540 -> Farringdon [Elizabeth] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Farringdon [Hammersmith and City]: {'x': -0.10455300000000001, 'y': 51.5202582, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 700169540 -> Farringdon [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Farringdon [Metropolitan]: {'x': -0.104453, 'y': 51.5202582, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 700169540 -> Farringdon [Metropolitan] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Barbican [Circle]: {'x': -0.0975568, 'y': 51.5202125, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 5479654175 -> Barbican [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Barbican [Hammersmith and City]: {'x': -0.0974568, 'y': 51.5202125, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 5479654175 -> Barbican [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Barbican [Metropolitan]: {'x': -0.09735680000000001, 'y': 51.5202125, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 5479654175 -> Barbican [Metropolitan] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Gloucester Road [Circle]: {'x': -0.1834116, 'y': 51.4946994, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 9874019022 -> Gloucester Road [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Gloucester Road [District]: {'x': -0.1833116, 'y': 51.4946994, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 9874019022 -> Gloucester Road [District] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Gloucester Road [Piccadilly]: {'x': -0.1832116, 'y': 51.4946994, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 9874019022 -> Gloucester Road [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node High Street Kensington [Circle]: {'x': -0.1915301, 'y': 51.5003692, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 1291284829 -> High Street Kensington [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node High Street Kensington [District]: {'x': -0.1914301, 'y': 51.5003692, 'type': 'tube_station'}
-2023-07-10 23:51:24,341:DEBUG:root:entrance added: 1291284829 -> High Street Kensington [District] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,341:DEBUG:root:added node Ladbroke Grove [Circle]: {'x': -0.21016410000000002, 'y': 51.5170547, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 7318339408 -> Ladbroke Grove [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Ladbroke Grove [Hammersmith and City]: {'x': -0.2100641, 'y': 51.5170547, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 7318339408 -> Ladbroke Grove [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Westbourne Park [Circle]: {'x': -0.2009388, 'y': 51.5206856, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 7075428513 -> Westbourne Park [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Westbourne Park [Hammersmith and City]: {'x': -0.20083879999999998, 'y': 51.5206856, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 7075428513 -> Westbourne Park [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Mansion House [Circle]: {'x': -0.094301, 'y': 51.5120034, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 25066784 -> Mansion House [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Mansion House [District]: {'x': -0.094201, 'y': 51.5120034, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 25066784 -> Mansion House [District] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Royal Oak [Circle]: {'x': -0.18893610000000002, 'y': 51.5181666, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 6980174342 -> Royal Oak [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Royal Oak [Hammersmith and City]: {'x': -0.1888361, 'y': 51.5181666, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 6980174342 -> Royal Oak [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Sloane Square [Circle]: {'x': -0.1561989, 'y': 51.4923229, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 7051934318 -> Sloane Square [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Sloane Square [District]: {'x': -0.15609889999999998, 'y': 51.4923229, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 7051934318 -> Sloane Square [District] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node South Kensington [Circle]: {'x': -0.17388440000000002, 'y': 51.4941417, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 277336614 -> South Kensington [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node South Kensington [District]: {'x': -0.1737844, 'y': 51.4941417, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 277336614 -> South Kensington [District] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node South Kensington [Piccadilly]: {'x': -0.17368440000000002, 'y': 51.4941417, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 277336614 -> South Kensington [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node St. James's Park [Circle]: {'x': -0.13373770000000001, 'y': 51.499721, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 12198505 -> St. James's Park [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node St. James's Park [District]: {'x': -0.1336377, 'y': 51.499721, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 12198505 -> St. James's Park [District] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Victoria [Circle]: {'x': -0.1437612, 'y': 51.4964382, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 4052472148 -> Victoria [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Victoria [District]: {'x': -0.1436612, 'y': 51.4964382, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 4052472148 -> Victoria [District] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Victoria [Victoria]: {'x': -0.1435612, 'y': 51.4964382, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 4052472148 -> Victoria [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Earls Court [District]: {'x': -0.1941391, 'y': 51.491368, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 7163500914 -> Earls Court [District] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Earls Court [Piccadilly]: {'x': -0.1940391, 'y': 51.491368, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 7163500914 -> Earls Court [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Kensington [District]: {'x': -0.21002300000000002, 'y': 51.4978133, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 8724298604 -> Kensington [District] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Kensington [Overground]: {'x': -0.209923, 'y': 51.4978133, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 8724298604 -> Kensington [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node West Brompton [District]: {'x': -0.19543590000000002, 'y': 51.4873167, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 5461690536 -> West Brompton [District] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node West Brompton [Overground]: {'x': -0.1953359, 'y': 51.4873167, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 5461690536 -> West Brompton [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node West Kensington [District]: {'x': -0.20644810000000002, 'y': 51.4902049, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 33203791 -> West Kensington [District] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Green Park [Jubilee]: {'x': -0.14226640000000002, 'y': 51.5068622, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 6915368620 -> Green Park [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Green Park [Piccadilly]: {'x': -0.1421664, 'y': 51.5068622, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 6915368620 -> Green Park [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Green Park [Victoria]: {'x': -0.1420664, 'y': 51.5068622, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 6915368620 -> Green Park [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Finchley Road [Jubilee]: {'x': -0.17983980000000002, 'y': 51.5471241, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 2458659131 -> Finchley Road [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Finchley Road [Metropolitan]: {'x': -0.1797398, 'y': 51.5471241, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 2458659131 -> Finchley Road [Metropolitan] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Swiss Cottage [Jubilee]: {'x': -0.1758527, 'y': 51.5428312, 'type': 'tube_station'}
-2023-07-10 23:51:24,342:DEBUG:root:entrance added: 9383796635 -> Swiss Cottage [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,342:DEBUG:root:added node Kilburn [Jubilee]: {'x': -0.20455410000000002, 'y': 51.546948, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 5461682849 -> Kilburn [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node West Hampstead [Jubilee]: {'x': -0.19102070000000002, 'y': 51.5474866, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 6215264408 -> West Hampstead [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node West Hampstead [Overground]: {'x': -0.1909207, 'y': 51.5474866, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 6215264408 -> West Hampstead [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node St. Johns Wood [Jubilee]: {'x': -0.17408710000000002, 'y': 51.5349046, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 6564822627 -> St. Johns Wood [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Southwark [Jubilee]: {'x': -0.105639, 'y': 51.5040625, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 5361364375 -> Southwark [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Angel [Northern]: {'x': -0.10559779999999999, 'y': 51.5332121, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 8987955803 -> Angel [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Belsize Park [Northern]: {'x': -0.16418970000000002, 'y': 51.5501384, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 5473343566 -> Belsize Park [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Hampstead [Northern]: {'x': -0.17809450000000002, 'y': 51.5565347, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 5482469739 -> Hampstead [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Camden Town [Northern]: {'x': -0.14232640000000002, 'y': 51.5403089, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 1782971979 -> Camden Town [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Chalk Farm [Northern]: {'x': -0.15346420000000002, 'y': 51.5441941, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 6467180630 -> Chalk Farm [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Kentish Town [Northern]: {'x': -0.1403271, 'y': 51.5501213, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 7887549205 -> Kentish Town [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Leicester Square [Northern]: {'x': -0.12812220000000002, 'y': 51.5112756, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 5479635739 -> Leicester Square [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Leicester Square [Piccadilly]: {'x': -0.1280222, 'y': 51.5112756, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 5479635739 -> Leicester Square [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Borough [Northern]: {'x': -0.0942759, 'y': 51.5010259, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 1155200706 -> Borough [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Euston [Northern]: {'x': -0.1332748, 'y': 51.5287489, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 1264708174 -> Euston [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Euston [Overground]: {'x': -0.13317479999999998, 'y': 51.5287489, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 1264708174 -> Euston [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Euston [Victoria]: {'x': -0.1330748, 'y': 51.5287489, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 1264708174 -> Euston [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Mornington Crescent [Northern]: {'x': -0.13839790000000002, 'y': 51.5343712, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 2344320142 -> Mornington Crescent [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Goodge Street [Northern]: {'x': -0.1347237, 'y': 51.5207327, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 7021671308 -> Goodge Street [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Warren Street [Northern]: {'x': -0.1381791, 'y': 51.5248769, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 2833955781 -> Warren Street [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Warren Street [Victoria]: {'x': -0.13807909999999998, 'y': 51.5248769, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 2833955781 -> Warren Street [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Golders Green [Northern]: {'x': -0.1946081, 'y': 51.5721891, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 1389423777 -> Golders Green [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Kennington [Northern]: {'x': -0.1047327, 'y': 51.4884315, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 10181017921 -> Kennington [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Tufnell Park [Northern]: {'x': -0.13722510000000002, 'y': 51.5565284, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 9460016065 -> Tufnell Park [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Brondesbury [Overground]: {'x': -0.2029591, 'y': 51.5454962, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 9396600836 -> Brondesbury [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Brondesbury Park [Overground]: {'x': -0.20997580000000002, 'y': 51.5406421, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 1142155736 -> Brondesbury Park [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Caledonian Road and Barnsbury [Overground]: {'x': -0.1150852, 'y': 51.5433451, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 2086131577 -> Caledonian Road and Barnsbury [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Highbury and Islington [Overground]: {'x': -0.1038588, 'y': 51.546529, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 3718520125 -> Highbury and Islington [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Highbury and Islington [Victoria]: {'x': -0.1037588, 'y': 51.546529, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 3718520125 -> Highbury and Islington [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Camden Road [Overground]: {'x': -0.1389688, 'y': 51.5418085, 'type': 'tube_station'}
-2023-07-10 23:51:24,343:DEBUG:root:entrance added: 10790335380 -> Camden Road [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,343:DEBUG:root:added node Finchley Road and Frognal [Overground]: {'x': -0.18332210000000002, 'y': 51.5501905, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 1321766489 -> Finchley Road and Frognal [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,344:DEBUG:root:added node Hampstead Heath [Overground]: {'x': -0.16439600000000001, 'y': 51.5549485, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 1399861907 -> Hampstead Heath [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,344:DEBUG:root:added node Gospel Oak [Overground]: {'x': -0.1511404, 'y': 51.555251, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 1734132071 -> Gospel Oak [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,344:DEBUG:root:added node Kentish Town West [Overground]: {'x': -0.1466798, 'y': 51.5464183, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 3535402339 -> Kentish Town West [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,344:DEBUG:root:added node Upper Holloway [Overground]: {'x': -0.1291132, 'y': 51.5635646, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 1468597233 -> Upper Holloway [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,344:DEBUG:root:added node Kilburn High Road [Overground]: {'x': -0.19137590000000002, 'y': 51.5371974, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 1692927619 -> Kilburn High Road [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,344:DEBUG:root:added node South Hampstead [Overground]: {'x': -0.17815910000000001, 'y': 51.5416197, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 620076633 -> South Hampstead [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,344:DEBUG:root:added node Crouch Hill [Overground]: {'x': -0.1171513, 'y': 51.5712984, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 847744617 -> Crouch Hill [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,344:DEBUG:root:added node Arsenal [Piccadilly]: {'x': -0.1055728, 'y': 51.5584476, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 5473386924 -> Arsenal [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,344:DEBUG:root:added node Holloway Road [Piccadilly]: {'x': -0.1129191, 'y': 51.5528071, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 5482917401 -> Holloway Road [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,344:DEBUG:root:added node Caledonian Road [Piccadilly]: {'x': -0.1179067, 'y': 51.5479383, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 198118 -> Caledonian Road [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,344:DEBUG:root:added node Covent Garden [Piccadilly]: {'x': -0.1246948, 'y': 51.5128625, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 25544135 -> Covent Garden [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,344:DEBUG:root:added node Finsbury Park [Piccadilly]: {'x': -0.105668, 'y': 51.5646301, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 8691942848 -> Finsbury Park [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,344:DEBUG:root:added node Finsbury Park [Victoria]: {'x': -0.105568, 'y': 51.5646301, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 8691942848 -> Finsbury Park [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,344:DEBUG:root:added node Hyde Park Corner [Piccadilly]: {'x': -0.15221790000000002, 'y': 51.5027606, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 135772063 -> Hyde Park Corner [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,344:DEBUG:root:added node Knightsbridge [Piccadilly]: {'x': -0.1609191, 'y': 51.5014033, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 5475500034 -> Knightsbridge [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,344:DEBUG:root:added node Russell Square [Piccadilly]: {'x': -0.1245653, 'y': 51.522784, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 1843348265 -> Russell Square [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,344:DEBUG:root:added node Manor House [Piccadilly]: {'x': -0.09562, 'y': 51.5707537, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 759818262 -> Manor House [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,344:DEBUG:root:added node Pimlico [Victoria]: {'x': -0.1330143, 'y': 51.4898588, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 1287703214 -> Pimlico [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,344:DEBUG:root:added node Vauxhall [Victoria]: {'x': -0.1236984, 'y': 51.4859385, 'type': 'tube_station'}
-2023-07-10 23:51:24,344:DEBUG:root:entrance added: 926239878 -> Vauxhall [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
-2023-07-10 23:51:24,365:DEBUG:root:connecting: Baker Street [Bakerloo] to Regents Park [Bakerloo]
-2023-07-10 23:51:24,365:DEBUG:root:connecting: Charing Cross [Bakerloo] to Embankment [Bakerloo]
-2023-07-10 23:51:24,366:DEBUG:root:connecting: Edgware Road [Bakerloo] to Marylebone [Bakerloo]
-2023-07-10 23:51:24,366:DEBUG:root:connecting: Embankment [Bakerloo] to Waterloo [Bakerloo]
-2023-07-10 23:51:24,366:DEBUG:root:connecting: Kilburn Park [Bakerloo] to Maida Vale [Bakerloo]
-2023-07-10 23:51:24,366:DEBUG:root:connecting: Lambeth North [Bakerloo] to Elephant and Castle [Bakerloo]
-2023-07-10 23:51:24,366:DEBUG:root:connecting: Maida Vale [Bakerloo] to Warwick Avenue [Bakerloo]
-2023-07-10 23:51:24,366:DEBUG:root:connecting: Marylebone [Bakerloo] to Baker Street [Bakerloo]
-2023-07-10 23:51:24,366:DEBUG:root:connecting: Oxford Circus [Bakerloo] to Piccadilly Circus [Bakerloo]
-2023-07-10 23:51:24,366:DEBUG:root:connecting: Paddington [Bakerloo] to Edgware Road [Bakerloo]
-2023-07-10 23:51:24,366:DEBUG:root:connecting: Piccadilly Circus [Bakerloo] to Charing Cross [Bakerloo]
-2023-07-10 23:51:24,366:DEBUG:root:connecting: Queens Park [Bakerloo] to Kilburn Park [Bakerloo]
-2023-07-10 23:51:24,366:DEBUG:root:connecting: Regents Park [Bakerloo] to Oxford Circus [Bakerloo]
-2023-07-10 23:51:24,366:DEBUG:root:connecting: Warwick Avenue [Bakerloo] to Paddington [Bakerloo]
-2023-07-10 23:51:24,366:DEBUG:root:connecting: Waterloo [Bakerloo] to Lambeth North [Bakerloo]
-2023-07-10 23:51:24,366:DEBUG:root:connecting: Bond Street [Central] to Marble Arch [Central]
-2023-07-10 23:51:24,366:DEBUG:root:connecting: Chancery Lane [Central] to Holborn [Central]
-2023-07-10 23:51:24,366:DEBUG:root:connecting: Holborn [Central] to Tottenham Court Road [Central]
-2023-07-10 23:51:24,366:DEBUG:root:connecting: Lancaster Gate [Central] to Queensway [Central]
-2023-07-10 23:51:24,366:DEBUG:root:connecting: Marble Arch [Central] to Lancaster Gate [Central]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Notting Hill Gate [Central] to Holland Park [Central]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Oxford Circus [Central] to Bond Street [Central]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Queensway [Central] to Notting Hill Gate [Central]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: St. Pauls [Central] to Chancery Lane [Central]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Tottenham Court Road [Central] to Oxford Circus [Central]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Baker Street [Circle] to Great Portland Street [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Bayswater [Circle] to Paddington [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Blackfriars [Circle] to Temple [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Edgware Road [Circle] to Baker Street [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Embankment [Circle] to Westminster [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Euston Square [Circle] to Kings Cross St. Pancras [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Farringdon [Circle] to Barbican [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Gloucester Road [Circle] to High Street Kensington [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Great Portland Street [Circle] to Euston Square [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: High Street Kensington [Circle] to Notting Hill Gate [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Kings Cross St. Pancras [Circle] to Farringdon [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Ladbroke Grove [Circle] to Westbourne Park [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Mansion House [Circle] to Blackfriars [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Notting Hill Gate [Circle] to Bayswater [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Paddington [Circle] to Edgware Road [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Royal Oak [Circle] to Paddington [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Sloane Square [Circle] to South Kensington [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: South Kensington [Circle] to Gloucester Road [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: St. James's Park [Circle] to Victoria [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Temple [Circle] to Embankment [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Victoria [Circle] to Sloane Square [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Westbourne Park [Circle] to Royal Oak [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Westminster [Circle] to St. James's Park [Circle]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Bayswater [District] to Paddington [District]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Blackfriars [District] to Temple [District]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Earls Court [District] to High Street Kensington [District]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Earls Court [District] to Kensington [District]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Earls Court [District] to West Brompton [District]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Earls Court [District] to West Kensington [District]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Embankment [District] to Westminster [District]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Gloucester Road [District] to Earls Court [District]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: High Street Kensington [District] to Notting Hill Gate [District]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Mansion House [District] to Blackfriars [District]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Notting Hill Gate [District] to Bayswater [District]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Paddington [District] to Edgware Road [District]
-2023-07-10 23:51:24,367:DEBUG:root:connecting: Sloane Square [District] to South Kensington [District]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: South Kensington [District] to Gloucester Road [District]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: St. James's Park [District] to Victoria [District]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Temple [District] to Embankment [District]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Victoria [District] to Sloane Square [District]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Westminster [District] to St. James's Park [District]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Bond Street [Elizabeth] to Paddington [Elizabeth]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Farringdon [Elizabeth] to Tottenham Court Road [Elizabeth]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Tottenham Court Road [Elizabeth] to Bond Street [Elizabeth]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Baker Street [Hammersmith and City] to Great Portland Street [Hammersmith and City]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Edgware Road [Hammersmith and City] to Baker Street [Hammersmith and City]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Euston Square [Hammersmith and City] to Kings Cross St. Pancras [Hammersmith and City]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Farringdon [Hammersmith and City] to Barbican [Hammersmith and City]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Great Portland Street [Hammersmith and City] to Euston Square [Hammersmith and City]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Kings Cross St. Pancras [Hammersmith and City] to Farringdon [Hammersmith and City]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Ladbroke Grove [Hammersmith and City] to Westbourne Park [Hammersmith and City]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Paddington [Hammersmith and City] to Edgware Road [Hammersmith and City]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Royal Oak [Hammersmith and City] to Paddington [Hammersmith and City]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Westbourne Park [Hammersmith and City] to Royal Oak [Hammersmith and City]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Baker Street [Jubilee] to Bond Street [Jubilee]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Bond Street [Jubilee] to Green Park [Jubilee]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Finchley Road [Jubilee] to Swiss Cottage [Jubilee]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Green Park [Jubilee] to Westminster [Jubilee]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Kilburn [Jubilee] to West Hampstead [Jubilee]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: St. Johns Wood [Jubilee] to Baker Street [Jubilee]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Swiss Cottage [Jubilee] to St. Johns Wood [Jubilee]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Waterloo [Jubilee] to Southwark [Jubilee]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: West Hampstead [Jubilee] to Finchley Road [Jubilee]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Westminster [Jubilee] to Waterloo [Jubilee]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Baker Street [Metropolitan] to Finchley Road [Metropolitan]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Barbican [Metropolitan] to Farringdon [Metropolitan]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Euston Square [Metropolitan] to Great Portland Street [Metropolitan]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Farringdon [Metropolitan] to Kings Cross St. Pancras [Metropolitan]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Great Portland Street [Metropolitan] to Baker Street [Metropolitan]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Kings Cross St. Pancras [Metropolitan] to Euston Square [Metropolitan]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Angel [Northern] to Kings Cross St. Pancras [Northern]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Belsize Park [Northern] to Hampstead [Northern]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Camden Town [Northern] to Chalk Farm [Northern]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Camden Town [Northern] to Kentish Town [Northern]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Chalk Farm [Northern] to Belsize Park [Northern]
-2023-07-10 23:51:24,368:DEBUG:root:connecting: Charing Cross [Northern] to Leicester Square [Northern]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Elephant and Castle [Northern] to Borough [Northern]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Embankment [Northern] to Charing Cross [Northern]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Euston [Northern] to Camden Town [Northern]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Euston [Northern] to Mornington Crescent [Northern]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Goodge Street [Northern] to Warren Street [Northern]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Hampstead [Northern] to Golders Green [Northern]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Kennington [Northern] to Elephant and Castle [Northern]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Kennington [Northern] to Waterloo [Northern]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Kentish Town [Northern] to Tufnell Park [Northern]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Kings Cross St. Pancras [Northern] to Euston [Northern]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Leicester Square [Northern] to Tottenham Court Road [Northern]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Mornington Crescent [Northern] to Camden Town [Northern]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Tottenham Court Road [Northern] to Goodge Street [Northern]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Warren Street [Northern] to Euston [Northern]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Waterloo [Northern] to Embankment [Northern]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Brondesbury [Overground] to West Hampstead [Overground]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Brondesbury Park [Overground] to Brondesbury [Overground]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Caledonian Road and Barnsbury [Overground] to Highbury and Islington [Overground]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Camden Road [Overground] to Caledonian Road and Barnsbury [Overground]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Finchley Road and Frognal [Overground] to Hampstead Heath [Overground]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Gospel Oak [Overground] to Kentish Town West [Overground]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Gospel Oak [Overground] to Upper Holloway [Overground]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Hampstead Heath [Overground] to Gospel Oak [Overground]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Kensington [Overground] to West Brompton [Overground]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Kentish Town West [Overground] to Camden Road [Overground]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Kilburn High Road [Overground] to South Hampstead [Overground]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Queens Park [Overground] to Kilburn High Road [Overground]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: South Hampstead [Overground] to Euston [Overground]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Upper Holloway [Overground] to Crouch Hill [Overground]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: West Hampstead [Overground] to Finchley Road and Frognal [Overground]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Arsenal [Piccadilly] to Holloway Road [Piccadilly]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Caledonian Road [Piccadilly] to Kings Cross St. Pancras [Piccadilly]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Covent Garden [Piccadilly] to Leicester Square [Piccadilly]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Finsbury Park [Piccadilly] to Arsenal [Piccadilly]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Gloucester Road [Piccadilly] to Earls Court [Piccadilly]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Green Park [Piccadilly] to Hyde Park Corner [Piccadilly]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Holborn [Piccadilly] to Covent Garden [Piccadilly]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Holloway Road [Piccadilly] to Caledonian Road [Piccadilly]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Hyde Park Corner [Piccadilly] to Knightsbridge [Piccadilly]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Kings Cross St. Pancras [Piccadilly] to Russell Square [Piccadilly]
-2023-07-10 23:51:24,369:DEBUG:root:connecting: Knightsbridge [Piccadilly] to South Kensington [Piccadilly]
-2023-07-10 23:51:24,370:DEBUG:root:connecting: Leicester Square [Piccadilly] to Piccadilly Circus [Piccadilly]
-2023-07-10 23:51:24,370:DEBUG:root:connecting: Manor House [Piccadilly] to Finsbury Park [Piccadilly]
-2023-07-10 23:51:24,370:DEBUG:root:connecting: Piccadilly Circus [Piccadilly] to Green Park [Piccadilly]
-2023-07-10 23:51:24,370:DEBUG:root:connecting: Russell Square [Piccadilly] to Holborn [Piccadilly]
-2023-07-10 23:51:24,370:DEBUG:root:connecting: South Kensington [Piccadilly] to Gloucester Road [Piccadilly]
-2023-07-10 23:51:24,370:DEBUG:root:connecting: Euston [Victoria] to Warren Street [Victoria]
-2023-07-10 23:51:24,370:DEBUG:root:connecting: Finsbury Park [Victoria] to Highbury and Islington [Victoria]
-2023-07-10 23:51:24,370:DEBUG:root:connecting: Green Park [Victoria] to Victoria [Victoria]
-2023-07-10 23:51:24,370:DEBUG:root:connecting: Highbury and Islington [Victoria] to Kings Cross St. Pancras [Victoria]
-2023-07-10 23:51:24,370:DEBUG:root:connecting: Kings Cross St. Pancras [Victoria] to Euston [Victoria]
-2023-07-10 23:51:24,370:DEBUG:root:connecting: Oxford Circus [Victoria] to Green Park [Victoria]
-2023-07-10 23:51:24,370:DEBUG:root:connecting: Pimlico [Victoria] to Vauxhall [Victoria]
-2023-07-10 23:51:24,370:DEBUG:root:connecting: Victoria [Victoria] to Pimlico [Victoria]
-2023-07-10 23:51:24,370:DEBUG:root:connecting: Warren Street [Victoria] to Oxford Circus [Victoria]
+2023-07-11 01:17:44,237:INFO:root:Start of the program
+2023-07-11 01:18:15,360:DEBUG:root:1741590045 add Baker Street [Bakerloo]
+2023-07-11 01:18:15,362:DEBUG:root:1427421955 add Regents Park [Bakerloo]
+2023-07-11 01:18:15,457:DEBUG:root:9904350256 add Charing Cross [Bakerloo]
+2023-07-11 01:18:15,457:DEBUG:root:25476051 add Embankment [Bakerloo]
+2023-07-11 01:18:22,019:DEBUG:root:8731461097 add Edgware Road [Bakerloo]
+2023-07-11 01:18:22,019:DEBUG:root:7770710708 add Marylebone [Bakerloo]
+2023-07-11 01:18:22,119:DEBUG:root:6505620197 add Waterloo [Bakerloo]
+2023-07-11 01:18:22,620:DEBUG:root:4033385470 add Kilburn Park [Bakerloo]
+2023-07-11 01:18:22,620:DEBUG:root:1687504906 add Maida Vale [Bakerloo]
+2023-07-11 01:18:22,719:DEBUG:root:7564332460 add Lambeth North [Bakerloo]
+2023-07-11 01:18:22,719:DEBUG:root:5455870260 add Elephant and Castle [Bakerloo]
+2023-07-11 01:18:22,817:DEBUG:root:5479703556 add Warwick Avenue [Bakerloo]
+2023-07-11 01:18:23,112:DEBUG:root:4305326861 add Oxford Circus [Bakerloo]
+2023-07-11 01:18:23,112:DEBUG:root:26559371 add Piccadilly Circus [Bakerloo]
+2023-07-11 01:18:23,211:DEBUG:root:9385808430 add Paddington [Bakerloo]
+2023-07-11 01:18:29,209:DEBUG:root:276529 add Queens Park [Bakerloo]
+2023-07-11 01:18:30,286:DEBUG:root:7049135911 add Bond Street [Central]
+2023-07-11 01:18:30,286:DEBUG:root:7012714671 add Marble Arch [Central]
+2023-07-11 01:18:30,479:DEBUG:root:6943758097 add Chancery Lane [Central]
+2023-07-11 01:18:30,480:DEBUG:root:5466793795 add Holborn [Central]
+2023-07-11 01:18:37,220:DEBUG:root:5461199778 add Tottenham Court Road [Central]
+2023-07-11 01:18:37,412:DEBUG:root:366239944 add Lancaster Gate [Central]
+2023-07-11 01:18:37,412:DEBUG:root:9385780171 add Queensway [Central]
+2023-07-11 01:18:44,464:DEBUG:root:5480725845 add Notting Hill Gate [Central]
+2023-07-11 01:18:44,466:DEBUG:root:10592639431 add Holland Park [Central]
+2023-07-11 01:18:44,565:DEBUG:root:4305326861 add Oxford Circus [Central]
+2023-07-11 01:18:51,256:DEBUG:root:8868824855 add St. Pauls [Central]
+2023-07-11 01:18:57,807:DEBUG:root:1741590045 add Baker Street [Circle]
+2023-07-11 01:18:57,807:DEBUG:root:5473525151 add Great Portland Street [Circle]
+2023-07-11 01:18:58,000:DEBUG:root:26374009 add Bayswater [Circle]
+2023-07-11 01:18:58,000:DEBUG:root:9385808430 add Paddington [Circle]
+2023-07-11 01:18:58,097:DEBUG:root:1610858904 add Blackfriars [Circle]
+2023-07-11 01:18:58,097:DEBUG:root:2533371669 add Temple [Circle]
+2023-07-11 01:18:58,291:DEBUG:root:8731461097 add Edgware Road [Circle]
+2023-07-11 01:18:58,390:DEBUG:root:25476051 add Embankment [Circle]
+2023-07-11 01:18:58,390:DEBUG:root:1587629435 add Westminster [Circle]
+2023-07-11 01:18:58,489:DEBUG:root:5473426154 add Euston Square [Circle]
+2023-07-11 01:18:58,489:DEBUG:root:2428147220 add Kings Cross St. Pancras [Circle]
+2023-07-11 01:18:58,586:DEBUG:root:700169540 add Farringdon [Circle]
+2023-07-11 01:18:58,586:DEBUG:root:5479654175 add Barbican [Circle]
+2023-07-11 01:18:58,683:DEBUG:root:9874019022 add Gloucester Road [Circle]
+2023-07-11 01:18:58,683:DEBUG:root:1291284829 add High Street Kensington [Circle]
+2023-07-11 01:19:04,796:DEBUG:root:5480725845 add Notting Hill Gate [Circle]
+2023-07-11 01:19:04,997:DEBUG:root:7318339408 add Ladbroke Grove [Circle]
+2023-07-11 01:19:04,997:DEBUG:root:7075428513 add Westbourne Park [Circle]
+2023-07-11 01:19:05,295:DEBUG:root:25066784 add Mansion House [Circle]
+2023-07-11 01:19:05,790:DEBUG:root:6980174342 add Royal Oak [Circle]
+2023-07-11 01:19:05,985:DEBUG:root:7051934318 add Sloane Square [Circle]
+2023-07-11 01:19:05,985:DEBUG:root:277336614 add South Kensington [Circle]
+2023-07-11 01:19:11,881:DEBUG:root:12198505 add St. James's Park [Circle]
+2023-07-11 01:19:11,882:DEBUG:root:4052472148 add Victoria [Circle]
+2023-07-11 01:19:12,953:DEBUG:root:26374009 add Bayswater [District]
+2023-07-11 01:19:12,953:DEBUG:root:9385808430 add Paddington [District]
+2023-07-11 01:19:13,145:DEBUG:root:1610858904 add Blackfriars [District]
+2023-07-11 01:19:13,145:DEBUG:root:2533371669 add Temple [District]
+2023-07-11 01:19:19,736:DEBUG:root:7163500914 add Earls Court [District]
+2023-07-11 01:19:19,737:DEBUG:root:1291284829 add High Street Kensington [District]
+2023-07-11 01:19:19,835:DEBUG:root:8724298604 add Kensington [District]
+2023-07-11 01:19:19,934:DEBUG:root:5461690536 add West Brompton [District]
+2023-07-11 01:19:20,032:DEBUG:root:33203791 add West Kensington [District]
+2023-07-11 01:19:26,082:DEBUG:root:25476051 add Embankment [District]
+2023-07-11 01:19:26,082:DEBUG:root:1587629435 add Westminster [District]
+2023-07-11 01:19:26,281:DEBUG:root:9874019022 add Gloucester Road [District]
+2023-07-11 01:19:26,579:DEBUG:root:5480725845 add Notting Hill Gate [District]
+2023-07-11 01:19:26,877:DEBUG:root:25066784 add Mansion House [District]
+2023-07-11 01:19:27,170:DEBUG:root:8731461097 add Edgware Road [District]
+2023-07-11 01:19:33,385:DEBUG:root:7051934318 add Sloane Square [District]
+2023-07-11 01:19:33,387:DEBUG:root:277336614 add South Kensington [District]
+2023-07-11 01:19:33,680:DEBUG:root:12198505 add St. James's Park [District]
+2023-07-11 01:19:33,680:DEBUG:root:4052472148 add Victoria [District]
+2023-07-11 01:20:04,130:DEBUG:root:7049135911 add Bond Street [Elizabeth]
+2023-07-11 01:20:04,131:DEBUG:root:9385808430 add Paddington [Elizabeth]
+2023-07-11 01:20:16,928:DEBUG:root:700169540 add Farringdon [Elizabeth]
+2023-07-11 01:20:16,928:DEBUG:root:5461199778 add Tottenham Court Road [Elizabeth]
+2023-07-11 01:20:34,445:DEBUG:root:1741590045 add Baker Street [Hammersmith and City]
+2023-07-11 01:20:34,446:DEBUG:root:5473525151 add Great Portland Street [Hammersmith and City]
+2023-07-11 01:20:42,358:DEBUG:root:8731461097 add Edgware Road [Hammersmith and City]
+2023-07-11 01:20:42,497:DEBUG:root:5473426154 add Euston Square [Hammersmith and City]
+2023-07-11 01:20:42,497:DEBUG:root:2428147220 add Kings Cross St. Pancras [Hammersmith and City]
+2023-07-11 01:20:42,657:DEBUG:root:700169540 add Farringdon [Hammersmith and City]
+2023-07-11 01:20:42,658:DEBUG:root:5479654175 add Barbican [Hammersmith and City]
+2023-07-11 01:20:43,226:DEBUG:root:7318339408 add Ladbroke Grove [Hammersmith and City]
+2023-07-11 01:20:43,226:DEBUG:root:7075428513 add Westbourne Park [Hammersmith and City]
+2023-07-11 01:20:51,846:DEBUG:root:9385808430 add Paddington [Hammersmith and City]
+2023-07-11 01:20:52,065:DEBUG:root:6980174342 add Royal Oak [Hammersmith and City]
+2023-07-11 01:20:52,835:DEBUG:root:1741590045 add Baker Street [Jubilee]
+2023-07-11 01:20:52,835:DEBUG:root:7049135911 add Bond Street [Jubilee]
+2023-07-11 01:20:53,036:DEBUG:root:6915368620 add Green Park [Jubilee]
+2023-07-11 01:20:59,810:DEBUG:root:2458659131 add Finchley Road [Jubilee]
+2023-07-11 01:20:59,811:DEBUG:root:9383796635 add Swiss Cottage [Jubilee]
+2023-07-11 01:20:59,908:DEBUG:root:1587629435 add Westminster [Jubilee]
+2023-07-11 01:21:00,022:DEBUG:root:5461682849 add Kilburn [Jubilee]
+2023-07-11 01:21:00,023:DEBUG:root:6215264408 add West Hampstead [Jubilee]
+2023-07-11 01:21:00,737:DEBUG:root:6564822627 add St. Johns Wood [Jubilee]
+2023-07-11 01:21:06,698:DEBUG:root:6505620197 add Waterloo [Jubilee]
+2023-07-11 01:21:06,700:DEBUG:root:5361364375 add Southwark [Jubilee]
+2023-07-11 01:21:07,366:DEBUG:root:1741590045 add Baker Street [Metropolitan]
+2023-07-11 01:21:07,366:DEBUG:root:2458659131 add Finchley Road [Metropolitan]
+2023-07-11 01:21:07,462:DEBUG:root:5479654175 add Barbican [Metropolitan]
+2023-07-11 01:21:07,462:DEBUG:root:700169540 add Farringdon [Metropolitan]
+2023-07-11 01:21:13,675:DEBUG:root:5473426154 add Euston Square [Metropolitan]
+2023-07-11 01:21:13,675:DEBUG:root:5473525151 add Great Portland Street [Metropolitan]
+2023-07-11 01:21:13,769:DEBUG:root:2428147220 add Kings Cross St. Pancras [Metropolitan]
+2023-07-11 01:21:23,982:DEBUG:root:8987955803 add Angel [Northern]
+2023-07-11 01:21:23,983:DEBUG:root:2428147220 add Kings Cross St. Pancras [Northern]
+2023-07-11 01:21:31,309:DEBUG:root:5473343566 add Belsize Park [Northern]
+2023-07-11 01:21:31,309:DEBUG:root:5482469739 add Hampstead [Northern]
+2023-07-11 01:21:31,710:DEBUG:root:1782971979 add Camden Town [Northern]
+2023-07-11 01:21:31,710:DEBUG:root:6467180630 add Chalk Farm [Northern]
+2023-07-11 01:21:31,809:DEBUG:root:7887549205 add Kentish Town [Northern]
+2023-07-11 01:21:32,004:DEBUG:root:9904350256 add Charing Cross [Northern]
+2023-07-11 01:21:32,006:DEBUG:root:5479635739 add Leicester Square [Northern]
+2023-07-11 01:21:39,676:DEBUG:root:5455870260 add Elephant and Castle [Northern]
+2023-07-11 01:21:39,677:DEBUG:root:1155200706 add Borough [Northern]
+2023-07-11 01:21:39,786:DEBUG:root:25476051 add Embankment [Northern]
+2023-07-11 01:21:39,886:DEBUG:root:1264708174 add Euston [Northern]
+2023-07-11 01:21:39,996:DEBUG:root:2344320142 add Mornington Crescent [Northern]
+2023-07-11 01:21:40,336:DEBUG:root:7021671308 add Goodge Street [Northern]
+2023-07-11 01:21:40,336:DEBUG:root:2833955781 add Warren Street [Northern]
+2023-07-11 01:21:40,461:DEBUG:root:1389423777 add Golders Green [Northern]
+2023-07-11 01:21:40,817:DEBUG:root:10181017921 add Kennington [Northern]
+2023-07-11 01:21:46,446:DEBUG:root:6505620197 add Waterloo [Northern]
+2023-07-11 01:21:46,547:DEBUG:root:9460016065 add Tufnell Park [Northern]
+2023-07-11 01:21:46,748:DEBUG:root:5461199778 add Tottenham Court Road [Northern]
+2023-07-11 01:21:59,313:DEBUG:root:9396600836 add Brondesbury [Overground]
+2023-07-11 01:21:59,315:DEBUG:root:6215264408 add West Hampstead [Overground]
+2023-07-11 01:21:59,415:DEBUG:root:1142155736 add Brondesbury Park [Overground]
+2023-07-11 01:21:59,809:DEBUG:root:2086131577 add Caledonian Road and Barnsbury [Overground]
+2023-07-11 01:21:59,809:DEBUG:root:3718520125 add Highbury and Islington [Overground]
+2023-07-11 01:22:00,007:DEBUG:root:10790335380 add Camden Road [Overground]
+2023-07-11 01:22:06,486:DEBUG:root:1321766489 add Finchley Road and Frognal [Overground]
+2023-07-11 01:22:06,487:DEBUG:root:1399861907 add Hampstead Heath [Overground]
+2023-07-11 01:22:06,686:DEBUG:root:1734132071 add Gospel Oak [Overground]
+2023-07-11 01:22:06,686:DEBUG:root:3535402339 add Kentish Town West [Overground]
+2023-07-11 01:22:06,786:DEBUG:root:1468597233 add Upper Holloway [Overground]
+2023-07-11 01:22:19,283:DEBUG:root:8724298604 add Kensington [Overground]
+2023-07-11 01:22:19,284:DEBUG:root:5461690536 add West Brompton [Overground]
+2023-07-11 01:22:19,684:DEBUG:root:1692927619 add Kilburn High Road [Overground]
+2023-07-11 01:22:19,684:DEBUG:root:620076633 add South Hampstead [Overground]
+2023-07-11 01:22:25,836:DEBUG:root:276529 add Queens Park [Overground]
+2023-07-11 01:22:32,239:DEBUG:root:1264708174 add Euston [Overground]
+2023-07-11 01:22:38,871:DEBUG:root:847744617 add Crouch Hill [Overground]
+2023-07-11 01:22:46,252:DEBUG:root:5473386924 add Arsenal [Piccadilly]
+2023-07-11 01:22:46,252:DEBUG:root:5482917401 add Holloway Road [Piccadilly]
+2023-07-11 01:22:51,810:DEBUG:root:198118 add Caledonian Road [Piccadilly]
+2023-07-11 01:22:51,810:DEBUG:root:2428147220 add Kings Cross St. Pancras [Piccadilly]
+2023-07-11 01:22:52,007:DEBUG:root:25544135 add Covent Garden [Piccadilly]
+2023-07-11 01:22:52,008:DEBUG:root:5479635739 add Leicester Square [Piccadilly]
+2023-07-11 01:22:52,400:DEBUG:root:8691942848 add Finsbury Park [Piccadilly]
+2023-07-11 01:22:52,499:DEBUG:root:9874019022 add Gloucester Road [Piccadilly]
+2023-07-11 01:22:52,499:DEBUG:root:7163500914 add Earls Court [Piccadilly]
+2023-07-11 01:22:52,601:DEBUG:root:6915368620 add Green Park [Piccadilly]
+2023-07-11 01:22:52,601:DEBUG:root:135772063 add Hyde Park Corner [Piccadilly]
+2023-07-11 01:22:58,508:DEBUG:root:5466793795 add Holborn [Piccadilly]
+2023-07-11 01:22:59,002:DEBUG:root:5475500034 add Knightsbridge [Piccadilly]
+2023-07-11 01:22:59,196:DEBUG:root:1843348265 add Russell Square [Piccadilly]
+2023-07-11 01:22:59,293:DEBUG:root:277336614 add South Kensington [Piccadilly]
+2023-07-11 01:22:59,390:DEBUG:root:26559371 add Piccadilly Circus [Piccadilly]
+2023-07-11 01:22:59,488:DEBUG:root:759818262 add Manor House [Piccadilly]
+2023-07-11 01:23:12,096:DEBUG:root:1264708174 add Euston [Victoria]
+2023-07-11 01:23:12,098:DEBUG:root:2833955781 add Warren Street [Victoria]
+2023-07-11 01:23:12,198:DEBUG:root:8691942848 add Finsbury Park [Victoria]
+2023-07-11 01:23:12,198:DEBUG:root:3718520125 add Highbury and Islington [Victoria]
+2023-07-11 01:23:12,297:DEBUG:root:6915368620 add Green Park [Victoria]
+2023-07-11 01:23:12,297:DEBUG:root:4052472148 add Victoria [Victoria]
+2023-07-11 01:23:12,396:DEBUG:root:2428147220 add Kings Cross St. Pancras [Victoria]
+2023-07-11 01:23:12,598:DEBUG:root:4305326861 add Oxford Circus [Victoria]
+2023-07-11 01:23:12,698:DEBUG:root:1287703214 add Pimlico [Victoria]
+2023-07-11 01:23:12,698:DEBUG:root:926239878 add Vauxhall [Victoria]
+2023-07-11 01:23:18,667:DEBUG:root:added node Baker Street [Bakerloo]: {'x': -0.15699670000000002, 'y': 51.5232224, 'type': 'tube_station'}
+2023-07-11 01:23:18,667:DEBUG:root:entrance added: 1741590045 -> Baker Street [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,667:DEBUG:root:added node Baker Street [Circle]: {'x': -0.1568967, 'y': 51.5232224, 'type': 'tube_station'}
+2023-07-11 01:23:18,667:DEBUG:root:entrance added: 1741590045 -> Baker Street [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,668:DEBUG:root:added node Baker Street [Hammersmith and City]: {'x': -0.1567967, 'y': 51.5232224, 'type': 'tube_station'}
+2023-07-11 01:23:18,668:DEBUG:root:entrance added: 1741590045 -> Baker Street [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,668:DEBUG:root:added node Baker Street [Jubilee]: {'x': -0.1566967, 'y': 51.5232224, 'type': 'tube_station'}
+2023-07-11 01:23:18,668:DEBUG:root:entrance added: 1741590045 -> Baker Street [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,668:DEBUG:root:added node Baker Street [Metropolitan]: {'x': -0.1565967, 'y': 51.5232224, 'type': 'tube_station'}
+2023-07-11 01:23:18,668:DEBUG:root:entrance added: 1741590045 -> Baker Street [Metropolitan] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,668:DEBUG:root:transfer added: Baker Street [Bakerloo] -> Baker Street [Circle] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,668:DEBUG:root:transfer added: Baker Street [Bakerloo] -> Baker Street [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,668:DEBUG:root:transfer added: Baker Street [Bakerloo] -> Baker Street [Jubilee] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,668:DEBUG:root:transfer added: Baker Street [Bakerloo] -> Baker Street [Metropolitan] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,668:DEBUG:root:transfer added: Baker Street [Circle] -> Baker Street [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,668:DEBUG:root:transfer added: Baker Street [Circle] -> Baker Street [Jubilee] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,668:DEBUG:root:transfer added: Baker Street [Circle] -> Baker Street [Metropolitan] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,668:DEBUG:root:transfer added: Baker Street [Hammersmith and City] -> Baker Street [Jubilee] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,668:DEBUG:root:transfer added: Baker Street [Hammersmith and City] -> Baker Street [Metropolitan] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,668:DEBUG:root:transfer added: Baker Street [Jubilee] -> Baker Street [Metropolitan] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,668:DEBUG:root:added node Regents Park [Bakerloo]: {'x': -0.1453191, 'y': 51.5238724, 'type': 'tube_station'}
+2023-07-11 01:23:18,668:DEBUG:root:entrance added: 1427421955 -> Regents Park [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,668:DEBUG:root:added node Charing Cross [Bakerloo]: {'x': -0.1248597, 'y': 51.5083916, 'type': 'tube_station'}
+2023-07-11 01:23:18,668:DEBUG:root:entrance added: 9904350256 -> Charing Cross [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,669:DEBUG:root:added node Charing Cross [Northern]: {'x': -0.1247597, 'y': 51.5083916, 'type': 'tube_station'}
+2023-07-11 01:23:18,669:DEBUG:root:entrance added: 9904350256 -> Charing Cross [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,669:DEBUG:root:transfer added: Charing Cross [Bakerloo] -> Charing Cross [Northern] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,669:DEBUG:root:added node Embankment [Bakerloo]: {'x': -0.1225925, 'y': 51.5073162, 'type': 'tube_station'}
+2023-07-11 01:23:18,669:DEBUG:root:entrance added: 25476051 -> Embankment [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,669:DEBUG:root:added node Embankment [Circle]: {'x': -0.12249249999999999, 'y': 51.5073162, 'type': 'tube_station'}
+2023-07-11 01:23:18,669:DEBUG:root:entrance added: 25476051 -> Embankment [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,669:DEBUG:root:added node Embankment [District]: {'x': -0.1223925, 'y': 51.5073162, 'type': 'tube_station'}
+2023-07-11 01:23:18,669:DEBUG:root:entrance added: 25476051 -> Embankment [District] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,669:DEBUG:root:added node Embankment [Northern]: {'x': -0.1222925, 'y': 51.5073162, 'type': 'tube_station'}
+2023-07-11 01:23:18,669:DEBUG:root:entrance added: 25476051 -> Embankment [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,669:DEBUG:root:transfer added: Embankment [Bakerloo] -> Embankment [Circle] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,669:DEBUG:root:transfer added: Embankment [Bakerloo] -> Embankment [District] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,669:DEBUG:root:transfer added: Embankment [Bakerloo] -> Embankment [Northern] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,669:DEBUG:root:transfer added: Embankment [Circle] -> Embankment [District] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,669:DEBUG:root:transfer added: Embankment [Circle] -> Embankment [Northern] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,669:DEBUG:root:transfer added: Embankment [District] -> Embankment [Northern] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,669:DEBUG:root:added node Edgware Road [Bakerloo]: {'x': -0.16749350000000002, 'y': 51.5199669, 'type': 'tube_station'}
+2023-07-11 01:23:18,669:DEBUG:root:entrance added: 8731461097 -> Edgware Road [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,669:DEBUG:root:added node Edgware Road [Circle]: {'x': -0.1673935, 'y': 51.5199669, 'type': 'tube_station'}
+2023-07-11 01:23:18,669:DEBUG:root:entrance added: 8731461097 -> Edgware Road [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,669:DEBUG:root:added node Edgware Road [District]: {'x': -0.1672935, 'y': 51.5199669, 'type': 'tube_station'}
+2023-07-11 01:23:18,669:DEBUG:root:entrance added: 8731461097 -> Edgware Road [District] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,669:DEBUG:root:added node Edgware Road [Hammersmith and City]: {'x': -0.1671935, 'y': 51.5199669, 'type': 'tube_station'}
+2023-07-11 01:23:18,669:DEBUG:root:entrance added: 8731461097 -> Edgware Road [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,669:DEBUG:root:transfer added: Edgware Road [Bakerloo] -> Edgware Road [Circle] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,669:DEBUG:root:transfer added: Edgware Road [Bakerloo] -> Edgware Road [District] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,669:DEBUG:root:transfer added: Edgware Road [Bakerloo] -> Edgware Road [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,669:DEBUG:root:transfer added: Edgware Road [Circle] -> Edgware Road [District] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,669:DEBUG:root:transfer added: Edgware Road [Circle] -> Edgware Road [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,669:DEBUG:root:transfer added: Edgware Road [District] -> Edgware Road [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,670:DEBUG:root:added node Marylebone [Bakerloo]: {'x': -0.16330730000000002, 'y': 51.5224292, 'type': 'tube_station'}
+2023-07-11 01:23:18,670:DEBUG:root:entrance added: 7770710708 -> Marylebone [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,670:DEBUG:root:added node Waterloo [Bakerloo]: {'x': -0.1131093, 'y': 51.5033738, 'type': 'tube_station'}
+2023-07-11 01:23:18,670:DEBUG:root:entrance added: 6505620197 -> Waterloo [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,670:DEBUG:root:added node Waterloo [Jubilee]: {'x': -0.1130093, 'y': 51.5033738, 'type': 'tube_station'}
+2023-07-11 01:23:18,670:DEBUG:root:entrance added: 6505620197 -> Waterloo [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,670:DEBUG:root:added node Waterloo [Northern]: {'x': -0.1129093, 'y': 51.5033738, 'type': 'tube_station'}
+2023-07-11 01:23:18,670:DEBUG:root:entrance added: 6505620197 -> Waterloo [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,670:DEBUG:root:transfer added: Waterloo [Bakerloo] -> Waterloo [Jubilee] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,670:DEBUG:root:transfer added: Waterloo [Bakerloo] -> Waterloo [Northern] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,670:DEBUG:root:transfer added: Waterloo [Jubilee] -> Waterloo [Northern] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,671:DEBUG:root:added node Kilburn Park [Bakerloo]: {'x': -0.19361630000000002, 'y': 51.5352274, 'type': 'tube_station'}
+2023-07-11 01:23:18,671:DEBUG:root:entrance added: 4033385470 -> Kilburn Park [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,671:DEBUG:root:added node Maida Vale [Bakerloo]: {'x': -0.1850227, 'y': 51.5302806, 'type': 'tube_station'}
+2023-07-11 01:23:18,671:DEBUG:root:entrance added: 1687504906 -> Maida Vale [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,671:DEBUG:root:added node Lambeth North [Bakerloo]: {'x': -0.1117809, 'y': 51.4993751, 'type': 'tube_station'}
+2023-07-11 01:23:18,671:DEBUG:root:entrance added: 7564332460 -> Lambeth North [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,671:DEBUG:root:added node Elephant and Castle [Bakerloo]: {'x': -0.10064719999999999, 'y': 51.4958622, 'type': 'tube_station'}
+2023-07-11 01:23:18,671:DEBUG:root:entrance added: 5455870260 -> Elephant and Castle [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,671:DEBUG:root:added node Elephant and Castle [Northern]: {'x': -0.10054719999999999, 'y': 51.4958622, 'type': 'tube_station'}
+2023-07-11 01:23:18,671:DEBUG:root:entrance added: 5455870260 -> Elephant and Castle [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,671:DEBUG:root:transfer added: Elephant and Castle [Bakerloo] -> Elephant and Castle [Northern] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,671:DEBUG:root:added node Warwick Avenue [Bakerloo]: {'x': -0.1831546, 'y': 51.5230617, 'type': 'tube_station'}
+2023-07-11 01:23:18,671:DEBUG:root:entrance added: 5479703556 -> Warwick Avenue [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,671:DEBUG:root:added node Oxford Circus [Bakerloo]: {'x': -0.14090370000000002, 'y': 51.5152582, 'type': 'tube_station'}
+2023-07-11 01:23:18,671:DEBUG:root:entrance added: 4305326861 -> Oxford Circus [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,671:DEBUG:root:added node Oxford Circus [Central]: {'x': -0.1408037, 'y': 51.5152582, 'type': 'tube_station'}
+2023-07-11 01:23:18,672:DEBUG:root:entrance added: 4305326861 -> Oxford Circus [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,672:DEBUG:root:added node Oxford Circus [Victoria]: {'x': -0.14070370000000001, 'y': 51.5152582, 'type': 'tube_station'}
+2023-07-11 01:23:18,672:DEBUG:root:entrance added: 4305326861 -> Oxford Circus [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,672:DEBUG:root:transfer added: Oxford Circus [Bakerloo] -> Oxford Circus [Central] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,672:DEBUG:root:transfer added: Oxford Circus [Bakerloo] -> Oxford Circus [Victoria] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,672:DEBUG:root:transfer added: Oxford Circus [Central] -> Oxford Circus [Victoria] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,672:DEBUG:root:added node Piccadilly Circus [Bakerloo]: {'x': -0.1334766, 'y': 51.5094679, 'type': 'tube_station'}
+2023-07-11 01:23:18,672:DEBUG:root:entrance added: 26559371 -> Piccadilly Circus [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,672:DEBUG:root:added node Piccadilly Circus [Piccadilly]: {'x': -0.13337659999999998, 'y': 51.5094679, 'type': 'tube_station'}
+2023-07-11 01:23:18,672:DEBUG:root:entrance added: 26559371 -> Piccadilly Circus [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,672:DEBUG:root:transfer added: Piccadilly Circus [Bakerloo] -> Piccadilly Circus [Piccadilly] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,672:DEBUG:root:added node Paddington [Bakerloo]: {'x': -0.1755612, 'y': 51.5154819, 'type': 'tube_station'}
+2023-07-11 01:23:18,673:DEBUG:root:entrance added: 9385808430 -> Paddington [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,673:DEBUG:root:added node Paddington [Circle]: {'x': -0.17546119999999998, 'y': 51.5154819, 'type': 'tube_station'}
+2023-07-11 01:23:18,673:DEBUG:root:entrance added: 9385808430 -> Paddington [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,673:DEBUG:root:added node Paddington [District]: {'x': -0.1753612, 'y': 51.5154819, 'type': 'tube_station'}
+2023-07-11 01:23:18,673:DEBUG:root:entrance added: 9385808430 -> Paddington [District] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,673:DEBUG:root:added node Paddington [Elizabeth]: {'x': -0.17526119999999998, 'y': 51.5154819, 'type': 'tube_station'}
+2023-07-11 01:23:18,673:DEBUG:root:entrance added: 9385808430 -> Paddington [Elizabeth] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,673:DEBUG:root:added node Paddington [Hammersmith and City]: {'x': -0.1751612, 'y': 51.5154819, 'type': 'tube_station'}
+2023-07-11 01:23:18,673:DEBUG:root:entrance added: 9385808430 -> Paddington [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,673:DEBUG:root:transfer added: Paddington [Bakerloo] -> Paddington [Circle] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,673:DEBUG:root:transfer added: Paddington [Bakerloo] -> Paddington [District] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,673:DEBUG:root:transfer added: Paddington [Bakerloo] -> Paddington [Elizabeth] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,673:DEBUG:root:transfer added: Paddington [Bakerloo] -> Paddington [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,673:DEBUG:root:transfer added: Paddington [Circle] -> Paddington [District] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,673:DEBUG:root:transfer added: Paddington [Circle] -> Paddington [Elizabeth] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,673:DEBUG:root:transfer added: Paddington [Circle] -> Paddington [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,673:DEBUG:root:transfer added: Paddington [District] -> Paddington [Elizabeth] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,673:DEBUG:root:transfer added: Paddington [District] -> Paddington [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,673:DEBUG:root:transfer added: Paddington [Elizabeth] -> Paddington [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,673:DEBUG:root:added node Queens Park [Bakerloo]: {'x': -0.2045959, 'y': 51.5346313, 'type': 'tube_station'}
+2023-07-11 01:23:18,673:DEBUG:root:entrance added: 276529 -> Queens Park [Bakerloo] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,673:DEBUG:root:added node Queens Park [Overground]: {'x': -0.20449589999999998, 'y': 51.5346313, 'type': 'tube_station'}
+2023-07-11 01:23:18,673:DEBUG:root:entrance added: 276529 -> Queens Park [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,673:DEBUG:root:transfer added: Queens Park [Bakerloo] -> Queens Park [Overground] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,673:DEBUG:root:added node Bond Street [Central]: {'x': -0.149267, 'y': 51.5139551, 'type': 'tube_station'}
+2023-07-11 01:23:18,673:DEBUG:root:entrance added: 7049135911 -> Bond Street [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,673:DEBUG:root:added node Bond Street [Elizabeth]: {'x': -0.149167, 'y': 51.5139551, 'type': 'tube_station'}
+2023-07-11 01:23:18,673:DEBUG:root:entrance added: 7049135911 -> Bond Street [Elizabeth] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,673:DEBUG:root:added node Bond Street [Jubilee]: {'x': -0.149067, 'y': 51.5139551, 'type': 'tube_station'}
+2023-07-11 01:23:18,673:DEBUG:root:entrance added: 7049135911 -> Bond Street [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,673:DEBUG:root:transfer added: Bond Street [Central] -> Bond Street [Elizabeth] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,673:DEBUG:root:transfer added: Bond Street [Central] -> Bond Street [Jubilee] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,673:DEBUG:root:transfer added: Bond Street [Elizabeth] -> Bond Street [Jubilee] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,674:DEBUG:root:added node Marble Arch [Central]: {'x': -0.15802770000000002, 'y': 51.5143112, 'type': 'tube_station'}
+2023-07-11 01:23:18,674:DEBUG:root:entrance added: 7012714671 -> Marble Arch [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,674:DEBUG:root:added node Chancery Lane [Central]: {'x': -0.1116278, 'y': 51.518753, 'type': 'tube_station'}
+2023-07-11 01:23:18,674:DEBUG:root:entrance added: 6943758097 -> Chancery Lane [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,674:DEBUG:root:added node Holborn [Central]: {'x': -0.1198159, 'y': 51.5173, 'type': 'tube_station'}
+2023-07-11 01:23:18,674:DEBUG:root:entrance added: 5466793795 -> Holborn [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,674:DEBUG:root:added node Holborn [Piccadilly]: {'x': -0.1197159, 'y': 51.5173, 'type': 'tube_station'}
+2023-07-11 01:23:18,674:DEBUG:root:entrance added: 5466793795 -> Holborn [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,674:DEBUG:root:transfer added: Holborn [Central] -> Holborn [Piccadilly] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,674:DEBUG:root:added node Tottenham Court Road [Central]: {'x': -0.1310473, 'y': 51.5162798, 'type': 'tube_station'}
+2023-07-11 01:23:18,674:DEBUG:root:entrance added: 5461199778 -> Tottenham Court Road [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,674:DEBUG:root:added node Tottenham Court Road [Elizabeth]: {'x': -0.1309473, 'y': 51.5162798, 'type': 'tube_station'}
+2023-07-11 01:23:18,674:DEBUG:root:entrance added: 5461199778 -> Tottenham Court Road [Elizabeth] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,674:DEBUG:root:added node Tottenham Court Road [Northern]: {'x': -0.1308473, 'y': 51.5162798, 'type': 'tube_station'}
+2023-07-11 01:23:18,674:DEBUG:root:entrance added: 5461199778 -> Tottenham Court Road [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,674:DEBUG:root:transfer added: Tottenham Court Road [Central] -> Tottenham Court Road [Elizabeth] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,674:DEBUG:root:transfer added: Tottenham Court Road [Central] -> Tottenham Court Road [Northern] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,674:DEBUG:root:transfer added: Tottenham Court Road [Elizabeth] -> Tottenham Court Road [Northern] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,674:DEBUG:root:added node Lancaster Gate [Central]: {'x': -0.17548930000000001, 'y': 51.5116457, 'type': 'tube_station'}
+2023-07-11 01:23:18,674:DEBUG:root:entrance added: 366239944 -> Lancaster Gate [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,675:DEBUG:root:added node Queensway [Central]: {'x': -0.18709830000000002, 'y': 51.5103513, 'type': 'tube_station'}
+2023-07-11 01:23:18,675:DEBUG:root:entrance added: 9385780171 -> Queensway [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,675:DEBUG:root:added node Notting Hill Gate [Central]: {'x': -0.1959886, 'y': 51.5092529, 'type': 'tube_station'}
+2023-07-11 01:23:18,675:DEBUG:root:entrance added: 5480725845 -> Notting Hill Gate [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,675:DEBUG:root:added node Notting Hill Gate [Circle]: {'x': -0.1958886, 'y': 51.5092529, 'type': 'tube_station'}
+2023-07-11 01:23:18,675:DEBUG:root:entrance added: 5480725845 -> Notting Hill Gate [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,675:DEBUG:root:added node Notting Hill Gate [District]: {'x': -0.1957886, 'y': 51.5092529, 'type': 'tube_station'}
+2023-07-11 01:23:18,675:DEBUG:root:entrance added: 5480725845 -> Notting Hill Gate [District] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,675:DEBUG:root:transfer added: Notting Hill Gate [Central] -> Notting Hill Gate [Circle] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,675:DEBUG:root:transfer added: Notting Hill Gate [Central] -> Notting Hill Gate [District] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,675:DEBUG:root:transfer added: Notting Hill Gate [Circle] -> Notting Hill Gate [District] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,675:DEBUG:root:added node Holland Park [Central]: {'x': -0.2065992, 'y': 51.5069484, 'type': 'tube_station'}
+2023-07-11 01:23:18,675:DEBUG:root:entrance added: 10592639431 -> Holland Park [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,675:DEBUG:root:added node St. Pauls [Central]: {'x': -0.0975613, 'y': 51.5147847, 'type': 'tube_station'}
+2023-07-11 01:23:18,675:DEBUG:root:entrance added: 8868824855 -> St. Pauls [Central] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,675:DEBUG:root:added node Great Portland Street [Circle]: {'x': -0.1439107, 'y': 51.5237818, 'type': 'tube_station'}
+2023-07-11 01:23:18,675:DEBUG:root:entrance added: 5473525151 -> Great Portland Street [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,675:DEBUG:root:added node Great Portland Street [Hammersmith and City]: {'x': -0.14381069999999999, 'y': 51.5237818, 'type': 'tube_station'}
+2023-07-11 01:23:18,675:DEBUG:root:entrance added: 5473525151 -> Great Portland Street [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,676:DEBUG:root:added node Great Portland Street [Metropolitan]: {'x': -0.1437107, 'y': 51.5237818, 'type': 'tube_station'}
+2023-07-11 01:23:18,676:DEBUG:root:entrance added: 5473525151 -> Great Portland Street [Metropolitan] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,676:DEBUG:root:transfer added: Great Portland Street [Circle] -> Great Portland Street [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,676:DEBUG:root:transfer added: Great Portland Street [Circle] -> Great Portland Street [Metropolitan] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,676:DEBUG:root:transfer added: Great Portland Street [Hammersmith and City] -> Great Portland Street [Metropolitan] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,676:DEBUG:root:added node Bayswater [Circle]: {'x': -0.18740910000000002, 'y': 51.512127, 'type': 'tube_station'}
+2023-07-11 01:23:18,676:DEBUG:root:entrance added: 26374009 -> Bayswater [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,676:DEBUG:root:added node Bayswater [District]: {'x': -0.1873091, 'y': 51.512127, 'type': 'tube_station'}
+2023-07-11 01:23:18,676:DEBUG:root:entrance added: 26374009 -> Bayswater [District] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,676:DEBUG:root:transfer added: Bayswater [Circle] -> Bayswater [District] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,676:DEBUG:root:added node Blackfriars [Circle]: {'x': -0.1029697, 'y': 51.5116791, 'type': 'tube_station'}
+2023-07-11 01:23:18,676:DEBUG:root:entrance added: 1610858904 -> Blackfriars [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,676:DEBUG:root:added node Blackfriars [District]: {'x': -0.1028697, 'y': 51.5116791, 'type': 'tube_station'}
+2023-07-11 01:23:18,676:DEBUG:root:entrance added: 1610858904 -> Blackfriars [District] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,676:DEBUG:root:transfer added: Blackfriars [Circle] -> Blackfriars [District] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,677:DEBUG:root:added node Temple [Circle]: {'x': -0.1136394, 'y': 51.5111613, 'type': 'tube_station'}
+2023-07-11 01:23:18,677:DEBUG:root:entrance added: 2533371669 -> Temple [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,677:DEBUG:root:added node Temple [District]: {'x': -0.1135394, 'y': 51.5111613, 'type': 'tube_station'}
+2023-07-11 01:23:18,677:DEBUG:root:entrance added: 2533371669 -> Temple [District] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,677:DEBUG:root:transfer added: Temple [Circle] -> Temple [District] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,677:DEBUG:root:added node Westminster [Circle]: {'x': -0.1247756, 'y': 51.5012044, 'type': 'tube_station'}
+2023-07-11 01:23:18,677:DEBUG:root:entrance added: 1587629435 -> Westminster [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,677:DEBUG:root:added node Westminster [District]: {'x': -0.1246756, 'y': 51.5012044, 'type': 'tube_station'}
+2023-07-11 01:23:18,677:DEBUG:root:entrance added: 1587629435 -> Westminster [District] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,677:DEBUG:root:added node Westminster [Jubilee]: {'x': -0.12457560000000001, 'y': 51.5012044, 'type': 'tube_station'}
+2023-07-11 01:23:18,677:DEBUG:root:entrance added: 1587629435 -> Westminster [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,677:DEBUG:root:transfer added: Westminster [Circle] -> Westminster [District] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,677:DEBUG:root:transfer added: Westminster [Circle] -> Westminster [Jubilee] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,677:DEBUG:root:transfer added: Westminster [District] -> Westminster [Jubilee] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,677:DEBUG:root:added node Euston Square [Circle]: {'x': -0.13544540000000002, 'y': 51.5254598, 'type': 'tube_station'}
+2023-07-11 01:23:18,677:DEBUG:root:entrance added: 5473426154 -> Euston Square [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,677:DEBUG:root:added node Euston Square [Hammersmith and City]: {'x': -0.1353454, 'y': 51.5254598, 'type': 'tube_station'}
+2023-07-11 01:23:18,677:DEBUG:root:entrance added: 5473426154 -> Euston Square [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,677:DEBUG:root:added node Euston Square [Metropolitan]: {'x': -0.13524540000000002, 'y': 51.5254598, 'type': 'tube_station'}
+2023-07-11 01:23:18,677:DEBUG:root:entrance added: 5473426154 -> Euston Square [Metropolitan] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,677:DEBUG:root:transfer added: Euston Square [Circle] -> Euston Square [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,677:DEBUG:root:transfer added: Euston Square [Circle] -> Euston Square [Metropolitan] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,677:DEBUG:root:transfer added: Euston Square [Hammersmith and City] -> Euston Square [Metropolitan] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,677:DEBUG:root:added node Kings Cross St. Pancras [Circle]: {'x': -0.1238141, 'y': 51.5302886, 'type': 'tube_station'}
+2023-07-11 01:23:18,677:DEBUG:root:entrance added: 2428147220 -> Kings Cross St. Pancras [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,677:DEBUG:root:added node Kings Cross St. Pancras [Hammersmith and City]: {'x': -0.1237141, 'y': 51.5302886, 'type': 'tube_station'}
+2023-07-11 01:23:18,677:DEBUG:root:entrance added: 2428147220 -> Kings Cross St. Pancras [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,677:DEBUG:root:added node Kings Cross St. Pancras [Metropolitan]: {'x': -0.1236141, 'y': 51.5302886, 'type': 'tube_station'}
+2023-07-11 01:23:18,677:DEBUG:root:entrance added: 2428147220 -> Kings Cross St. Pancras [Metropolitan] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,677:DEBUG:root:added node Kings Cross St. Pancras [Northern]: {'x': -0.1235141, 'y': 51.5302886, 'type': 'tube_station'}
+2023-07-11 01:23:18,677:DEBUG:root:entrance added: 2428147220 -> Kings Cross St. Pancras [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,677:DEBUG:root:added node Kings Cross St. Pancras [Piccadilly]: {'x': -0.1234141, 'y': 51.5302886, 'type': 'tube_station'}
+2023-07-11 01:23:18,677:DEBUG:root:entrance added: 2428147220 -> Kings Cross St. Pancras [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,677:DEBUG:root:added node Kings Cross St. Pancras [Victoria]: {'x': -0.1233141, 'y': 51.5302886, 'type': 'tube_station'}
+2023-07-11 01:23:18,677:DEBUG:root:entrance added: 2428147220 -> Kings Cross St. Pancras [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,677:DEBUG:root:transfer added: Kings Cross St. Pancras [Circle] -> Kings Cross St. Pancras [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,677:DEBUG:root:transfer added: Kings Cross St. Pancras [Circle] -> Kings Cross St. Pancras [Metropolitan] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,677:DEBUG:root:transfer added: Kings Cross St. Pancras [Circle] -> Kings Cross St. Pancras [Northern] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,677:DEBUG:root:transfer added: Kings Cross St. Pancras [Circle] -> Kings Cross St. Pancras [Piccadilly] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,677:DEBUG:root:transfer added: Kings Cross St. Pancras [Circle] -> Kings Cross St. Pancras [Victoria] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,677:DEBUG:root:transfer added: Kings Cross St. Pancras [Hammersmith and City] -> Kings Cross St. Pancras [Metropolitan] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,677:DEBUG:root:transfer added: Kings Cross St. Pancras [Hammersmith and City] -> Kings Cross St. Pancras [Northern] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,677:DEBUG:root:transfer added: Kings Cross St. Pancras [Hammersmith and City] -> Kings Cross St. Pancras [Piccadilly] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,677:DEBUG:root:transfer added: Kings Cross St. Pancras [Hammersmith and City] -> Kings Cross St. Pancras [Victoria] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,677:DEBUG:root:transfer added: Kings Cross St. Pancras [Metropolitan] -> Kings Cross St. Pancras [Northern] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,677:DEBUG:root:transfer added: Kings Cross St. Pancras [Metropolitan] -> Kings Cross St. Pancras [Piccadilly] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,678:DEBUG:root:transfer added: Kings Cross St. Pancras [Metropolitan] -> Kings Cross St. Pancras [Victoria] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,678:DEBUG:root:transfer added: Kings Cross St. Pancras [Northern] -> Kings Cross St. Pancras [Piccadilly] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,678:DEBUG:root:transfer added: Kings Cross St. Pancras [Northern] -> Kings Cross St. Pancras [Victoria] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,678:DEBUG:root:transfer added: Kings Cross St. Pancras [Piccadilly] -> Kings Cross St. Pancras [Victoria] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,678:DEBUG:root:added node Farringdon [Circle]: {'x': -0.104753, 'y': 51.5202582, 'type': 'tube_station'}
+2023-07-11 01:23:18,678:DEBUG:root:entrance added: 700169540 -> Farringdon [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,678:DEBUG:root:added node Farringdon [Elizabeth]: {'x': -0.104653, 'y': 51.5202582, 'type': 'tube_station'}
+2023-07-11 01:23:18,678:DEBUG:root:entrance added: 700169540 -> Farringdon [Elizabeth] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,678:DEBUG:root:added node Farringdon [Hammersmith and City]: {'x': -0.10455300000000001, 'y': 51.5202582, 'type': 'tube_station'}
+2023-07-11 01:23:18,678:DEBUG:root:entrance added: 700169540 -> Farringdon [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,678:DEBUG:root:added node Farringdon [Metropolitan]: {'x': -0.104453, 'y': 51.5202582, 'type': 'tube_station'}
+2023-07-11 01:23:18,678:DEBUG:root:entrance added: 700169540 -> Farringdon [Metropolitan] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,678:DEBUG:root:transfer added: Farringdon [Circle] -> Farringdon [Elizabeth] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,678:DEBUG:root:transfer added: Farringdon [Circle] -> Farringdon [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,678:DEBUG:root:transfer added: Farringdon [Circle] -> Farringdon [Metropolitan] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,678:DEBUG:root:transfer added: Farringdon [Elizabeth] -> Farringdon [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,678:DEBUG:root:transfer added: Farringdon [Elizabeth] -> Farringdon [Metropolitan] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,678:DEBUG:root:transfer added: Farringdon [Hammersmith and City] -> Farringdon [Metropolitan] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,678:DEBUG:root:added node Barbican [Circle]: {'x': -0.0975568, 'y': 51.5202125, 'type': 'tube_station'}
+2023-07-11 01:23:18,678:DEBUG:root:entrance added: 5479654175 -> Barbican [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,678:DEBUG:root:added node Barbican [Hammersmith and City]: {'x': -0.0974568, 'y': 51.5202125, 'type': 'tube_station'}
+2023-07-11 01:23:18,678:DEBUG:root:entrance added: 5479654175 -> Barbican [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,678:DEBUG:root:added node Barbican [Metropolitan]: {'x': -0.09735680000000001, 'y': 51.5202125, 'type': 'tube_station'}
+2023-07-11 01:23:18,678:DEBUG:root:entrance added: 5479654175 -> Barbican [Metropolitan] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,678:DEBUG:root:transfer added: Barbican [Circle] -> Barbican [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,678:DEBUG:root:transfer added: Barbican [Circle] -> Barbican [Metropolitan] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,678:DEBUG:root:transfer added: Barbican [Hammersmith and City] -> Barbican [Metropolitan] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,678:DEBUG:root:added node Gloucester Road [Circle]: {'x': -0.1834116, 'y': 51.4946994, 'type': 'tube_station'}
+2023-07-11 01:23:18,678:DEBUG:root:entrance added: 9874019022 -> Gloucester Road [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,678:DEBUG:root:added node Gloucester Road [District]: {'x': -0.1833116, 'y': 51.4946994, 'type': 'tube_station'}
+2023-07-11 01:23:18,678:DEBUG:root:entrance added: 9874019022 -> Gloucester Road [District] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,678:DEBUG:root:added node Gloucester Road [Piccadilly]: {'x': -0.1832116, 'y': 51.4946994, 'type': 'tube_station'}
+2023-07-11 01:23:18,678:DEBUG:root:entrance added: 9874019022 -> Gloucester Road [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,678:DEBUG:root:transfer added: Gloucester Road [Circle] -> Gloucester Road [District] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,678:DEBUG:root:transfer added: Gloucester Road [Circle] -> Gloucester Road [Piccadilly] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,678:DEBUG:root:transfer added: Gloucester Road [District] -> Gloucester Road [Piccadilly] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,678:DEBUG:root:added node High Street Kensington [Circle]: {'x': -0.1915301, 'y': 51.5003692, 'type': 'tube_station'}
+2023-07-11 01:23:18,678:DEBUG:root:entrance added: 1291284829 -> High Street Kensington [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,678:DEBUG:root:added node High Street Kensington [District]: {'x': -0.1914301, 'y': 51.5003692, 'type': 'tube_station'}
+2023-07-11 01:23:18,678:DEBUG:root:entrance added: 1291284829 -> High Street Kensington [District] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,678:DEBUG:root:transfer added: High Street Kensington [Circle] -> High Street Kensington [District] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,678:DEBUG:root:added node Ladbroke Grove [Circle]: {'x': -0.21016410000000002, 'y': 51.5170547, 'type': 'tube_station'}
+2023-07-11 01:23:18,679:DEBUG:root:entrance added: 7318339408 -> Ladbroke Grove [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,679:DEBUG:root:added node Ladbroke Grove [Hammersmith and City]: {'x': -0.2100641, 'y': 51.5170547, 'type': 'tube_station'}
+2023-07-11 01:23:18,679:DEBUG:root:entrance added: 7318339408 -> Ladbroke Grove [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,679:DEBUG:root:transfer added: Ladbroke Grove [Circle] -> Ladbroke Grove [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,679:DEBUG:root:added node Westbourne Park [Circle]: {'x': -0.2009388, 'y': 51.5206856, 'type': 'tube_station'}
+2023-07-11 01:23:18,679:DEBUG:root:entrance added: 7075428513 -> Westbourne Park [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,679:DEBUG:root:added node Westbourne Park [Hammersmith and City]: {'x': -0.20083879999999998, 'y': 51.5206856, 'type': 'tube_station'}
+2023-07-11 01:23:18,679:DEBUG:root:entrance added: 7075428513 -> Westbourne Park [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,679:DEBUG:root:transfer added: Westbourne Park [Circle] -> Westbourne Park [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,679:DEBUG:root:added node Mansion House [Circle]: {'x': -0.094301, 'y': 51.5120034, 'type': 'tube_station'}
+2023-07-11 01:23:18,679:DEBUG:root:entrance added: 25066784 -> Mansion House [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,679:DEBUG:root:added node Mansion House [District]: {'x': -0.094201, 'y': 51.5120034, 'type': 'tube_station'}
+2023-07-11 01:23:18,679:DEBUG:root:entrance added: 25066784 -> Mansion House [District] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,679:DEBUG:root:transfer added: Mansion House [Circle] -> Mansion House [District] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,679:DEBUG:root:added node Royal Oak [Circle]: {'x': -0.18893610000000002, 'y': 51.5181666, 'type': 'tube_station'}
+2023-07-11 01:23:18,679:DEBUG:root:entrance added: 6980174342 -> Royal Oak [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,679:DEBUG:root:added node Royal Oak [Hammersmith and City]: {'x': -0.1888361, 'y': 51.5181666, 'type': 'tube_station'}
+2023-07-11 01:23:18,679:DEBUG:root:entrance added: 6980174342 -> Royal Oak [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,679:DEBUG:root:transfer added: Royal Oak [Circle] -> Royal Oak [Hammersmith and City] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,679:DEBUG:root:added node Sloane Square [Circle]: {'x': -0.1561989, 'y': 51.4923229, 'type': 'tube_station'}
+2023-07-11 01:23:18,679:DEBUG:root:entrance added: 7051934318 -> Sloane Square [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,679:DEBUG:root:added node Sloane Square [District]: {'x': -0.15609889999999998, 'y': 51.4923229, 'type': 'tube_station'}
+2023-07-11 01:23:18,679:DEBUG:root:entrance added: 7051934318 -> Sloane Square [District] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,679:DEBUG:root:transfer added: Sloane Square [Circle] -> Sloane Square [District] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,679:DEBUG:root:added node South Kensington [Circle]: {'x': -0.17388440000000002, 'y': 51.4941417, 'type': 'tube_station'}
+2023-07-11 01:23:18,679:DEBUG:root:entrance added: 277336614 -> South Kensington [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,679:DEBUG:root:added node South Kensington [District]: {'x': -0.1737844, 'y': 51.4941417, 'type': 'tube_station'}
+2023-07-11 01:23:18,679:DEBUG:root:entrance added: 277336614 -> South Kensington [District] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,679:DEBUG:root:added node South Kensington [Piccadilly]: {'x': -0.17368440000000002, 'y': 51.4941417, 'type': 'tube_station'}
+2023-07-11 01:23:18,679:DEBUG:root:entrance added: 277336614 -> South Kensington [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,679:DEBUG:root:transfer added: South Kensington [Circle] -> South Kensington [District] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,679:DEBUG:root:transfer added: South Kensington [Circle] -> South Kensington [Piccadilly] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,679:DEBUG:root:transfer added: South Kensington [District] -> South Kensington [Piccadilly] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,679:DEBUG:root:added node St. James's Park [Circle]: {'x': -0.13373770000000001, 'y': 51.499721, 'type': 'tube_station'}
+2023-07-11 01:23:18,679:DEBUG:root:entrance added: 12198505 -> St. James's Park [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,679:DEBUG:root:added node St. James's Park [District]: {'x': -0.1336377, 'y': 51.499721, 'type': 'tube_station'}
+2023-07-11 01:23:18,679:DEBUG:root:entrance added: 12198505 -> St. James's Park [District] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,679:DEBUG:root:transfer added: St. James's Park [Circle] -> St. James's Park [District] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,679:DEBUG:root:added node Victoria [Circle]: {'x': -0.1437612, 'y': 51.4964382, 'type': 'tube_station'}
+2023-07-11 01:23:18,679:DEBUG:root:entrance added: 4052472148 -> Victoria [Circle] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,679:DEBUG:root:added node Victoria [District]: {'x': -0.1436612, 'y': 51.4964382, 'type': 'tube_station'}
+2023-07-11 01:23:18,679:DEBUG:root:entrance added: 4052472148 -> Victoria [District] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,679:DEBUG:root:added node Victoria [Victoria]: {'x': -0.1435612, 'y': 51.4964382, 'type': 'tube_station'}
+2023-07-11 01:23:18,679:DEBUG:root:entrance added: 4052472148 -> Victoria [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,679:DEBUG:root:transfer added: Victoria [Circle] -> Victoria [District] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,679:DEBUG:root:transfer added: Victoria [Circle] -> Victoria [Victoria] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,679:DEBUG:root:transfer added: Victoria [District] -> Victoria [Victoria] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,680:DEBUG:root:added node Earls Court [District]: {'x': -0.1941391, 'y': 51.491368, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 7163500914 -> Earls Court [District] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:added node Earls Court [Piccadilly]: {'x': -0.1940391, 'y': 51.491368, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 7163500914 -> Earls Court [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:transfer added: Earls Court [District] -> Earls Court [Piccadilly] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,680:DEBUG:root:added node Kensington [District]: {'x': -0.21002300000000002, 'y': 51.4978133, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 8724298604 -> Kensington [District] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:added node Kensington [Overground]: {'x': -0.209923, 'y': 51.4978133, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 8724298604 -> Kensington [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:transfer added: Kensington [District] -> Kensington [Overground] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,680:DEBUG:root:added node West Brompton [District]: {'x': -0.19543590000000002, 'y': 51.4873167, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 5461690536 -> West Brompton [District] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:added node West Brompton [Overground]: {'x': -0.1953359, 'y': 51.4873167, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 5461690536 -> West Brompton [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:transfer added: West Brompton [District] -> West Brompton [Overground] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,680:DEBUG:root:added node West Kensington [District]: {'x': -0.20644810000000002, 'y': 51.4902049, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 33203791 -> West Kensington [District] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:added node Green Park [Jubilee]: {'x': -0.14226640000000002, 'y': 51.5068622, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 6915368620 -> Green Park [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:added node Green Park [Piccadilly]: {'x': -0.1421664, 'y': 51.5068622, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 6915368620 -> Green Park [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:added node Green Park [Victoria]: {'x': -0.1420664, 'y': 51.5068622, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 6915368620 -> Green Park [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:transfer added: Green Park [Jubilee] -> Green Park [Piccadilly] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,680:DEBUG:root:transfer added: Green Park [Jubilee] -> Green Park [Victoria] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,680:DEBUG:root:transfer added: Green Park [Piccadilly] -> Green Park [Victoria] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,680:DEBUG:root:added node Finchley Road [Jubilee]: {'x': -0.17983980000000002, 'y': 51.5471241, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 2458659131 -> Finchley Road [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:added node Finchley Road [Metropolitan]: {'x': -0.1797398, 'y': 51.5471241, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 2458659131 -> Finchley Road [Metropolitan] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:transfer added: Finchley Road [Jubilee] -> Finchley Road [Metropolitan] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,680:DEBUG:root:added node Swiss Cottage [Jubilee]: {'x': -0.1758527, 'y': 51.5428312, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 9383796635 -> Swiss Cottage [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:added node Kilburn [Jubilee]: {'x': -0.20455410000000002, 'y': 51.546948, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 5461682849 -> Kilburn [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:added node West Hampstead [Jubilee]: {'x': -0.19102070000000002, 'y': 51.5474866, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 6215264408 -> West Hampstead [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:added node West Hampstead [Overground]: {'x': -0.1909207, 'y': 51.5474866, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 6215264408 -> West Hampstead [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:transfer added: West Hampstead [Jubilee] -> West Hampstead [Overground] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,680:DEBUG:root:added node St. Johns Wood [Jubilee]: {'x': -0.17408710000000002, 'y': 51.5349046, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 6564822627 -> St. Johns Wood [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:added node Southwark [Jubilee]: {'x': -0.105639, 'y': 51.5040625, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 5361364375 -> Southwark [Jubilee] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:added node Angel [Northern]: {'x': -0.10559779999999999, 'y': 51.5332121, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 8987955803 -> Angel [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:added node Belsize Park [Northern]: {'x': -0.16418970000000002, 'y': 51.5501384, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 5473343566 -> Belsize Park [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:added node Hampstead [Northern]: {'x': -0.17809450000000002, 'y': 51.5565347, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 5482469739 -> Hampstead [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:added node Camden Town [Northern]: {'x': -0.14232640000000002, 'y': 51.5403089, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 1782971979 -> Camden Town [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:added node Chalk Farm [Northern]: {'x': -0.15346420000000002, 'y': 51.5441941, 'type': 'tube_station'}
+2023-07-11 01:23:18,680:DEBUG:root:entrance added: 6467180630 -> Chalk Farm [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,680:DEBUG:root:added node Kentish Town [Northern]: {'x': -0.1403271, 'y': 51.5501213, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 7887549205 -> Kentish Town [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Leicester Square [Northern]: {'x': -0.12812220000000002, 'y': 51.5112756, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 5479635739 -> Leicester Square [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Leicester Square [Piccadilly]: {'x': -0.1280222, 'y': 51.5112756, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 5479635739 -> Leicester Square [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:transfer added: Leicester Square [Northern] -> Leicester Square [Piccadilly] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Borough [Northern]: {'x': -0.0942759, 'y': 51.5010259, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 1155200706 -> Borough [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Euston [Northern]: {'x': -0.1332748, 'y': 51.5287489, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 1264708174 -> Euston [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Euston [Overground]: {'x': -0.13317479999999998, 'y': 51.5287489, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 1264708174 -> Euston [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Euston [Victoria]: {'x': -0.1330748, 'y': 51.5287489, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 1264708174 -> Euston [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:transfer added: Euston [Northern] -> Euston [Overground] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,681:DEBUG:root:transfer added: Euston [Northern] -> Euston [Victoria] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,681:DEBUG:root:transfer added: Euston [Overground] -> Euston [Victoria] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Mornington Crescent [Northern]: {'x': -0.13839790000000002, 'y': 51.5343712, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 2344320142 -> Mornington Crescent [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Goodge Street [Northern]: {'x': -0.1347237, 'y': 51.5207327, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 7021671308 -> Goodge Street [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Warren Street [Northern]: {'x': -0.1381791, 'y': 51.5248769, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 2833955781 -> Warren Street [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Warren Street [Victoria]: {'x': -0.13807909999999998, 'y': 51.5248769, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 2833955781 -> Warren Street [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:transfer added: Warren Street [Northern] -> Warren Street [Victoria] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Golders Green [Northern]: {'x': -0.1946081, 'y': 51.5721891, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 1389423777 -> Golders Green [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Kennington [Northern]: {'x': -0.1047327, 'y': 51.4884315, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 10181017921 -> Kennington [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Tufnell Park [Northern]: {'x': -0.13722510000000002, 'y': 51.5565284, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 9460016065 -> Tufnell Park [Northern] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Brondesbury [Overground]: {'x': -0.2029591, 'y': 51.5454962, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 9396600836 -> Brondesbury [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Brondesbury Park [Overground]: {'x': -0.20997580000000002, 'y': 51.5406421, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 1142155736 -> Brondesbury Park [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Caledonian Road and Barnsbury [Overground]: {'x': -0.1150852, 'y': 51.5433451, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 2086131577 -> Caledonian Road and Barnsbury [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Highbury and Islington [Overground]: {'x': -0.1038588, 'y': 51.546529, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 3718520125 -> Highbury and Islington [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Highbury and Islington [Victoria]: {'x': -0.1037588, 'y': 51.546529, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 3718520125 -> Highbury and Islington [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:transfer added: Highbury and Islington [Overground] -> Highbury and Islington [Victoria] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Camden Road [Overground]: {'x': -0.1389688, 'y': 51.5418085, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 10790335380 -> Camden Road [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Finchley Road and Frognal [Overground]: {'x': -0.18332210000000002, 'y': 51.5501905, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 1321766489 -> Finchley Road and Frognal [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Hampstead Heath [Overground]: {'x': -0.16439600000000001, 'y': 51.5549485, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 1399861907 -> Hampstead Heath [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Gospel Oak [Overground]: {'x': -0.1511404, 'y': 51.555251, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 1734132071 -> Gospel Oak [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Kentish Town West [Overground]: {'x': -0.1466798, 'y': 51.5464183, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 3535402339 -> Kentish Town West [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Upper Holloway [Overground]: {'x': -0.1291132, 'y': 51.5635646, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 1468597233 -> Upper Holloway [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node Kilburn High Road [Overground]: {'x': -0.19137590000000002, 'y': 51.5371974, 'type': 'tube_station'}
+2023-07-11 01:23:18,681:DEBUG:root:entrance added: 1692927619 -> Kilburn High Road [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,681:DEBUG:root:added node South Hampstead [Overground]: {'x': -0.17815910000000001, 'y': 51.5416197, 'type': 'tube_station'}
+2023-07-11 01:23:18,682:DEBUG:root:entrance added: 620076633 -> South Hampstead [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,682:DEBUG:root:added node Crouch Hill [Overground]: {'x': -0.1171513, 'y': 51.5712984, 'type': 'tube_station'}
+2023-07-11 01:23:18,682:DEBUG:root:entrance added: 847744617 -> Crouch Hill [Overground] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,682:DEBUG:root:added node Arsenal [Piccadilly]: {'x': -0.1055728, 'y': 51.5584476, 'type': 'tube_station'}
+2023-07-11 01:23:18,682:DEBUG:root:entrance added: 5473386924 -> Arsenal [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,682:DEBUG:root:added node Holloway Road [Piccadilly]: {'x': -0.1129191, 'y': 51.5528071, 'type': 'tube_station'}
+2023-07-11 01:23:18,682:DEBUG:root:entrance added: 5482917401 -> Holloway Road [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,682:DEBUG:root:added node Caledonian Road [Piccadilly]: {'x': -0.1179067, 'y': 51.5479383, 'type': 'tube_station'}
+2023-07-11 01:23:18,682:DEBUG:root:entrance added: 198118 -> Caledonian Road [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,682:DEBUG:root:added node Covent Garden [Piccadilly]: {'x': -0.1246948, 'y': 51.5128625, 'type': 'tube_station'}
+2023-07-11 01:23:18,682:DEBUG:root:entrance added: 25544135 -> Covent Garden [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,682:DEBUG:root:added node Finsbury Park [Piccadilly]: {'x': -0.105668, 'y': 51.5646301, 'type': 'tube_station'}
+2023-07-11 01:23:18,682:DEBUG:root:entrance added: 8691942848 -> Finsbury Park [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,682:DEBUG:root:added node Finsbury Park [Victoria]: {'x': -0.105568, 'y': 51.5646301, 'type': 'tube_station'}
+2023-07-11 01:23:18,682:DEBUG:root:entrance added: 8691942848 -> Finsbury Park [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,682:DEBUG:root:transfer added: Finsbury Park [Piccadilly] -> Finsbury Park [Victoria] {'length': 0, 'time': 180, 'type': 'transfer'}
+2023-07-11 01:23:18,682:DEBUG:root:added node Hyde Park Corner [Piccadilly]: {'x': -0.15221790000000002, 'y': 51.5027606, 'type': 'tube_station'}
+2023-07-11 01:23:18,682:DEBUG:root:entrance added: 135772063 -> Hyde Park Corner [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,682:DEBUG:root:added node Knightsbridge [Piccadilly]: {'x': -0.1609191, 'y': 51.5014033, 'type': 'tube_station'}
+2023-07-11 01:23:18,682:DEBUG:root:entrance added: 5475500034 -> Knightsbridge [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,682:DEBUG:root:added node Russell Square [Piccadilly]: {'x': -0.1245653, 'y': 51.522784, 'type': 'tube_station'}
+2023-07-11 01:23:18,682:DEBUG:root:entrance added: 1843348265 -> Russell Square [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,682:DEBUG:root:added node Manor House [Piccadilly]: {'x': -0.09562, 'y': 51.5707537, 'type': 'tube_station'}
+2023-07-11 01:23:18,682:DEBUG:root:entrance added: 759818262 -> Manor House [Piccadilly] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,682:DEBUG:root:added node Pimlico [Victoria]: {'x': -0.1330143, 'y': 51.4898588, 'type': 'tube_station'}
+2023-07-11 01:23:18,682:DEBUG:root:entrance added: 1287703214 -> Pimlico [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,682:DEBUG:root:added node Vauxhall [Victoria]: {'x': -0.1236984, 'y': 51.4859385, 'type': 'tube_station'}
+2023-07-11 01:23:18,682:DEBUG:root:entrance added: 926239878 -> Vauxhall [Victoria] {'length': 0, 'time': 180, 'type': 'entrance'}
+2023-07-11 01:23:18,694:DEBUG:root:connecting: Baker Street [Bakerloo] to Regents Park [Bakerloo]
+2023-07-11 01:23:18,694:DEBUG:root:connecting: Charing Cross [Bakerloo] to Embankment [Bakerloo]
+2023-07-11 01:23:18,694:DEBUG:root:connecting: Edgware Road [Bakerloo] to Marylebone [Bakerloo]
+2023-07-11 01:23:18,694:DEBUG:root:connecting: Embankment [Bakerloo] to Waterloo [Bakerloo]
+2023-07-11 01:23:18,694:DEBUG:root:connecting: Kilburn Park [Bakerloo] to Maida Vale [Bakerloo]
+2023-07-11 01:23:18,694:DEBUG:root:connecting: Lambeth North [Bakerloo] to Elephant and Castle [Bakerloo]
+2023-07-11 01:23:18,694:DEBUG:root:connecting: Maida Vale [Bakerloo] to Warwick Avenue [Bakerloo]
+2023-07-11 01:23:18,694:DEBUG:root:connecting: Marylebone [Bakerloo] to Baker Street [Bakerloo]
+2023-07-11 01:23:18,694:DEBUG:root:connecting: Oxford Circus [Bakerloo] to Piccadilly Circus [Bakerloo]
+2023-07-11 01:23:18,694:DEBUG:root:connecting: Paddington [Bakerloo] to Edgware Road [Bakerloo]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Piccadilly Circus [Bakerloo] to Charing Cross [Bakerloo]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Queens Park [Bakerloo] to Kilburn Park [Bakerloo]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Regents Park [Bakerloo] to Oxford Circus [Bakerloo]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Warwick Avenue [Bakerloo] to Paddington [Bakerloo]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Waterloo [Bakerloo] to Lambeth North [Bakerloo]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Bond Street [Central] to Marble Arch [Central]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Chancery Lane [Central] to Holborn [Central]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Holborn [Central] to Tottenham Court Road [Central]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Lancaster Gate [Central] to Queensway [Central]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Marble Arch [Central] to Lancaster Gate [Central]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Notting Hill Gate [Central] to Holland Park [Central]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Oxford Circus [Central] to Bond Street [Central]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Queensway [Central] to Notting Hill Gate [Central]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: St. Pauls [Central] to Chancery Lane [Central]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Tottenham Court Road [Central] to Oxford Circus [Central]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Baker Street [Circle] to Great Portland Street [Circle]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Bayswater [Circle] to Paddington [Circle]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Blackfriars [Circle] to Temple [Circle]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Edgware Road [Circle] to Baker Street [Circle]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Embankment [Circle] to Westminster [Circle]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Euston Square [Circle] to Kings Cross St. Pancras [Circle]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Farringdon [Circle] to Barbican [Circle]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Gloucester Road [Circle] to High Street Kensington [Circle]
+2023-07-11 01:23:18,695:DEBUG:root:connecting: Great Portland Street [Circle] to Euston Square [Circle]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: High Street Kensington [Circle] to Notting Hill Gate [Circle]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Kings Cross St. Pancras [Circle] to Farringdon [Circle]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Ladbroke Grove [Circle] to Westbourne Park [Circle]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Mansion House [Circle] to Blackfriars [Circle]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Notting Hill Gate [Circle] to Bayswater [Circle]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Paddington [Circle] to Edgware Road [Circle]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Royal Oak [Circle] to Paddington [Circle]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Sloane Square [Circle] to South Kensington [Circle]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: South Kensington [Circle] to Gloucester Road [Circle]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: St. James's Park [Circle] to Victoria [Circle]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Temple [Circle] to Embankment [Circle]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Victoria [Circle] to Sloane Square [Circle]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Westbourne Park [Circle] to Royal Oak [Circle]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Westminster [Circle] to St. James's Park [Circle]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Bayswater [District] to Paddington [District]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Blackfriars [District] to Temple [District]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Earls Court [District] to High Street Kensington [District]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Earls Court [District] to Kensington [District]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Earls Court [District] to West Brompton [District]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Earls Court [District] to West Kensington [District]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Embankment [District] to Westminster [District]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Gloucester Road [District] to Earls Court [District]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: High Street Kensington [District] to Notting Hill Gate [District]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Mansion House [District] to Blackfriars [District]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Notting Hill Gate [District] to Bayswater [District]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Paddington [District] to Edgware Road [District]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Sloane Square [District] to South Kensington [District]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: South Kensington [District] to Gloucester Road [District]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: St. James's Park [District] to Victoria [District]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Temple [District] to Embankment [District]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Victoria [District] to Sloane Square [District]
+2023-07-11 01:23:18,696:DEBUG:root:connecting: Westminster [District] to St. James's Park [District]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Bond Street [Elizabeth] to Paddington [Elizabeth]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Farringdon [Elizabeth] to Tottenham Court Road [Elizabeth]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Tottenham Court Road [Elizabeth] to Bond Street [Elizabeth]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Baker Street [Hammersmith and City] to Great Portland Street [Hammersmith and City]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Edgware Road [Hammersmith and City] to Baker Street [Hammersmith and City]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Euston Square [Hammersmith and City] to Kings Cross St. Pancras [Hammersmith and City]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Farringdon [Hammersmith and City] to Barbican [Hammersmith and City]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Great Portland Street [Hammersmith and City] to Euston Square [Hammersmith and City]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Kings Cross St. Pancras [Hammersmith and City] to Farringdon [Hammersmith and City]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Ladbroke Grove [Hammersmith and City] to Westbourne Park [Hammersmith and City]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Paddington [Hammersmith and City] to Edgware Road [Hammersmith and City]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Royal Oak [Hammersmith and City] to Paddington [Hammersmith and City]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Westbourne Park [Hammersmith and City] to Royal Oak [Hammersmith and City]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Baker Street [Jubilee] to Bond Street [Jubilee]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Bond Street [Jubilee] to Green Park [Jubilee]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Finchley Road [Jubilee] to Swiss Cottage [Jubilee]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Green Park [Jubilee] to Westminster [Jubilee]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Kilburn [Jubilee] to West Hampstead [Jubilee]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: St. Johns Wood [Jubilee] to Baker Street [Jubilee]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Swiss Cottage [Jubilee] to St. Johns Wood [Jubilee]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Waterloo [Jubilee] to Southwark [Jubilee]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: West Hampstead [Jubilee] to Finchley Road [Jubilee]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Westminster [Jubilee] to Waterloo [Jubilee]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Baker Street [Metropolitan] to Finchley Road [Metropolitan]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Barbican [Metropolitan] to Farringdon [Metropolitan]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Euston Square [Metropolitan] to Great Portland Street [Metropolitan]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Farringdon [Metropolitan] to Kings Cross St. Pancras [Metropolitan]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Great Portland Street [Metropolitan] to Baker Street [Metropolitan]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Kings Cross St. Pancras [Metropolitan] to Euston Square [Metropolitan]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Angel [Northern] to Kings Cross St. Pancras [Northern]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Belsize Park [Northern] to Hampstead [Northern]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Camden Town [Northern] to Chalk Farm [Northern]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Camden Town [Northern] to Kentish Town [Northern]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Chalk Farm [Northern] to Belsize Park [Northern]
+2023-07-11 01:23:18,697:DEBUG:root:connecting: Charing Cross [Northern] to Leicester Square [Northern]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Elephant and Castle [Northern] to Borough [Northern]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Embankment [Northern] to Charing Cross [Northern]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Euston [Northern] to Camden Town [Northern]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Euston [Northern] to Mornington Crescent [Northern]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Goodge Street [Northern] to Warren Street [Northern]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Hampstead [Northern] to Golders Green [Northern]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Kennington [Northern] to Elephant and Castle [Northern]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Kennington [Northern] to Waterloo [Northern]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Kentish Town [Northern] to Tufnell Park [Northern]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Kings Cross St. Pancras [Northern] to Euston [Northern]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Leicester Square [Northern] to Tottenham Court Road [Northern]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Mornington Crescent [Northern] to Camden Town [Northern]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Tottenham Court Road [Northern] to Goodge Street [Northern]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Warren Street [Northern] to Euston [Northern]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Waterloo [Northern] to Embankment [Northern]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Brondesbury [Overground] to West Hampstead [Overground]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Brondesbury Park [Overground] to Brondesbury [Overground]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Caledonian Road and Barnsbury [Overground] to Highbury and Islington [Overground]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Camden Road [Overground] to Caledonian Road and Barnsbury [Overground]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Finchley Road and Frognal [Overground] to Hampstead Heath [Overground]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Gospel Oak [Overground] to Kentish Town West [Overground]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Gospel Oak [Overground] to Upper Holloway [Overground]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Hampstead Heath [Overground] to Gospel Oak [Overground]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Kensington [Overground] to West Brompton [Overground]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Kentish Town West [Overground] to Camden Road [Overground]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Kilburn High Road [Overground] to South Hampstead [Overground]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Queens Park [Overground] to Kilburn High Road [Overground]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: South Hampstead [Overground] to Euston [Overground]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Upper Holloway [Overground] to Crouch Hill [Overground]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: West Hampstead [Overground] to Finchley Road and Frognal [Overground]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Arsenal [Piccadilly] to Holloway Road [Piccadilly]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Caledonian Road [Piccadilly] to Kings Cross St. Pancras [Piccadilly]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Covent Garden [Piccadilly] to Leicester Square [Piccadilly]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Finsbury Park [Piccadilly] to Arsenal [Piccadilly]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Gloucester Road [Piccadilly] to Earls Court [Piccadilly]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Green Park [Piccadilly] to Hyde Park Corner [Piccadilly]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Holborn [Piccadilly] to Covent Garden [Piccadilly]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Holloway Road [Piccadilly] to Caledonian Road [Piccadilly]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Hyde Park Corner [Piccadilly] to Knightsbridge [Piccadilly]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Kings Cross St. Pancras [Piccadilly] to Russell Square [Piccadilly]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Knightsbridge [Piccadilly] to South Kensington [Piccadilly]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Leicester Square [Piccadilly] to Piccadilly Circus [Piccadilly]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Manor House [Piccadilly] to Finsbury Park [Piccadilly]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Piccadilly Circus [Piccadilly] to Green Park [Piccadilly]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: Russell Square [Piccadilly] to Holborn [Piccadilly]
+2023-07-11 01:23:18,698:DEBUG:root:connecting: South Kensington [Piccadilly] to Gloucester Road [Piccadilly]
+2023-07-11 01:23:18,699:DEBUG:root:connecting: Euston [Victoria] to Warren Street [Victoria]
+2023-07-11 01:23:18,699:DEBUG:root:connecting: Finsbury Park [Victoria] to Highbury and Islington [Victoria]
+2023-07-11 01:23:18,699:DEBUG:root:connecting: Green Park [Victoria] to Victoria [Victoria]
+2023-07-11 01:23:18,699:DEBUG:root:connecting: Highbury and Islington [Victoria] to Kings Cross St. Pancras [Victoria]
+2023-07-11 01:23:18,699:DEBUG:root:connecting: Kings Cross St. Pancras [Victoria] to Euston [Victoria]
+2023-07-11 01:23:18,699:DEBUG:root:connecting: Oxford Circus [Victoria] to Green Park [Victoria]
+2023-07-11 01:23:18,699:DEBUG:root:connecting: Pimlico [Victoria] to Vauxhall [Victoria]
+2023-07-11 01:23:18,699:DEBUG:root:connecting: Victoria [Victoria] to Pimlico [Victoria]
+2023-07-11 01:23:18,699:DEBUG:root:connecting: Warren Street [Victoria] to Oxford Circus [Victoria]
