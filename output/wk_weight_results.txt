@@ -1,315 +1,252 @@
 1: ChIJGxi_E1kRdkgRlH2-H5nV5pQ, ChIJra2jTs4EdkgRshPsDJz8OM0, ChIJs4GOh8sEdkgRRiBFZKMP8ZE
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:06:14 alt_wk_time = 0:06:47
 original_tp_time = 0:29:09 alt_tp_time = 0:28:00
 wk_weight = 2.1
 2: ChIJN0MeSHwRdkgRHgFzVWFU2ks, ChIJra2jTs4EdkgRshPsDJz8OM0, ChIJs4GOh8sEdkgRRiBFZKMP8ZE
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:06:50 alt_wk_time = 0:07:56
 original_tp_time = 0:24:09 alt_tp_time = 0:20:00
 wk_weight = 3.78
 3: ChIJdcGKWXoRdkgRmihreYIEvZk, ChIJra2jTs4EdkgRshPsDJz8OM0, ChIJs4GOh8sEdkgRRiBFZKMP8ZE
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:06:13 alt_wk_time = 0:06:46
 original_tp_time = 0:22:09 alt_tp_time = 0:21:00
 wk_weight = 2.1
 4: ChIJSzaZ2oQadkgRLB9nZn-jKMY, ChIJra2jTs4EdkgRshPsDJz8OM0, ChIJs4GOh8sEdkgRRiBFZKMP8ZE
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:06:12 alt_wk_time = 0:06:45
 original_tp_time = 0:13:09 alt_tp_time = 0:12:00
 wk_weight = 2.1
 5: ChIJ1R5qkJAadkgRM_cBq2ZMun4, ChIJra2jTs4EdkgRshPsDJz8OM0, ChIJs4GOh8sEdkgRRiBFZKMP8ZE
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:07:30 alt_wk_time = 0:08:03
 original_tp_time = 0:12:09 alt_tp_time = 0:11:00
 wk_weight = 2.1
 6: ChIJ14InibkDdkgRf6Dyu_gQeB4, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJ__8_fLUEdkgRXd3d1TaO8nw
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:11:55 alt_wk_time = 0:13:58
 original_tp_time = 0:13:00 alt_tp_time = 0:13:38
 wk_weight = 1
 7: ChIJVTZUsMcCdkgRMc_-OpJq9v8, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJ__8_fLUEdkgRXd3d1TaO8nw
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:14:36 alt_wk_time = 0:15:50
 original_tp_time = 0:13:00 alt_tp_time = 0:13:38
 wk_weight = 1
 8: ChIJK_ex97ACdkgRGJLJV_JwpCE, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJ__8_fLUEdkgRXd3d1TaO8nw
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:17:38 alt_wk_time = 0:22:12
 original_tp_time = 0:14:00 alt_tp_time = 0:13:38
 wk_weight = 1
 9: ChIJ4UeWPxSv2EcRhh1m1aYLLlA, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJ__8_fLUEdkgRXd3d1TaO8nw
-orig_transfers = 2, alt_transfers = 4
 original_wk_time = 0:13:56 alt_wk_time = 0:08:24
 original_tp_time = 0:23:00 alt_tp_time = 0:24:38
 wk_weight = 100.0
 10: ChIJR3R1t1IFdkgRBBCQVT8sJQo, ChIJn8Ps1ywFdkgRJcpkcuK0o0c, ChIJ__8_fLUEdkgRXd3d1TaO8nw
-orig_transfers = 3, alt_transfers = 5
 original_wk_time = 0:08:01 alt_wk_time = 0:11:45
 original_tp_time = 0:20:52 alt_tp_time = 0:07:26
 wk_weight = 3.6
 11: ChIJo2Zc3agadkgR-lohPCxKY-o, ChIJn8Ps1ywFdkgRJcpkcuK0o0c, ChIJ__8_fLUEdkgRXd3d1TaO8nw
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:02:36 alt_wk_time = 0:14:42
 original_tp_time = 0:21:00 alt_tp_time = 0:14:48
 wk_weight = 1
 12: ChIJu_fDqrYadkgRQTGNzSlKfuk, ChIJn8Ps1ywFdkgRJcpkcuK0o0c, ChIJ__8_fLUEdkgRXd3d1TaO8nw
-orig_transfers = 4, alt_transfers = 6
 original_wk_time = 0:02:24 alt_wk_time = 0:09:31
 original_tp_time = 0:17:00 alt_tp_time = 0:07:26
 wk_weight = 1.35
 13: ChIJdQ_yANcadkgRJvgBongmJZc, ChIJn8Ps1ywFdkgRJcpkcuK0o0c, ChIJ__8_fLUEdkgRXd3d1TaO8nw
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:02:53 alt_wk_time = 0:10:40
 original_tp_time = 0:16:00 alt_tp_time = 0:13:26
 wk_weight = 1
 14: ChIJ14InibkDdkgRf6Dyu_gQeB4, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJNVch-SMbdkgRqv1PBlyKQqU
-orig_transfers = 4, alt_transfers = 5
 original_wk_time = 0:07:47 alt_wk_time = 0:08:27
 original_tp_time = 0:18:59 alt_tp_time = 0:16:25
 wk_weight = 3.86
 15: ChIJ5zC0bnGo2EcR7hZ2UK4c0Co, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJNVch-SMbdkgRqv1PBlyKQqU
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:12:14 alt_wk_time = 0:12:19
 original_tp_time = 0:25:37 alt_tp_time = 0:20:25
 wk_weight = 62.41
 16: ChIJM3GQFOqo2EcRc5q6Eqbsm2c, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJNVch-SMbdkgRqv1PBlyKQqU
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:03:23 alt_wk_time = 0:03:28
 original_tp_time = 0:30:37 alt_tp_time = 0:24:25
 wk_weight = 74.4
 17: ChIJ4UeWPxSv2EcRhh1m1aYLLlA, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJNVch-SMbdkgRqv1PBlyKQqU
-orig_transfers = 4, alt_transfers = 4
 original_wk_time = 0:02:48 alt_wk_time = 0:02:53
 original_tp_time = 0:33:37 alt_tp_time = 0:27:25
 wk_weight = 74.4
 18: ChIJ3582ntcPdkgR2IfE_BLOGA4, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJs4GOh8sEdkgRRiBFZKMP8ZE
-orig_transfers = 3, alt_transfers = 4
 original_wk_time = 0:11:47 alt_wk_time = 0:04:58
 original_tp_time = 0:16:10 alt_tp_time = 0:17:24
 wk_weight = 100.0
 19: ChIJsa0hPNgRdkgRML7EmwuXZP8, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJNVch-SMbdkgRqv1PBlyKQqU
-orig_transfers = 4, alt_transfers = 4
 original_wk_time = 0:03:41 alt_wk_time = 0:03:24
 original_tp_time = 0:20:48 alt_tp_time = 0:23:55
 wk_weight = 1
 20: ChIJIcfqStsPdkgRfZ4hAnmxREE, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJNVch-SMbdkgRqv1PBlyKQqU
-orig_transfers = 3, alt_transfers = 3
 original_wk_time = 0:02:30 alt_wk_time = 0:02:13
 original_tp_time = 0:13:35 alt_tp_time = 0:17:35
 wk_weight = 1
 21: ChIJXT_6KeQPdkgRSkcNBuBHkVo, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJNVch-SMbdkgRqv1PBlyKQqU
-orig_transfers = 4, alt_transfers = 4
 original_wk_time = 0:04:23 alt_wk_time = 0:04:06
 original_tp_time = 0:11:46 alt_tp_time = 0:15:46
 wk_weight = 1
 22: ChIJDQew4LcPdkgRNVVocNa3mCM, ChIJlQh0H88adkgRT1sjAmMXQt4, ChIJV_iXMtcadkgRqBI84CY_crE
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:08:43 alt_wk_time = 0:08:44
 original_tp_time = 0:26:00 alt_tp_time = 0:26:00
 wk_weight = 1
 23: ChIJuS3UTFsPdkgRj1jeusAYgq0, ChIJlQh0H88adkgRT1sjAmMXQt4, ChIJV_iXMtcadkgRqBI84CY_crE
-orig_transfers = 5, alt_transfers = 12
 original_wk_time = 0:22:13 alt_wk_time = 0:31:15
 original_tp_time = 0:31:00 alt_tp_time = 0:17:00
 wk_weight = 1.55
 24: ChIJKQ1StdEPdkgRpX6fTRnvJA0, ChIJlQh0H88adkgRT1sjAmMXQt4, ChIJV_iXMtcadkgRqBI84CY_crE
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:12:46 alt_wk_time = 0:24:46
 original_tp_time = 0:27:44 alt_tp_time = 0:14:07
 wk_weight = 1.14
 25: ChIJTZ98odkPdkgRDGbnRTSQUuI, ChIJlQh0H88adkgRT1sjAmMXQt4, ChIJV_iXMtcadkgRqBI84CY_crE
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:13:29 alt_wk_time = 0:25:29
 original_tp_time = 0:26:45 alt_tp_time = 0:13:08
 wk_weight = 1.14
 26: ChIJ-dsIG9URdkgRlmfb4pkrhVA, ChIJlQh0H88adkgRT1sjAmMXQt4, ChIJV_iXMtcadkgRqBI84CY_crE
-orig_transfers = 7, alt_transfers = 7
 original_wk_time = 0:09:32 alt_wk_time = 0:13:26
 original_tp_time = 0:35:00 alt_tp_time = 0:26:00
 wk_weight = 2.31
 27: ChIJ15jmAJQPdkgRjspMA5VjbQc, ChIJlQh0H88adkgRT1sjAmMXQt4, ChIJV_iXMtcadkgRqBI84CY_crE
-orig_transfers = 7, alt_transfers = 7
 original_wk_time = 0:11:54 alt_wk_time = 0:11:55
 original_tp_time = 0:27:00 alt_tp_time = 0:27:00
 wk_weight = 1
 28: ChIJ-fxiRL4PdkgR6cvc-6EcAmw, ChIJlQh0H88adkgRT1sjAmMXQt4, ChIJV_iXMtcadkgRqBI84CY_crE
-orig_transfers = 5, alt_transfers = 12
 original_wk_time = 0:15:00 alt_wk_time = 0:28:29
 original_tp_time = 0:34:06 alt_tp_time = 0:15:45
 wk_weight = 1.37
 29: ChIJ0-48HywBdkgRh7MH0Igd1f4, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJB9OTMDIbdkgRp0JWbQGZsS8
-orig_transfers = 3, alt_transfers = 7
 original_wk_time = 0:11:07 alt_wk_time = 0:12:23
 original_tp_time = 0:14:52 alt_tp_time = 0:12:14
 wk_weight = 2.08
 30: ChIJveMeg1gDdkgRXwphFYUtm6g, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJB9OTMDIbdkgRp0JWbQGZsS8
-orig_transfers = 5, alt_transfers = 7
 original_wk_time = 0:09:44 alt_wk_time = 0:06:03
 original_tp_time = 0:07:01 alt_tp_time = 0:14:41
 wk_weight = 1
 31: ChIJI9JoOqIEdkgRm1W33pepbrs, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJB9OTMDIbdkgRp0JWbQGZsS8
-orig_transfers = 3, alt_transfers = 7
 original_wk_time = 0:05:14 alt_wk_time = 0:05:45
 original_tp_time = 0:16:36 alt_tp_time = 0:12:14
 wk_weight = 8.46
 32: ChIJS3jI3yADdkgR542xZ2uU5Do, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJB9OTMDIbdkgRp0JWbQGZsS8
-orig_transfers = 5, alt_transfers = 7
 original_wk_time = 0:09:52 alt_wk_time = 0:06:10
 original_tp_time = 0:10:14 alt_tp_time = 0:14:14
 wk_weight = 1
 33: ChIJ2RJuoiADdkgRyaU52AvWYTQ, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJs4GOh8sEdkgRRiBFZKMP8ZE
-orig_transfers = 5, alt_transfers = 6
 original_wk_time = 0:08:22 alt_wk_time = 0:08:13
 original_tp_time = 0:10:17 alt_tp_time = 0:12:28
 wk_weight = 1
 34: ChIJgZ24Us4adkgRpDNAwNPO_SY, ChIJra2jTs4EdkgRshPsDJz8OM0, ChIJjcnIsa0EdkgRvQ4XuuvpBqk
-orig_transfers = 3, alt_transfers = 5
 original_wk_time = 0:03:14 alt_wk_time = 0:07:07
 original_tp_time = 0:23:35 alt_tp_time = 0:10:46
 wk_weight = 3.31
 35: ChIJgZ24Us4adkgRpDNAwNPO_SY, ChIJ0160ScQEdkgR3zgV673t8yU, ChIJjcnIsa0EdkgRvQ4XuuvpBqk
-orig_transfers = 3, alt_transfers = 5
 original_wk_time = 0:03:14 alt_wk_time = 0:06:55
 original_tp_time = 0:23:35 alt_tp_time = 0:11:46
 wk_weight = 3.21
 36: ChIJgZ24Us4adkgRpDNAwNPO_SY, ChIJZYFkAlIbdkgRBcSZxfwFqdQ, ChIJjcnIsa0EdkgRvQ4XuuvpBqk
-orig_transfers = 3, alt_transfers = 5
 original_wk_time = 0:03:14 alt_wk_time = 0:08:41
 original_tp_time = 0:23:35 alt_tp_time = 0:09:30
 wk_weight = 2.59
 37: ChIJgZ24Us4adkgRpDNAwNPO_SY, ChIJj-hXfCgbdkgRWewwuunWzdg, ChIJjcnIsa0EdkgRvQ4XuuvpBqk
-orig_transfers = 3, alt_transfers = 7
 original_wk_time = 0:03:14 alt_wk_time = 0:05:22
 original_tp_time = 0:23:35 alt_tp_time = 0:12:53
 wk_weight = 5.02
 38: ChIJSzaZ2oQadkgRLB9nZn-jKMY, ChIJ8fVI48gRdkgRajd7hq8RuEg, ChIJr7lbx-0RdkgRIHx5pPwcuBQ
-orig_transfers = 5, alt_transfers = 11
 original_wk_time = 0:12:30 alt_wk_time = 0:27:30
 original_tp_time = 0:26:15 alt_tp_time = 0:11:00
 wk_weight = 1.02
 39: ChIJ4bikyX8QdkgRa--QlKo4yE8, ChIJ8fVI48gRdkgRajd7hq8RuEg, ChIJr7lbx-0RdkgRIHx5pPwcuBQ
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:13:54 alt_wk_time = 0:22:26
 original_tp_time = 0:35:16 alt_tp_time = 0:18:00
 wk_weight = 2.03
 40: ChIJgYoxT_AadkgRgQ3OUp17q20, ChIJ8fVI48gRdkgRajd7hq8RuEg, ChIJr7lbx-0RdkgRIHx5pPwcuBQ
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:16:30 alt_wk_time = 0:27:44
 original_tp_time = 0:33:16 alt_tp_time = 0:18:00
 wk_weight = 1.36
 41: ChIJKZQaXxwbdkgRWLo89tC-_V8, ChIJ8fVI48gRdkgRajd7hq8RuEg, ChIJr7lbx-0RdkgRIHx5pPwcuBQ
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:11:47 alt_wk_time = 0:17:51
 original_tp_time = 0:28:56 alt_tp_time = 0:25:00
 wk_weight = 1
 42: ChIJIzJDyggadkgROFAV19Ti070, ChIJ8fVI48gRdkgRajd7hq8RuEg, ChIJr7lbx-0RdkgRIHx5pPwcuBQ
-orig_transfers = 3, alt_transfers = 7
 original_wk_time = 0:09:55 alt_wk_time = 0:18:24
 original_tp_time = 0:51:00 alt_tp_time = 0:25:23
 wk_weight = 3.02
 43: ChIJ7bDgv2IadkgRkIbzf3FdF5M, ChIJ8fVI48gRdkgRajd7hq8RuEg, ChIJr7lbx-0RdkgRIHx5pPwcuBQ
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:21:47 alt_wk_time = 0:21:42
 original_tp_time = 0:18:00 alt_tp_time = 0:18:00
 wk_weight = 100.0
 44: ChIJAZoOT-QadkgRKYfGKfZbfXc, ChIJ8fVI48gRdkgRajd7hq8RuEg, ChIJr7lbx-0RdkgRIHx5pPwcuBQ
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:13:53 alt_wk_time = 0:19:44
 original_tp_time = 0:31:56 alt_tp_time = 0:23:00
 wk_weight = 1.53
 45: ChIJY8BtAlcadkgRPKEtaavwvJM, ChIJ8fVI48gRdkgRajd7hq8RuEg, ChIJr7lbx-0RdkgRIHx5pPwcuBQ
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:21:35 alt_wk_time = 0:21:53
 original_tp_time = 0:20:00 alt_tp_time = 0:24:00
 wk_weight = 1
 46: ChIJgZ24Us4adkgRpDNAwNPO_SY, ChIJj-hXfCgbdkgRWewwuunWzdg, ChIJi8AufL8cdkgRcoBJPfSW-H0
-orig_transfers = 5, alt_transfers = 7
 original_wk_time = 0:05:42 alt_wk_time = 0:07:52
 original_tp_time = 0:27:00 alt_tp_time = 0:16:00
 wk_weight = 5.08
 47: ChIJgZ24Us4adkgRpDNAwNPO_SY, ChIJTdzrqiEFdkgRFf1sCDZPNl0, ChIJ4Z9Tf_0EdkgRXVFCTtu_oJY
-orig_transfers = 5, alt_transfers = 7
 original_wk_time = 0:05:41 alt_wk_time = 0:11:49
 original_tp_time = 0:19:37 alt_tp_time = 0:18:44
 wk_weight = 1
 48: ChIJ5xwc7UMbdkgR3m-McV-oAXo, ChIJTdzrqiEFdkgRFf1sCDZPNl0, ChIJ4Z9Tf_0EdkgRXVFCTtu_oJY
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:09:54 alt_wk_time = 0:10:10
 original_tp_time = 0:16:07 alt_tp_time = 0:33:00
 wk_weight = 1
 49: ChIJC4ZGMBkbdkgRpx_ACdvfomw, ChIJTdzrqiEFdkgRFf1sCDZPNl0, ChIJ4Z9Tf_0EdkgRXVFCTtu_oJY
-orig_transfers = 5, alt_transfers = 7
 original_wk_time = 0:03:40 alt_wk_time = 0:08:28
 original_tp_time = 0:20:30 alt_tp_time = 0:20:44
 wk_weight = 1
 50: ChIJq4OLnlMFdkgR1mQJO0yuvyI, ChIJOQxY9E8FdkgRe1P4OVUdwM8, ChIJPy8Y5kIFdkgRxGSXw4Xjt3s
-orig_transfers = 3, alt_transfers = 1
 original_wk_time = 0:09:18 alt_wk_time = 0:23:41
 original_tp_time = 0:15:00 alt_tp_time = 0:00:00
 wk_weight = 1.05
 51: ChIJpZbh8PsPdkgRvrMc1YE8Q6M, ChIJOQxY9E8FdkgRe1P4OVUdwM8, ChIJPy8Y5kIFdkgRxGSXw4Xjt3s
-orig_transfers = 3, alt_transfers = 3
 original_wk_time = 0:05:04 alt_wk_time = 0:18:14
 original_tp_time = 0:06:11 alt_tp_time = 0:10:00
 wk_weight = 1
 52: ChIJjfEsXjMFdkgR2MhDam285XY, ChIJOQxY9E8FdkgRe1P4OVUdwM8, ChIJPy8Y5kIFdkgRxGSXw4Xjt3s
-orig_transfers = 3, alt_transfers = 3
 original_wk_time = 0:07:53 alt_wk_time = 0:23:34
 original_tp_time = 0:17:00 alt_tp_time = 0:01:00
 wk_weight = 1.03
 53: ChIJSdtli0MDdkgRLW9aCBpCeJ4, ChIJI9JoOqIEdkgRm1W33pepbrs, ChIJjef2qoADdkgRC-xkLjIcQX0
-orig_transfers = 3, alt_transfers = 5
 original_wk_time = 0:04:53 alt_wk_time = 0:10:52
 original_tp_time = 0:28:00 alt_tp_time = 0:26:00
 wk_weight = 1
 54: ChIJ2SOnxbocdkgRxmoRKRwc49M, ChIJI9JoOqIEdkgRm1W33pepbrs, ChIJjef2qoADdkgRC-xkLjIcQX0
-orig_transfers = 3, alt_transfers = 5
 original_wk_time = 0:06:45 alt_wk_time = 0:10:10
 original_tp_time = 0:26:00 alt_tp_time = 0:26:00
 wk_weight = 1
 55: ChIJxRO7WVEDdkgRrGM1fCYoHqY, ChIJI9JoOqIEdkgRm1W33pepbrs, ChIJjef2qoADdkgRC-xkLjIcQX0
-orig_transfers = 3, alt_transfers = 5
 original_wk_time = 0:05:52 alt_wk_time = 0:06:59
 original_tp_time = 0:28:00 alt_tp_time = 0:21:00
 wk_weight = 6.27
 56: ChIJ97pX3M0EdkgR8YFd4G1GZJ8, ChIJTdzrqiEFdkgRFf1sCDZPNl0, ChIJSfFEEuQadkgRCO-FF_-eZUc
-orig_transfers = 5, alt_transfers = 7
 original_wk_time = 0:08:43 alt_wk_time = 0:13:14
 original_tp_time = 0:16:55 alt_tp_time = 0:11:00
 wk_weight = 1.31
 57: ChIJlYVYHBYFdkgRs_jgidWG13o, ChIJTdzrqiEFdkgRFf1sCDZPNl0, ChIJSfFEEuQadkgRCO-FF_-eZUc
-orig_transfers = 5, alt_transfers = 7
 original_wk_time = 0:07:29 alt_wk_time = 0:12:23
 original_tp_time = 0:17:42 alt_tp_time = 0:10:52
 wk_weight = 1.4
 58: ChIJ_zAq7TgFdkgRQg1OSw1j7hU, ChIJTdzrqiEFdkgRFf1sCDZPNl0, ChIJSfFEEuQadkgRCO-FF_-eZUc
-orig_transfers = 5, alt_transfers = 9
 original_wk_time = 0:08:07 alt_wk_time = 0:13:53
 original_tp_time = 0:15:29 alt_tp_time = 0:16:01
 wk_weight = 1
 59: ChIJF-vrqTMQdkgRK4qxEFLvXg4, ChIJJ0KfrPwadkgRx3kOa501kPQ, ChIJSfFEEuQadkgRCO-FF_-eZUc
-orig_transfers = 5, alt_transfers = 3
 original_wk_time = 0:06:59 alt_wk_time = 0:20:14
 original_tp_time = 0:18:00 alt_tp_time = 0:14:00
 wk_weight = 1
 60: ChIJD0ED8DAQdkgRFaL8EQUDRx8, ChIJJ0KfrPwadkgRx3kOa501kPQ, ChIJSfFEEuQadkgRCO-FF_-eZUc
-orig_transfers = 5, alt_transfers = 3
 original_wk_time = 0:04:23 alt_wk_time = 0:18:20
 original_tp_time = 0:24:00 alt_tp_time = 0:14:00
 wk_weight = 1
 61: ChIJIzJDyggadkgROFAV19Ti070, ChIJc8TTcd8adkgRcx43bnFBKPU, ChIJ4Si7uc0RdkgR7vAZiQNcvyQ
-orig_transfers = 3, alt_transfers = 5
 original_wk_time = 0:27:31 alt_wk_time = 0:26:45
 original_tp_time = 0:38:00 alt_tp_time = 0:57:11
 wk_weight = 1
 62: ChIJSfFEEuQadkgRCO-FF_-eZUc, ChIJc8TTcd8adkgRcx43bnFBKPU, ChIJ4Si7uc0RdkgR7vAZiQNcvyQ
-orig_transfers = 3, alt_transfers = 5
 original_wk_time = 0:28:56 alt_wk_time = 0:28:55
 original_tp_time = 0:18:00 alt_tp_time = 0:43:24
 wk_weight = 1
 63: ChIJV_iXMtcadkgRqBI84CY_crE, ChIJc8TTcd8adkgRcx43bnFBKPU, ChIJ4Si7uc0RdkgR7vAZiQNcvyQ
-orig_transfers = 5, alt_transfers = 5
 original_wk_time = 0:22:57 alt_wk_time = 0:27:58
 original_tp_time = 0:37:24 alt_tp_time = 0:35:24
 wk_weight = 1
