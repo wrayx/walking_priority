@@ -136,8 +136,8 @@ class Directions:
             f.write("\n")
             f.write(json.dumps(travel_modes))
             f.write("\n")
-        print(waypoints)
-        print(travel_modes)
+        # print(waypoints)
+        # print(travel_modes)
 
         self.routes.append(route)
 

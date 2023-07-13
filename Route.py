@@ -54,8 +54,11 @@ class Route:
         return total_time
 
     def getTotalTransportingDuration(self) -> int:
-        # time spent on transportation includes time waiting for train or buses to come
-        return self.total_duration - self.getTotalWalkingDuration()
+        total_time = 0
+        for i, travel_mode in enumerate(self.travel_modes):
+            if travel_mode[0] != "Walking":
+                total_time += self.travel_durations[i]
+        return total_time
 
     @staticmethod
     def str_distance(distance):

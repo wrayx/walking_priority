@@ -68,21 +68,14 @@ if __name__ == "__main__":
         )
 
         route_alt_2.get_directions_transit()
-        # print(route_alt_2.departure_time)
-        # route_alt_1.display_directions_result()
 
         alt_transfers = route_alt_1.routes[0].getTransfersTimes() + route_alt_2.routes[0].getTransfersTimes()
-        # print(f"alt_transfers = {alt_transfers}")
 
         if (
             route_alt_1.routes[0].getTravelModes()[-1][0] == "Walking"
             and route_alt_2.routes[0].getTravelModes()[0][0] == "Walking"
         ):
             alt_transfers = alt_transfers - 1
-
-        # print(route_original.routes[0].getTravelModes(), "\n")
-        # print(route_alt_1.routes[0].getTravelModes())
-        # print(route_alt_2.routes[0].getTravelModes())
 
         print(f"orig_transfers = {route_original.routes[0].getTransfersTimes()}, alt_transfers = {alt_transfers}")
 
