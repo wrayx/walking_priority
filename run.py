@@ -77,7 +77,7 @@ if __name__ == "__main__":
         ):
             alt_transfers = alt_transfers - 1
 
-        print(f"orig_transfers = {route_original.routes[0].getTransfersTimes()}, alt_transfers = {alt_transfers}")
+        # print(f"orig_transfers = {route_original.routes[0].getTransfersTimes()}, alt_transfers = {alt_transfers}")
 
         rc = RouteComparison(route_original.routes[0], [route_alt_1.routes[0], route_alt_2.routes[0]])
         rc.compute_lowest_wk_weight()

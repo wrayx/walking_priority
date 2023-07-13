@@ -1,19 +1,23 @@
 1: ChIJGxi_E1kRdkgRlH2-H5nV5pQ, ChIJra2jTs4EdkgRshPsDJz8OM0, ChIJs4GOh8sEdkgRRiBFZKMP8ZE
-original_wk_time = 0:05:14 alt_wk_time = 0:06:47
-original_tp_time = 0:34:44 alt_tp_time = 0:34:57
-wk_weight = 1
+orig_transfers = 5, alt_transfers = 5
+original_wk_time = 0:06:14 alt_wk_time = 0:06:47
+original_tp_time = 0:29:09 alt_tp_time = 0:28:00
+wk_weight = 2.1
 2: ChIJN0MeSHwRdkgRHgFzVWFU2ks, ChIJra2jTs4EdkgRshPsDJz8OM0, ChIJs4GOh8sEdkgRRiBFZKMP8ZE
-original_wk_time = 0:05:50 alt_wk_time = 0:07:56
-original_tp_time = 0:29:40 alt_tp_time = 0:24:20
-wk_weight = 2.54
+orig_transfers = 5, alt_transfers = 5
+original_wk_time = 0:06:50 alt_wk_time = 0:07:56
+original_tp_time = 0:24:09 alt_tp_time = 0:20:00
+wk_weight = 3.78
 3: ChIJdcGKWXoRdkgRmihreYIEvZk, ChIJra2jTs4EdkgRshPsDJz8OM0, ChIJs4GOh8sEdkgRRiBFZKMP8ZE
-original_wk_time = 0:05:13 alt_wk_time = 0:06:46
-original_tp_time = 0:26:42 alt_tp_time = 0:26:55
-wk_weight = 1
+orig_transfers = 5, alt_transfers = 5
+original_wk_time = 0:06:13 alt_wk_time = 0:06:46
+original_tp_time = 0:22:09 alt_tp_time = 0:21:00
+wk_weight = 2.1
 4: ChIJSzaZ2oQadkgRLB9nZn-jKMY, ChIJra2jTs4EdkgRshPsDJz8OM0, ChIJs4GOh8sEdkgRRiBFZKMP8ZE
-original_wk_time = 0:05:12 alt_wk_time = 0:06:45
-original_tp_time = 0:19:10 alt_tp_time = 0:18:23
-wk_weight = 1
+orig_transfers = 5, alt_transfers = 5
+original_wk_time = 0:06:12 alt_wk_time = 0:06:45
+original_tp_time = 0:13:09 alt_tp_time = 0:12:00
+wk_weight = 2.1
 6: ChIJ14InibkDdkgRf6Dyu_gQeB4, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJ__8_fLUEdkgRXd3d1TaO8nw
 original_wk_time = 0:11:55 alt_wk_time = 0:13:58
 original_tp_time = 0:18:45 alt_tp_time = 0:13:39
@@ -78,14 +82,20 @@ wk_weight = 1.14
 original_wk_time = 0:13:29 alt_wk_time = 0:25:29
 original_tp_time = 0:26:45 alt_tp_time = 0:13:08
 wk_weight = 1.14
-26: ChIJ-fxiRL4PdkgR6cvc-6EcAmw, ChIJlQh0H88adkgRT1sjAmMXQt4, ChIJV_iXMtcadkgRqBI84CY_crE
-original_wk_time = 0:11:48 alt_wk_time = 0:11:49
-original_tp_time = 0:34:16 alt_tp_time = 0:28:50
-wk_weight = 100.0
+26: ChIJ-dsIG9URdkgRlmfb4pkrhVA, ChIJlQh0H88adkgRT1sjAmMXQt4, ChIJV_iXMtcadkgRqBI84CY_crE
+orig_transfers = 7, alt_transfers = 7
+original_wk_time = 0:09:32 alt_wk_time = 0:13:26
+original_tp_time = 0:35:00 alt_tp_time = 0:26:00
+wk_weight = 2.31
 28: ChIJveMeg1gDdkgRXwphFYUtm6g, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJB9OTMDIbdkgRp0JWbQGZsS8
 original_wk_time = 0:09:44 alt_wk_time = 0:05:37
 original_tp_time = 0:10:48 alt_tp_time = 0:15:29
 wk_weight = 1
+31: ChIJI9JoOqIEdkgRm1W33pepbrs, ChIJDWnTPy0bdkgRMVxJZfmuDeI, ChIJB9OTMDIbdkgRp0JWbQGZsS8
+orig_transfers = 3, alt_transfers = 7
+original_wk_time = 0:05:14 alt_wk_time = 0:05:45
+original_tp_time = 0:16:36 alt_tp_time = 0:12:14
+wk_weight = 8.46
 32: ChIJgZ24Us4adkgRpDNAwNPO_SY, ChIJra2jTs4EdkgRshPsDJz8OM0, ChIJjcnIsa0EdkgRvQ4XuuvpBqk
 original_wk_time = 0:03:14 alt_wk_time = 0:07:07
 original_tp_time = 0:23:43 alt_tp_time = 0:11:28
