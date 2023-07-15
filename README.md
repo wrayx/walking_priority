@@ -1,5 +1,6 @@
-## Python Environment
-1. put Google Maps API key obtained from Google Cloud Platform into `api_key.txt` 
+# To Start
+
+1. Put Google Maps API key into `api_key.txt` 
 
 2. Create the environment, most packages come with the `osmnx` installation.
     ```
@@ -39,11 +40,20 @@ If program encountered any problem that relates the environment, please check yo
 
     ```
 
-2. Start Jupyter notebook session and run `nav_london.ipynb` for the custom `osmnx` version of routing tool. New origins and destination can be set from the notebook file.
+2. Google Maps directions data are presented and plotted in `plan_route.ipynb`
+
+
+3. Start Jupyter notebook session and run `nav_london.ipynb` for the custom `osmnx` version of routing tool. New origins and destination can be set from the notebook file.
+
+4. Analytical graphs are plotted in `plot_stats.ipynb`
+
+
 
 ## Libraries
 
-- Python client library for Google Maps API Web Services [__GitHub__](https://github.com/googlemaps/google-maps-services-python)
+- Python client library for Google Maps API Web Services [google-maps-services](https://github.com/googlemaps/google-maps-services-python)
+
+- Python library that built on top of NetworkX and GeoPandas, and interacts with OpenStreetMap APIs to model street networks and different travel mode. [osmnx](https://osmnx.readthedocs.io/en/stable/getting-started.html)
 
 
 ## Notes 
