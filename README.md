@@ -1,105 +1,56 @@
-# Google Maps Directions Analysis
+## Python Environment
+1. put Google Maps API key obtained from Google Cloud Platform into `api_key.txt` 
 
-### Do directions provided by Google Maps have a bias against walking?
+2. Create the environment, most packages come with the `osmnx` installation.
+    ```
+        
+        $ conda create -n ox -c conda-forge --strict-channel-priority osmnx
 
-The goal is to find trips where google provides a path that uses **few walking** but is actually **longer than necessary** (e.g. it prefers to walk very few to **a closeby subway station**, but then spend a lot of time on the subway, than walking to **a slighly more distant station** that gets you to the destination quicker). After building the dataset, we will attempt to do the following:
+    ```
+3. Install additional package:
+    ```
 
-- [ ] Estimate google's path-cost formula (e.g. if "time_walking * weight_walking + time_transport" then what is the value that google uses for "weight_walking"?)
-- [ ] Implement the transportation network as a graph and check if google is ignoring stations far away from start when computing the shortest paths
-- [ ] Implement a walking-and-transportation graph and planner that priviledges walking (provides better routes on your dataset)
+        $ conda install -c conda-forge googlemaps
+
+    ```
+4. To activate project environment:
+    ```
+
+        $ conda activate ox
+
+    ```
+5. To deactivate an active environment:
+    ```
+
+        $ conda deactivate
+
+    ```
+
+If program encountered any problem that relates the environment, please check your Python version or other packages version with the `environment.yml`.
 
 
-## TODOs
+## Running the programs
 
-- [x] Create classes for storing directions
-- [x] Connect to Google Maps API
-- [ ] Implement Network X
-- [ ] Update `environment.yml`
+1. Compute the Google Maps `wk_weight`
 
-## Environment
+    ```
 
-Create the environment
-```
-    
-    $ conda env create -f environment.yml # conda environment
+        $ python3 run.py
 
-    $ conda create -n gm_analysis python=3.11.0  --file requirements.txt # pip
+    ```
 
-```
-To activate project environment, use
-```
-
-    $ conda activate gm_analysis
-
-```
-To deactivate an active environment, use
-```
-
-    $ conda deactivate
-
-```
-Export requirements.yml using Conda
-```
-
-    $ conda gm_analysis export > environment.yml
-
-```
+2. Start Jupyter notebook session and run `nav_london.ipynb` for the custom `osmnx` version of routing tool. New origins and destination can be set from the notebook file.
 
 ## Libraries
 
 - Python client library for Google Maps API Web Services [__GitHub__](https://github.com/googlemaps/google-maps-services-python)
 
 
-## Example output
-
-### Transportation Route
-```
-
-Input Start:    Bush House Aldwych London
-Input End:      Holborn Station
-
-Start address:  30 Aldwych, London WC2B 4BG, UK
-End address:    Holborn, Underground Ltd, Holborn Station, Kingsway, London WC2B 6AA, UK
-
-Steps are as follows:
-========================
-STEP 1
-travel mode:    WALKING
-distance:       0.068 km
-time taken:     0:00:59
-========================
-STEP 2
-travel mode:    Bus
-depart at:      Aldwych / Drury Lane
-arrive at:      Holborn Station (Stop P)
-distance:       0.549 km
-time taken:     0:03:00
-========================
-STEP 3
-travel mode:    WALKING
-distance:       0.099 km
-time taken:     0:01:32
-========================
-
-[In total]
-distance:       0.716 km
-time taken:     0:05:48
+## Notes 
+Export requirements.yml using Conda
 
 ```
 
-### Walking Route
-```
-
-Input Start:    Bush House Aldwych London
-Input End:      Holborn Station
-
-Start address:  30 Aldwych, London WC2B 4BG, UK
-End address:    Holborn, Underground Ltd, Holborn Station, Kingsway, London WC2B 6AA, UK
-
-travel mode:    walking
-
-[In total]
-distance:       0.506 km
-time taken:     0:06:55
+$ conda ox export > environment.yml
 
 ```
