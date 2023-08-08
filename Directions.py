@@ -118,10 +118,14 @@ class Directions:
             waypoints.append(step["end_location"])
 
             if travel_mode == "WALKING":
-                travel_modes.append((travel_mode.capitalize(), step["html_instructions"]))
+                travel_modes.append(
+                    (travel_mode.capitalize(), step["html_instructions"])
+                )
                 origin_destination_pairs.append(("n/a", "n/a"))
             if travel_mode == "TRANSIT":
-                travel_modes.append((travel_mode.capitalize(), step["transit_details"]["line"]["color"]))
+                travel_modes.append(
+                    (travel_mode.capitalize(), step["transit_details"]["line"]["color"])
+                )
                 depart = step["transit_details"]["departure_stop"]["name"]
                 arrive = step["transit_details"]["arrival_stop"]["name"]
                 origin_destination_pairs.append((depart, arrive))
@@ -144,7 +148,9 @@ class Directions:
     # saves the json output to an external file
     def save_output(self, output_json):
         """save the json output to file"""
-        with open("output/result_directions_original.json", "w", encoding="utf8") as file:
+        with open(
+            "output/result_directions_original.json", "w", encoding="utf8"
+        ) as file:
             file.write(json.dumps(output_json))
 
     # fetch the json output from an external file
@@ -189,12 +195,19 @@ class Directions:
                     print(f"STEP {num_steps}")
                     print(f"travel mode:\t{travel_mode[0]}")
                     print(f"instruction:\t{travel_mode[1]}")
-                    if route.origin_destination_pairs[i][0] != "n/a" and route.origin_destination_pairs[i][1] != "n/a":
+                    if (
+                        route.origin_destination_pairs[i][0] != "n/a"
+                        and route.origin_destination_pairs[i][1] != "n/a"
+                    ):
                         print(f"depart at: \t{route.origin_destination_pairs[i][0]}")
                         print(f"arrive at: \t{route.origin_destination_pairs[i][1]}")
 
-                    print(f"distance: \t{Route.str_distance(route.travel_distances[i])}")
-                    print(f"time taken: \t{Route.str_duration(route.travel_durations[i])}")
+                    print(
+                        f"distance: \t{Route.str_distance(route.travel_distances[i])}"
+                    )
+                    print(
+                        f"time taken: \t{Route.str_duration(route.travel_durations[i])}"
+                    )
                     print("========================")
             else:
                 # print("!!!!!!!!!!")
@@ -206,5 +219,9 @@ class Directions:
             print("\n[In total]")
             print(f"distance: \t{Route.str_distance(route.total_distance)}")
             print(f"time taken: \t{Route.str_duration(route.total_duration)}")
-            print(f"walking time: \t{Route.str_duration(route.getTotalWalkingDuration())}")
-            print(f"tp time: \t{Route.str_duration(route.getTotalTransportingDuration())}\n\n")
+            print(
+                f"walking time: \t{Route.str_duration(route.getTotalWalkingDuration())}"
+            )
+            print(
+                f"tp time: \t{Route.str_duration(route.getTotalTransportingDuration())}\n\n"
+            )

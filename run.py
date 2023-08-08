@@ -63,13 +63,16 @@ if __name__ == "__main__":
             f"place_id:{end}",
             mode="transit",
             alternatives=True,
-            departure_time=test_datetime + timedelta(seconds=route_alt_1.routes[0].total_duration),
+            # departure_time=test_datetime + timedelta(seconds=route_alt_1.routes[0].total_duration),
             output_file=OUTPUT_FILE,
         )
 
         route_alt_2.get_directions_transit()
 
-        alt_transfers = route_alt_1.routes[0].getTransfersTimes() + route_alt_2.routes[0].getTransfersTimes()
+        alt_transfers = (
+            route_alt_1.routes[0].getTransfersTimes()
+            + route_alt_2.routes[0].getTransfersTimes()
+        )
 
         if (
             route_alt_1.routes[0].getTravelModes()[-1][0] == "Walking"
@@ -79,12 +82,17 @@ if __name__ == "__main__":
 
         # print(f"orig_transfers = {route_original.routes[0].getTransfersTimes()}, alt_transfers = {alt_transfers}")
 
-        rc = RouteComparison(route_original.routes[0], [route_alt_1.routes[0], route_alt_2.routes[0]])
+        rc = RouteComparison(
+            route_original.routes[0], [route_alt_1.routes[0], route_alt_2.routes[0]]
+        )
         rc.compute_lowest_wk_weight()
         # rc.plot_graph()
 
-        # if LINE_COUNT == 5:
-        # break
+        if LINE_COUNT == 10:
+            route_original.display_directions_result()
+            route_alt_1.display_directions_result()
+            route_alt_2.display_directions_result()
+            break
 
     # # wembley park -> convent garden
 
