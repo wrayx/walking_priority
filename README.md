@@ -46,6 +46,10 @@ If program encountered any problem that relates the environment, please check yo
 
 3. Start Jupyter notebook session and run `plan_route.ipynb` for the custom route planner in RQ3 and RQ4. New origins and destination can be set from the notebook file.
 
+3. Custom route planner for RQ3 and RQ4 is created in `plan_route.ipynb`. Parameters like boolean variable for whether or not to draw tube map, customised walking speed
+and weight for walking time can be specified at the top of the file,
+then simply click `Run All` to start the program. The output are shown at the bottom of the file. More detailed output during the execution of the program can be found in the `planner.log` file.
+
 
 
 ## Libraries
