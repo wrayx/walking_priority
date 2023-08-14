@@ -1,6 +1,6 @@
 ## To Start
 
-1. (You may skip this. It is only required for running the **RQ1** program) Put Google Maps API key into `api_key.txt`. Click the [link](https://developers.google.com/maps/documentation/javascript/directions) to see tutorial on how to obtain an API key from Google Cloud Platform. The API for Google Maps should enabled from the dashboard.
+1. Put Google Maps API key into `api_key.txt`. Click the [link](https://developers.google.com/maps/documentation/javascript/directions) to see tutorial on how to obtain an API key from Google Cloud Platform. The API for Google Maps should enabled from the dashboard. (You may skip this, as this is only required for running the **RQ1** program)
 
 2. Create the environment, most packages come with the `osmnx` installation.
     ```
