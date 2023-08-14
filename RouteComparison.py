@@ -177,13 +177,6 @@ class RouteComparison:
                 route_origin, route_dest, color=WK_ROUTE_COLOR, style="dashed", weight=wk_weight, len=wk_duration
             )
         else:
-            # graph.add_node(
-            #     f"mid_{cnt}",
-            #     pos=(
-            #         (source[0] - target[0]) / total_duration * tp_duration,
-            #         (source[1] + target[1]) / 2,
-            #     ),
-            # )
             # add a intermediate stop for separating wk_duration and tp_duration
             graph.add_edge(
                 route_origin, f"mid_{cnt}", color=TP_ROUTE_COLOR, style="solid", weight=tp_weight, len=tp_duration

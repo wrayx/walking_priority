@@ -54,8 +54,6 @@ if __name__ == "__main__":
         )
 
         route_alt_1.get_directions_transit()
-        # print(route_alt_1.departure_time)
-        # route_alt_1.display_directions_result()
 
         route_alt_2 = Directions(
             f"place_id:{intermediary}",
@@ -81,9 +79,3 @@ if __name__ == "__main__":
 
         rc = RouteComparison(route_original.routes[0], [route_alt_1.routes[0], route_alt_2.routes[0]])
         rc.compute_lowest_wk_weight()
-
-        # if LINE_COUNT == 10:
-        #     route_original.display_directions_result()
-        #     route_alt_1.display_directions_result()
-        #     route_alt_2.display_directions_result()
-        #     break
